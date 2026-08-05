@@ -1,0 +1,212 @@
+{
+  "id": "general-facil-01",
+  "tipo": "general",
+  "nivel": "facil",
+  "titulo": "Simulacro General - Facil",
+  "descripcion": "Archivo de demostración. Las áreas y preguntas pueden modificarse libremente desde el JSON.",
+  "duracionMinutos": 12,
+  "puntajeMaximo": 120,
+  "secciones": [
+    {
+      "id": "razonamiento-matematico",
+      "nombre": "Razonamiento Matemático",
+      "orden": 1,
+      "preguntas": [
+        {
+          "id": "RM-001",
+          "tema": "Razonamiento",
+          "pregunta": "Pregunta de prueba de Razonamiento Matemático 1.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Alternativa de prueba A"
+            },
+            {
+              "id": "B",
+              "texto": "Alternativa de prueba B"
+            },
+            {
+              "id": "C",
+              "texto": "Alternativa de prueba C"
+            },
+            {
+              "id": "D",
+              "texto": "Alternativa de prueba D"
+            },
+            {
+              "id": "E",
+              "texto": "Alternativa de prueba E"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 20,
+          "explicacion": "Explicación de prueba de la primera pregunta."
+        },
+        {
+          "id": "RM-002",
+          "tema": "Problemas",
+          "pregunta": "Pregunta de prueba de Razonamiento Matemático 2.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Alternativa de prueba A"
+            },
+            {
+              "id": "B",
+              "texto": "Alternativa de prueba B"
+            },
+            {
+              "id": "C",
+              "texto": "Alternativa de prueba C"
+            },
+            {
+              "id": "D",
+              "texto": "Alternativa de prueba D"
+            },
+            {
+              "id": "E",
+              "texto": "Alternativa de prueba E"
+            }
+          ],
+          "respuestaCorrecta": "E",
+          "puntaje": 20,
+          "explicacion": "Explicación de prueba de la segunda pregunta."
+        }
+      ]
+    },
+    {
+      "id": "razonamiento-verbal",
+      "nombre": "Razonamiento Verbal",
+      "orden": 2,
+      "preguntas": [
+        {
+          "id": "RV-001",
+          "tema": "Comprensión",
+          "pregunta": "Pregunta de prueba de Razonamiento Verbal 1.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Alternativa de prueba A"
+            },
+            {
+              "id": "B",
+              "texto": "Alternativa de prueba B"
+            },
+            {
+              "id": "C",
+              "texto": "Alternativa de prueba C"
+            },
+            {
+              "id": "D",
+              "texto": "Alternativa de prueba D"
+            },
+            {
+              "id": "E",
+              "texto": "Alternativa de prueba E"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 20,
+          "explicacion": "Explicación de prueba de la tercera pregunta."
+        },
+        {
+          "id": "RV-002",
+          "tema": "Vocabulario",
+          "pregunta": "Pregunta de prueba de Razonamiento Verbal 2.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Alternativa de prueba A"
+            },
+            {
+              "id": "B",
+              "texto": "Alternativa de prueba B"
+            },
+            {
+              "id": "C",
+              "texto": "Alternativa de prueba C"
+            },
+            {
+              "id": "D",
+              "texto": "Alternativa de prueba D"
+            },
+            {
+              "id": "E",
+              "texto": "Alternativa de prueba E"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 20,
+          "explicacion": "Explicación de prueba de la cuarta pregunta."
+        }
+      ]
+    },
+    {
+      "id": "conocimientos",
+      "nombre": "Conocimientos",
+      "orden": 3,
+      "preguntas": [
+        {
+          "id": "CO-001",
+          "tema": "Ciencias",
+          "pregunta": "Pregunta de prueba del área de Conocimientos 1.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Alternativa de prueba A"
+            },
+            {
+              "id": "B",
+              "texto": "Alternativa de prueba B"
+            },
+            {
+              "id": "C",
+              "texto": "Alternativa de prueba C"
+            },
+            {
+              "id": "D",
+              "texto": "Alternativa de prueba D"
+            },
+            {
+              "id": "E",
+              "texto": "Alternativa de prueba E"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 20,
+          "explicacion": "Explicación de prueba de la quinta pregunta."
+        },
+        {
+          "id": "CO-002",
+          "tema": "Humanidades",
+          "pregunta": "Pregunta de prueba del área de Conocimientos 2.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Alternativa de prueba A"
+            },
+            {
+              "id": "B",
+              "texto": "Alternativa de prueba B"
+            },
+            {
+              "id": "C",
+              "texto": "Alternativa de prueba C"
+            },
+            {
+              "id": "D",
+              "texto": "Alternativa de prueba D"
+            },
+            {
+              "id": "E",
+              "texto": "Alternativa de prueba E"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 20,
+          "explicacion": "Explicación de prueba de la sexta pregunta."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Simulador simple de exámenes de admisión UNHEVAL." />
+  <title>Simulacro UNHEVAL</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">Práctica de admisión</p>
+        <h1>Simulacro UNHEVAL</h1>
+      </div>
+      <button id="btnInicioHeader" class="btn btn-ghost btn-small hidden" type="button">
+        Inicio
+      </button>
+    </header>
+
+    <main id="app">
+      <!-- INICIO -->
+      <section id="screenInicio" class="screen">
+        <div class="hero-card">
+          <div class="hero-copy">
+            <span class="badge">Simulador local</span>
+            <h2>Elige el examen de admisión</h2>
+            <p>
+              Elige el tipo de examen y la dificultad.
+            </p>
+          </div>
+
+          <form id="formConfiguracion" class="config-form">
+            <fieldset>
+              <legend>1. Tipo de examen</legend>
+              <div id="tipoOptions" class="choice-grid"></div>
+            </fieldset>
+
+            <fieldset>
+              <legend>2. Dificultad</legend>
+              <div id="nivelOptions" class="choice-grid choice-grid-3"></div>
+            </fieldset>
+
+            <p id="configError" class="form-error hidden"></p>
+
+            <div class="actions actions-end">
+              <button class="btn btn-primary" type="submit">Continuar</button>
+            </div>
+          </form>
+        </div>
+
+        <div id="resumeCard" class="resume-card hidden">
+          <div>
+            <p class="eyebrow">Simulacro en progreso</p>
+            <h3 id="resumeTitle">Tienes un examen pendiente</h3>
+            <p id="resumeMeta" class="muted"></p>
+          </div>
+          <div class="resume-actions">
+            <button id="btnDescartarSesion" class="btn btn-secondary" type="button">
+              Descartar
+            </button>
+            <button id="btnContinuarSesion" class="btn btn-primary" type="button">
+              Continuar simulacro
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- INFORMACIÓN -->
+      <section id="screenIntro" class="screen hidden">
+        <div class="panel">
+          <button id="btnVolverConfig" class="text-button" type="button">← Cambiar configuración</button>
+
+          <div class="intro-header">
+            <div>
+              <p id="introBadge" class="eyebrow"></p>
+              <h2 id="introTitle"></h2>
+              <p id="introDescription" class="muted"></p>
+            </div>
+            <div class="score-pill">
+              <span>Máximo</span>
+              <strong id="introMaxScore">—</strong>
+            </div>
+          </div>
+
+          <div class="summary-grid">
+            <article class="summary-box">
+              <span>Preguntas</span>
+              <strong id="introQuestions">0</strong>
+            </article>
+            <article class="summary-box">
+              <span>Secciones</span>
+              <strong id="introSections">0</strong>
+            </article>
+            <article class="summary-box">
+              <span>Tiempo</span>
+              <strong id="introTime">0 min</strong>
+            </article>
+          </div>
+
+          <div class="section-list-wrap">
+            <h3>Contenido del simulacro</h3>
+            <div id="introSectionsList" class="section-list"></div>
+          </div>
+
+          <div class="notice">
+            <strong>Importante:</strong>
+            <span>
+              El temporizador comienza al pulsar “Iniciar simulacro”. Las respuestas se guardan
+              temporalmente en este navegador para evitar pérdidas por una recarga accidental.
+            </span>
+          </div>
+
+          <div class="actions actions-end">
+            <button id="btnIniciarExamen" class="btn btn-primary" type="button">
+              Iniciar simulacro
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXAMEN -->
+      <section id="screenExamen" class="screen hidden">
+        <div class="exam-topbar">
+          <div>
+            <p id="examMeta" class="eyebrow"></p>
+            <h2 id="sectionName">Sección</h2>
+            <p id="sectionProgressText" class="muted"></p>
+          </div>
+          <div id="timerBox" class="timer-box">
+            <span>Tiempo restante</span>
+            <strong id="timer">00:00</strong>
+          </div>
+        </div>
+
+        <div class="progress-track" aria-hidden="true">
+          <div id="overallProgress" class="progress-bar"></div>
+        </div>
+
+        <div class="exam-layout">
+          <aside class="question-sidebar">
+            <div class="sidebar-header">
+              <div>
+                <span class="sidebar-label">Preguntas del área</span>
+                <strong id="answeredCounter">0 / 0 respondidas</strong>
+              </div>
+            </div>
+
+            <div class="legend">
+              <span><i class="legend-dot answered"></i> Respondida</span>
+              <span><i class="legend-dot current"></i> Actual</span>
+              <span><i class="legend-dot pending"></i> Pendiente</span>
+            </div>
+
+            <div id="questionNavigator" class="question-grid"></div>
+
+            <div class="area-actions">
+              <button id="btnAreaAnterior" class="btn btn-secondary btn-block" type="button">
+                ← Área anterior
+              </button>
+              <button id="btnAreaSiguiente" class="btn btn-secondary btn-block" type="button">
+                Siguiente área →
+              </button>
+            </div>
+          </aside>
+
+          <article class="question-card">
+            <div class="question-heading">
+              <div>
+                <span id="questionNumber" class="question-kicker">Pregunta</span>
+                <span id="questionTopic" class="topic-badge"></span>
+              </div>
+              <button id="btnLimpiarRespuesta" class="text-button" type="button">
+                Limpiar respuesta
+              </button>
+            </div>
+
+            <h3 id="questionText" class="question-text"></h3>
+
+            <div id="alternatives" class="alternatives"></div>
+
+            <div class="question-actions">
+              <button id="btnPreguntaAnterior" class="btn btn-secondary" type="button">
+                ← Anterior
+              </button>
+              <button id="btnPreguntaSiguiente" class="btn btn-primary" type="button">
+                Siguiente →
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- RESULTADOS -->
+      <section id="screenResultados" class="screen hidden">
+        <div class="results-hero">
+          <p class="eyebrow">Resultado del simulacro</p>
+          <h2 id="resultTitle">Resultado</h2>
+          <div class="score-display">
+            <strong id="resultScore">0</strong>
+            <span id="resultScoreMax">/ 0 puntos</span>
+          </div>
+          <p id="resultPercent" class="result-percent">0%</p>
+        </div>
+
+        <div class="results-grid">
+          <article class="metric-card">
+            <span>Correctas</span>
+            <strong id="metricCorrect">0</strong>
+          </article>
+          <article class="metric-card">
+            <span>Incorrectas</span>
+            <strong id="metricWrong">0</strong>
+          </article>
+          <article class="metric-card">
+            <span>Sin responder</span>
+            <strong id="metricBlank">0</strong>
+          </article>
+          <article class="metric-card">
+            <span>Tiempo empleado</span>
+            <strong id="metricTime">00:00</strong>
+          </article>
+        </div>
+
+        <div class="panel results-panel">
+          <div class="section-title-row">
+            <div>
+              <p class="eyebrow">Diagnóstico</p>
+              <h3>Rendimiento por área</h3>
+            </div>
+          </div>
+          <div id="sectionMetrics" class="metrics-list"></div>
+        </div>
+
+        <div class="panel results-panel">
+          <div class="section-title-row">
+            <div>
+              <p class="eyebrow">Detalle</p>
+              <h3>Temas por reforzar</h3>
+            </div>
+          </div>
+          <div id="topicMetrics" class="topic-table"></div>
+        </div>
+
+        <div class="panel results-panel">
+          <div class="review-header">
+            <div>
+              <p class="eyebrow">Revisión</p>
+              <h3>Preguntas y explicaciones</h3>
+            </div>
+            <div class="review-filters" role="group" aria-label="Filtros de revisión">
+              <button class="filter-btn active" data-filter="all" type="button">Todas</button>
+              <button class="filter-btn" data-filter="wrong" type="button">Incorrectas</button>
+              <button class="filter-btn" data-filter="blank" type="button">Sin responder</button>
+            </div>
+          </div>
+          <div id="reviewList" class="review-list"></div>
+        </div>
+
+        <div class="actions actions-center">
+          <button id="btnNuevoSimulacro" class="btn btn-primary" type="button">
+            Nuevo simulacro
+          </button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- MODAL -->
+  <div id="modalBackdrop" class="modal-backdrop hidden" role="presentation">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <h3 id="modalTitle">Confirmación</h3>
+      <div id="modalMessage" class="modal-message"></div>
+      <div class="modal-actions">
+        <button id="modalCancel" class="btn btn-secondary" type="button">Cancelar</button>
+        <button id="modalConfirm" class="btn btn-primary" type="button">Continuar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

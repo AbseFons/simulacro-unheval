@@ -1,0 +1,34 @@
+{
+  "examenes": [
+    {
+      "tipo": "preferencial",
+      "nivel": "facil",
+      "archivo": "data/preferencial/facil-01.json"
+    },
+    {
+      "tipo": "preferencial",
+      "nivel": "intermedio",
+      "archivo": "data/preferencial/intermedio-01.json"
+    },
+    {
+      "tipo": "preferencial",
+      "nivel": "dificil",
+      "archivo": "data/preferencial/dificil-01.json"
+    },
+    {
+      "tipo": "general",
+      "nivel": "facil",
+      "archivo": "data/general/facil-01.json"
+    },
+    {
+      "tipo": "general",
+      "nivel": "intermedio",
+      "archivo": "data/general/intermedio-01.json"
+    },
+    {
+      "tipo": "general",
+      "nivel": "dificil",
+      "archivo": "data/general/dificil-01.json"
+    }
+  ]
+}

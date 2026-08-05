@@ -1,0 +1,145 @@
+{
+  "id": "preferencial-intermedio-01",
+  "tipo": "preferencial",
+  "nivel": "intermedio",
+  "titulo": "Simulacro Preferencial - Intermedio",
+  "descripcion": "Archivo de demostración. Reemplaza estas preguntas por el banco real cuando la funcionalidad esté validada.",
+  "duracionMinutos": 10,
+  "puntajeMaximo": 100,
+  "secciones": [
+    {
+      "id": "aptitud-matematica",
+      "nombre": "Aptitud Matemática",
+      "orden": 1,
+      "preguntas": [
+        {
+          "id": "AM-001",
+          "tema": "Sucesiones",
+          "pregunta": "Pregunta de prueba de Aptitud Matemática 1.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Alternativa de prueba A"
+            },
+            {
+              "id": "B",
+              "texto": "Alternativa de prueba B"
+            },
+            {
+              "id": "C",
+              "texto": "Alternativa de prueba C"
+            },
+            {
+              "id": "D",
+              "texto": "Alternativa de prueba D"
+            },
+            {
+              "id": "E",
+              "texto": "Alternativa de prueba E"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Explicación de prueba. Aquí debes explicar de forma breve por qué la alternativa correcta es C."
+        },
+        {
+          "id": "AM-002",
+          "tema": "Porcentajes",
+          "pregunta": "Pregunta de prueba de Aptitud Matemática 2.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Alternativa de prueba A"
+            },
+            {
+              "id": "B",
+              "texto": "Alternativa de prueba B"
+            },
+            {
+              "id": "C",
+              "texto": "Alternativa de prueba C"
+            },
+            {
+              "id": "D",
+              "texto": "Alternativa de prueba D"
+            },
+            {
+              "id": "E",
+              "texto": "Alternativa de prueba E"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "Explicación de prueba. Sustituye este texto por la explicación real de la pregunta."
+        }
+      ]
+    },
+    {
+      "id": "aptitud-verbal",
+      "nombre": "Aptitud Verbal",
+      "orden": 2,
+      "preguntas": [
+        {
+          "id": "AV-001",
+          "tema": "Analogías",
+          "pregunta": "Pregunta de prueba de Aptitud Verbal 1.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Alternativa de prueba A"
+            },
+            {
+              "id": "B",
+              "texto": "Alternativa de prueba B"
+            },
+            {
+              "id": "C",
+              "texto": "Alternativa de prueba C"
+            },
+            {
+              "id": "D",
+              "texto": "Alternativa de prueba D"
+            },
+            {
+              "id": "E",
+              "texto": "Alternativa de prueba E"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Explicación de prueba para una pregunta de analogías."
+        },
+        {
+          "id": "AV-002",
+          "tema": "Comprensión lectora",
+          "pregunta": "Pregunta de prueba de Aptitud Verbal 2.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Alternativa de prueba A"
+            },
+            {
+              "id": "B",
+              "texto": "Alternativa de prueba B"
+            },
+            {
+              "id": "C",
+              "texto": "Alternativa de prueba C"
+            },
+            {
+              "id": "D",
+              "texto": "Alternativa de prueba D"
+            },
+            {
+              "id": "E",
+              "texto": "Alternativa de prueba E"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 25,
+          "explicacion": "Explicación de prueba para una pregunta de comprensión lectora."
+        }
+      ]
+    }
+  ]
+}
