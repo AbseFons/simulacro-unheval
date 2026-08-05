@@ -7,6 +7,22 @@
     },
     {
       "tipo": "preferencial",
+      "nivel": "facil",
+      "archivo": "data/preferencial/facil-02.json"
+    },
+    {
+      "tipo": "preferencial",
+      "nivel": "facil",
+      "archivo": "data/preferencial/facil-03.json"
+    },
+    {
+      "tipo": "preferencial",
+      "nivel": "facil",
+      "archivo": "data/preferencial/facil-04.json"
+    },
+
+    {
+      "tipo": "preferencial",
       "nivel": "intermedio",
       "archivo": "data/preferencial/intermedio-01.json"
     },
@@ -15,6 +31,7 @@
       "nivel": "dificil",
       "archivo": "data/preferencial/dificil-01.json"
     },
+
     {
       "tipo": "general",
       "nivel": "facil",

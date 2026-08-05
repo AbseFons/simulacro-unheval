@@ -2,6 +2,7 @@
   "use strict";
 
   const STORAGE_KEY = "simulacroUnhevalSesionV1";
+  const LAST_EXAM_KEY = "simulacroUnhevalUltimoExamenV1";
 
   const $ = (selector) => document.querySelector(selector);
   const $$ = (selector) => [...document.querySelectorAll(selector)];
@@ -162,6 +163,34 @@
     return response.json();
   }
 
+  function getRandomExam(exams) {
+    if (exams.length === 1) {
+      return exams[0];
+    }
+
+    const lastExam =
+      localStorage.getItem(LAST_EXAM_KEY);
+
+    const availableExams = exams.filter(
+      exam => exam.archivo !== lastExam
+    );
+
+    const randomIndex =
+      Math.floor(
+        Math.random() * availableExams.length
+      );
+
+    const selectedExam =
+      availableExams[randomIndex];
+
+    localStorage.setItem(
+      LAST_EXAM_KEY,
+      selectedExam.archivo
+    );
+
+    return selectedExam;
+  }
+
   function getGlobalQuestionNumber() {
     let previousQuestions = 0;
 
@@ -239,16 +268,22 @@
       return;
     }
 
-    const catalogItem = state.catalogo.examenes.find(
-      (item) =>
-        item.tipo === state.seleccion.tipo &&
-        item.nivel === state.seleccion.nivel
-    );
+    const availableExams =
+      state.catalogo.examenes.filter(
+        (item) =>
+          item.tipo === state.seleccion.tipo &&
+          item.nivel === state.seleccion.nivel
+      );
 
-    if (!catalogItem) {
-      showConfigError("No existe un archivo configurado para esa combinación.");
+    if (availableExams.length === 0) {
+      showConfigError(
+        "No existen exámenes configurados para esa combinación."
+      );
       return;
     }
+
+    const catalogItem =
+      getRandomExam(availableExams);
 
     try {
       state.examen = await fetchJson(catalogItem.archivo);
@@ -354,7 +389,6 @@
     els.sectionProgressText.textContent = `${answeredInSection} de ${section.preguntas.length} respondidas`;
     els.answeredCounter.textContent = `${answeredInSection} / ${section.preguntas.length} respondidas`;
 
-    els.questionNumber.textContent = `Pregunta ${state.preguntaActual + 1} de ${section.preguntas.length}`;
     els.questionTopic.textContent = question.tema || "Sin tema";
     els.questionText.textContent = question.pregunta;
 
@@ -588,7 +622,7 @@
 
     state.examen.secciones.forEach((section) => {
       section.preguntas.forEach((question) => {
-    
+
         globalNumber++;
         const userAnswer = state.respuestas[question.id] || null;
         const isBlank = !userAnswer;
