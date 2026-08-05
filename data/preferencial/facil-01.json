@@ -2,10 +2,16 @@
   "id": "preferencial-facil-01",
   "tipo": "preferencial",
   "nivel": "facil",
-  "titulo": "Simulacro Preferencial - Facil",
-  "descripcion": "Archivo de demostración. Reemplaza estas preguntas por el banco real cuando la funcionalidad esté validada.",
-  "duracionMinutos": 10,
-  "puntajeMaximo": 100,
+  "titulo": "Simulacro Preferencial UNHEVAL 2027 - Fácil",
+  "descripcion": "Simulacro de práctica elaborado a partir del Temario 2027 de Aptitud Verbal y Aptitud Matemática.",
+  "duracionMinutos": 60,
+  "puntajeMaximo": 1000,
+  "configuracion": {
+    "permitirRetroceder": true,
+    "mostrarExplicacionDuranteExamen": false,
+    "confirmarCambioSeccion": true,
+    "confirmarFinalizacion": true
+  },
   "secciones": [
     {
       "id": "aptitud-matematica",
@@ -14,63 +20,623 @@
       "preguntas": [
         {
           "id": "AM-001",
-          "tema": "Sucesiones",
-          "pregunta": "Pregunta de prueba de Aptitud Matemática 1.",
+          "tema": "Razonamiento lógico",
+          "dificultad": "facil",
+          "pregunta": "En una fila, Ana está delante de Bruno y Bruno está delante de Carla. ¿Quién está más atrás?",
           "alternativas": [
             {
               "id": "A",
-              "texto": "Alternativa de prueba A"
+              "texto": "Ana"
             },
             {
               "id": "B",
-              "texto": "Alternativa de prueba B"
+              "texto": "Bruno"
             },
             {
               "id": "C",
-              "texto": "Alternativa de prueba C"
+              "texto": "Carla"
             },
             {
               "id": "D",
-              "texto": "Alternativa de prueba D"
+              "texto": "Ana y Bruno"
             },
             {
               "id": "E",
-              "texto": "Alternativa de prueba E"
+              "texto": "No se puede saber"
             }
           ],
           "respuestaCorrecta": "C",
           "puntaje": 25,
-          "explicacion": "Explicación de prueba. Aquí debes explicar de forma breve por qué la alternativa correcta es C."
+          "explicacion": "Si Ana está delante de Bruno y Bruno delante de Carla, Carla ocupa la posición más posterior."
         },
         {
           "id": "AM-002",
-          "tema": "Porcentajes",
-          "pregunta": "Pregunta de prueba de Aptitud Matemática 2.",
+          "tema": "Razonamiento lógico",
+          "dificultad": "facil",
+          "pregunta": "Si hoy es martes, ¿qué día será dentro de 3 días?",
           "alternativas": [
             {
               "id": "A",
-              "texto": "Alternativa de prueba A"
+              "texto": "miércoles"
             },
             {
               "id": "B",
-              "texto": "Alternativa de prueba B"
+              "texto": "jueves"
             },
             {
               "id": "C",
-              "texto": "Alternativa de prueba C"
+              "texto": "viernes"
             },
             {
               "id": "D",
-              "texto": "Alternativa de prueba D"
+              "texto": "sábado"
             },
             {
               "id": "E",
-              "texto": "Alternativa de prueba E"
+              "texto": "domingo"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Miércoles es 1 día después, jueves 2 y viernes 3."
+        },
+        {
+          "id": "AM-003",
+          "tema": "Razonamiento inductivo",
+          "dificultad": "facil",
+          "pregunta": "Completa la sucesión: 2, 4, 6, 8, __.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "9"
+            },
+            {
+              "id": "B",
+              "texto": "10"
+            },
+            {
+              "id": "C",
+              "texto": "11"
+            },
+            {
+              "id": "D",
+              "texto": "12"
+            },
+            {
+              "id": "E",
+              "texto": "14"
             }
           ],
           "respuestaCorrecta": "B",
           "puntaje": 25,
-          "explicacion": "Explicación de prueba. Sustituye este texto por la explicación real de la pregunta."
+          "explicacion": "La sucesión aumenta de 2 en 2; después de 8 sigue 10."
+        },
+        {
+          "id": "AM-004",
+          "tema": "Razonamiento inductivo",
+          "dificultad": "facil",
+          "pregunta": "Completa la sucesión: 3, 6, 12, 24, __.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "30"
+            },
+            {
+              "id": "B",
+              "texto": "36"
+            },
+            {
+              "id": "C",
+              "texto": "40"
+            },
+            {
+              "id": "D",
+              "texto": "48"
+            },
+            {
+              "id": "E",
+              "texto": "52"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 25,
+          "explicacion": "Cada término es el doble del anterior: 24 × 2 = 48."
+        },
+        {
+          "id": "AM-005",
+          "tema": "Planteo de ecuaciones",
+          "dificultad": "facil",
+          "pregunta": "Un número aumentado en 7 es igual a 15. ¿Cuál es el número?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "6"
+            },
+            {
+              "id": "B",
+              "texto": "7"
+            },
+            {
+              "id": "C",
+              "texto": "8"
+            },
+            {
+              "id": "D",
+              "texto": "9"
+            },
+            {
+              "id": "E",
+              "texto": "10"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Si x + 7 = 15, entonces x = 15 - 7 = 8."
+        },
+        {
+          "id": "AM-006",
+          "tema": "Planteo de ecuaciones",
+          "dificultad": "facil",
+          "pregunta": "El doble de un número es 18. ¿Cuál es ese número?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "6"
+            },
+            {
+              "id": "B",
+              "texto": "7"
+            },
+            {
+              "id": "C",
+              "texto": "8"
+            },
+            {
+              "id": "D",
+              "texto": "9"
+            },
+            {
+              "id": "E",
+              "texto": "10"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 25,
+          "explicacion": "Se plantea 2x = 18; al dividir entre 2 se obtiene x = 9."
+        },
+        {
+          "id": "AM-007",
+          "tema": "Edades",
+          "dificultad": "facil",
+          "pregunta": "María tiene 12 años y su hermano tiene 4 años menos. ¿Cuántos años tiene su hermano?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "6"
+            },
+            {
+              "id": "B",
+              "texto": "7"
+            },
+            {
+              "id": "C",
+              "texto": "8"
+            },
+            {
+              "id": "D",
+              "texto": "9"
+            },
+            {
+              "id": "E",
+              "texto": "10"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Se resta 4 a 12: 12 - 4 = 8."
+        },
+        {
+          "id": "AM-008",
+          "tema": "Edades",
+          "dificultad": "facil",
+          "pregunta": "Pedro tiene 10 años. ¿Cuántos tendrá dentro de 5 años?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "13"
+            },
+            {
+              "id": "B",
+              "texto": "14"
+            },
+            {
+              "id": "C",
+              "texto": "15"
+            },
+            {
+              "id": "D",
+              "texto": "16"
+            },
+            {
+              "id": "E",
+              "texto": "17"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "La edad aumenta en 5 años: 10 + 5 = 15."
+        },
+        {
+          "id": "AM-009",
+          "tema": "Móviles",
+          "dificultad": "facil",
+          "pregunta": "Un ciclista recorre 30 km en 2 horas a velocidad constante. ¿Cuál es su rapidez media?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "10 km/h"
+            },
+            {
+              "id": "B",
+              "texto": "12 km/h"
+            },
+            {
+              "id": "C",
+              "texto": "15 km/h"
+            },
+            {
+              "id": "D",
+              "texto": "20 km/h"
+            },
+            {
+              "id": "E",
+              "texto": "60 km/h"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Rapidez = distancia / tiempo = 30 / 2 = 15 km/h."
+        },
+        {
+          "id": "AM-010",
+          "tema": "Cronometría",
+          "dificultad": "facil",
+          "pregunta": "¿Cuántos minutos hay en 2 horas?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "60"
+            },
+            {
+              "id": "B",
+              "texto": "90"
+            },
+            {
+              "id": "C",
+              "texto": "100"
+            },
+            {
+              "id": "D",
+              "texto": "120"
+            },
+            {
+              "id": "E",
+              "texto": "180"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 25,
+          "explicacion": "Cada hora tiene 60 minutos, por lo que 2 × 60 = 120."
+        },
+        {
+          "id": "AM-011",
+          "tema": "Cronometría",
+          "dificultad": "facil",
+          "pregunta": "Una clase empieza a las 8:20 a. m. y dura 40 minutos. ¿A qué hora termina?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "8:40 a. m."
+            },
+            {
+              "id": "B",
+              "texto": "8:50 a. m."
+            },
+            {
+              "id": "C",
+              "texto": "9:00 a. m."
+            },
+            {
+              "id": "D",
+              "texto": "9:10 a. m."
+            },
+            {
+              "id": "E",
+              "texto": "9:20 a. m."
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Al sumar 40 minutos a las 8:20 se llega a las 9:00 a. m."
+        },
+        {
+          "id": "AM-012",
+          "tema": "Operador matemático",
+          "dificultad": "facil",
+          "pregunta": "Si se define a ★ b = a + b, ¿cuánto vale 7 ★ 5?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "2"
+            },
+            {
+              "id": "B",
+              "texto": "10"
+            },
+            {
+              "id": "C",
+              "texto": "12"
+            },
+            {
+              "id": "D",
+              "texto": "35"
+            },
+            {
+              "id": "E",
+              "texto": "75"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "El operador indica sumar los dos números: 7 + 5 = 12."
+        },
+        {
+          "id": "AM-013",
+          "tema": "Operador matemático",
+          "dificultad": "facil",
+          "pregunta": "Si se define a △ b = a - b, ¿cuánto vale 10 △ 4?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "4"
+            },
+            {
+              "id": "B",
+              "texto": "5"
+            },
+            {
+              "id": "C",
+              "texto": "6"
+            },
+            {
+              "id": "D",
+              "texto": "14"
+            },
+            {
+              "id": "E",
+              "texto": "40"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Según la definición del operador, 10 △ 4 = 10 - 4 = 6."
+        },
+        {
+          "id": "AM-014",
+          "tema": "Sucesiones",
+          "dificultad": "facil",
+          "pregunta": "Completa la sucesión: 1, 4, 7, 10, __.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "11"
+            },
+            {
+              "id": "B",
+              "texto": "12"
+            },
+            {
+              "id": "C",
+              "texto": "13"
+            },
+            {
+              "id": "D",
+              "texto": "14"
+            },
+            {
+              "id": "E",
+              "texto": "15"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "La diferencia constante es 3; por eso 10 + 3 = 13."
+        },
+        {
+          "id": "AM-015",
+          "tema": "Sucesiones",
+          "dificultad": "facil",
+          "pregunta": "Completa la sucesión de letras: A, C, E, G, __.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "H"
+            },
+            {
+              "id": "B",
+              "texto": "I"
+            },
+            {
+              "id": "C",
+              "texto": "J"
+            },
+            {
+              "id": "D",
+              "texto": "K"
+            },
+            {
+              "id": "E",
+              "texto": "L"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "Se avanza dos posiciones en el alfabeto: A, C, E, G, I."
+        },
+        {
+          "id": "AM-016",
+          "tema": "Perímetros",
+          "dificultad": "facil",
+          "pregunta": "Un cuadrado tiene lado de 5 cm. ¿Cuál es su perímetro?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "10 cm"
+            },
+            {
+              "id": "B",
+              "texto": "15 cm"
+            },
+            {
+              "id": "C",
+              "texto": "20 cm"
+            },
+            {
+              "id": "D",
+              "texto": "25 cm"
+            },
+            {
+              "id": "E",
+              "texto": "30 cm"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "El perímetro de un cuadrado es cuatro veces el lado: 4 × 5 = 20 cm."
+        },
+        {
+          "id": "AM-017",
+          "tema": "Áreas",
+          "dificultad": "facil",
+          "pregunta": "Un rectángulo mide 6 cm de largo y 3 cm de ancho. ¿Cuál es su área?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "9 cm²"
+            },
+            {
+              "id": "B",
+              "texto": "12 cm²"
+            },
+            {
+              "id": "C",
+              "texto": "15 cm²"
+            },
+            {
+              "id": "D",
+              "texto": "18 cm²"
+            },
+            {
+              "id": "E",
+              "texto": "24 cm²"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 25,
+          "explicacion": "Área del rectángulo = largo × ancho = 6 × 3 = 18 cm²."
+        },
+        {
+          "id": "AM-018",
+          "tema": "Conteo",
+          "dificultad": "facil",
+          "pregunta": "¿Cuántos segmentos simples se observan si una recta está dividida por dos puntos interiores en tres partes iguales?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "1"
+            },
+            {
+              "id": "B",
+              "texto": "2"
+            },
+            {
+              "id": "C",
+              "texto": "3"
+            },
+            {
+              "id": "D",
+              "texto": "4"
+            },
+            {
+              "id": "E",
+              "texto": "6"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Dos puntos interiores dividen el tramo en tres segmentos simples."
+        },
+        {
+          "id": "AM-019",
+          "tema": "Probabilidad",
+          "dificultad": "facil",
+          "pregunta": "Al lanzar una moneda equilibrada una vez, ¿cuál es la probabilidad de obtener cara?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "0"
+            },
+            {
+              "id": "B",
+              "texto": "1/4"
+            },
+            {
+              "id": "C",
+              "texto": "1/2"
+            },
+            {
+              "id": "D",
+              "texto": "3/4"
+            },
+            {
+              "id": "E",
+              "texto": "1"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Hay dos resultados equiprobables, cara y sello; uno de ellos es favorable, por eso la probabilidad es 1/2."
+        },
+        {
+          "id": "AM-020",
+          "tema": "Tablas y gráficos estadísticos",
+          "dificultad": "facil",
+          "pregunta": "En una encuesta, 8 estudiantes prefieren fútbol, 5 vóley y 3 básquet. ¿Qué deporte tiene la mayor frecuencia?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Vóley"
+            },
+            {
+              "id": "B",
+              "texto": "Básquet"
+            },
+            {
+              "id": "C",
+              "texto": "Fútbol"
+            },
+            {
+              "id": "D",
+              "texto": "Los tres por igual"
+            },
+            {
+              "id": "E",
+              "texto": "No se puede determinar"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "La mayor frecuencia es 8, correspondiente a fútbol."
         }
       ]
     },
@@ -81,63 +647,623 @@
       "preguntas": [
         {
           "id": "AV-001",
-          "tema": "Analogías",
-          "pregunta": "Pregunta de prueba de Aptitud Verbal 1.",
+          "tema": "Etimología",
+          "dificultad": "facil",
+          "pregunta": "El prefijo griego «bio-» se relaciona principalmente con:",
           "alternativas": [
             {
               "id": "A",
-              "texto": "Alternativa de prueba A"
+              "texto": "vida"
             },
             {
               "id": "B",
-              "texto": "Alternativa de prueba B"
+              "texto": "tierra"
             },
             {
               "id": "C",
-              "texto": "Alternativa de prueba C"
+              "texto": "agua"
             },
             {
               "id": "D",
-              "texto": "Alternativa de prueba D"
+              "texto": "tiempo"
             },
             {
               "id": "E",
-              "texto": "Alternativa de prueba E"
+              "texto": "sonido"
             }
           ],
           "respuestaCorrecta": "A",
           "puntaje": 25,
-          "explicacion": "Explicación de prueba para una pregunta de analogías."
+          "explicacion": "«Bio-» procede del griego bíos, que significa vida."
         },
         {
           "id": "AV-002",
-          "tema": "Comprensión lectora",
-          "pregunta": "Pregunta de prueba de Aptitud Verbal 2.",
+          "tema": "Etimología",
+          "dificultad": "facil",
+          "pregunta": "En la palabra «subterráneo», el prefijo «sub-» expresa la idea de:",
           "alternativas": [
             {
               "id": "A",
-              "texto": "Alternativa de prueba A"
+              "texto": "encima de"
             },
             {
               "id": "B",
-              "texto": "Alternativa de prueba B"
+              "texto": "debajo de"
             },
             {
               "id": "C",
-              "texto": "Alternativa de prueba C"
+              "texto": "junto a"
             },
             {
               "id": "D",
-              "texto": "Alternativa de prueba D"
+              "texto": "antes de"
             },
             {
               "id": "E",
-              "texto": "Alternativa de prueba E"
+              "texto": "contra"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "El prefijo latino «sub-» indica posición inferior o debajo de algo."
+        },
+        {
+          "id": "AV-003",
+          "tema": "Conectores lógicos",
+          "dificultad": "facil",
+          "pregunta": "Completa correctamente: «Estudió con constancia; _____, obtuvo un buen resultado».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "sin embargo"
+            },
+            {
+              "id": "B",
+              "texto": "por eso"
+            },
+            {
+              "id": "C",
+              "texto": "aunque"
+            },
+            {
+              "id": "D",
+              "texto": "mientras"
+            },
+            {
+              "id": "E",
+              "texto": "en cambio"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "«Por eso» introduce una consecuencia lógica de haber estudiado con constancia."
+        },
+        {
+          "id": "AV-004",
+          "tema": "Conectores lógicos",
+          "dificultad": "facil",
+          "pregunta": "Completa correctamente: «Quería salir a correr, _____ empezó a llover».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "porque"
+            },
+            {
+              "id": "B",
+              "texto": "además"
+            },
+            {
+              "id": "C",
+              "texto": "pero"
+            },
+            {
+              "id": "D",
+              "texto": "por lo tanto"
+            },
+            {
+              "id": "E",
+              "texto": "entonces"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "«Pero» introduce contraste entre la intención de salir y el inicio de la lluvia."
+        },
+        {
+          "id": "AV-005",
+          "tema": "Signos de puntuación",
+          "dificultad": "facil",
+          "pregunta": "¿En cuál oración se emplea correctamente la coma para separar elementos de una enumeración?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Compré pan leche queso y fruta."
+            },
+            {
+              "id": "B",
+              "texto": "Compré, pan leche queso y fruta."
+            },
+            {
+              "id": "C",
+              "texto": "Compré pan, leche, queso y fruta."
+            },
+            {
+              "id": "D",
+              "texto": "Compré pan leche, queso y, fruta."
+            },
+            {
+              "id": "E",
+              "texto": "Compré pan; leche queso y fruta."
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "En una enumeración, la coma separa los elementos salvo el último cuando va unido por «y»."
+        },
+        {
+          "id": "AV-006",
+          "tema": "Signos de puntuación",
+          "dificultad": "facil",
+          "pregunta": "¿Qué signo es más adecuado antes de una enumeración anunciada por una oración completa?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Punto y coma"
+            },
+            {
+              "id": "B",
+              "texto": "Dos puntos"
+            },
+            {
+              "id": "C",
+              "texto": "Coma"
+            },
+            {
+              "id": "D",
+              "texto": "Paréntesis"
+            },
+            {
+              "id": "E",
+              "texto": "Guion"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "Los dos puntos pueden introducir una enumeración anunciada previamente."
+        },
+        {
+          "id": "AV-007",
+          "tema": "Comprensión de lectura I",
+          "dificultad": "facil",
+          "pregunta": "Lee: «La biblioteca municipal ampliará su horario durante los exámenes. Abrirá de 8 a. m. a 10 p. m. de lunes a sábado». ¿Cuál es la idea principal?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "La biblioteca cerrará los sábados."
+            },
+            {
+              "id": "B",
+              "texto": "Los exámenes serán por la noche."
+            },
+            {
+              "id": "C",
+              "texto": "La biblioteca ampliará su horario durante los exámenes."
+            },
+            {
+              "id": "D",
+              "texto": "La biblioteca abrirá solo por las mañanas."
+            },
+            {
+              "id": "E",
+              "texto": "El horario será únicamente para estudiantes universitarios."
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "La primera oración presenta la información central y la segunda la precisa con el nuevo horario."
+        },
+        {
+          "id": "AV-008",
+          "tema": "Comprensión de lectura I",
+          "dificultad": "facil",
+          "pregunta": "Lee: «Ana llevó paraguas porque el cielo estaba muy nublado». ¿Por qué Ana llevó paraguas?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Porque hacía mucho calor"
+            },
+            {
+              "id": "B",
+              "texto": "Porque el cielo estaba nublado"
+            },
+            {
+              "id": "C",
+              "texto": "Porque perdió su casaca"
+            },
+            {
+              "id": "D",
+              "texto": "Porque iba a la playa"
+            },
+            {
+              "id": "E",
+              "texto": "Porque era de noche"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La causa aparece explícitamente en el enunciado: el cielo estaba muy nublado."
+        },
+        {
+          "id": "AV-009",
+          "tema": "Comprensión de lectura I",
+          "dificultad": "facil",
+          "pregunta": "Un afiche que combina imágenes, cifras y pequeños bloques de texto corresponde mejor a un formato:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "continuo"
+            },
+            {
+              "id": "B",
+              "texto": "discontinuo"
+            },
+            {
+              "id": "C",
+              "texto": "poético"
+            },
+            {
+              "id": "D",
+              "texto": "dramático"
+            },
+            {
+              "id": "E",
+              "texto": "narrativo"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "Los formatos discontinuos organizan información mediante elementos como cuadros, imágenes, gráficos o listas."
+        },
+        {
+          "id": "AV-010",
+          "tema": "Paremiología",
+          "dificultad": "facil",
+          "pregunta": "¿Qué idea expresa mejor el refrán «Más vale tarde que nunca»?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Es mejor no hacer nada"
+            },
+            {
+              "id": "B",
+              "texto": "Llegar tarde siempre es correcto"
+            },
+            {
+              "id": "C",
+              "texto": "Es preferible hacer algo tarde que no hacerlo"
+            },
+            {
+              "id": "D",
+              "texto": "El tiempo no tiene importancia"
+            },
+            {
+              "id": "E",
+              "texto": "Nunca se debe esperar"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "El refrán valora realizar una acción aunque sea tarde, antes que omitirla por completo."
+        },
+        {
+          "id": "AV-011",
+          "tema": "Paremiología",
+          "dificultad": "facil",
+          "pregunta": "¿Qué enseñanza transmite «No dejes para mañana lo que puedes hacer hoy»?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Evitar responsabilidades"
+            },
+            {
+              "id": "B",
+              "texto": "Aplazar las tareas difíciles"
+            },
+            {
+              "id": "C",
+              "texto": "Cumplir oportunamente las tareas"
+            },
+            {
+              "id": "D",
+              "texto": "Trabajar solo por la mañana"
+            },
+            {
+              "id": "E",
+              "texto": "Hacer varias cosas a la vez"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "La paremia recomienda no postergar aquello que puede realizarse en el presente."
+        },
+        {
+          "id": "AV-012",
+          "tema": "Oraciones eliminadas",
+          "dificultad": "facil",
+          "pregunta": "¿Qué oración rompe el tema en el siguiente grupo? I. Los árboles producen oxígeno. II. Muchos árboles brindan sombra. III. Los bosques albergan diversas especies. IV. Mi cuaderno tiene cien páginas. V. Los árboles ayudan a proteger el suelo.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "I"
+            },
+            {
+              "id": "B",
+              "texto": "II"
+            },
+            {
+              "id": "C",
+              "texto": "III"
+            },
+            {
+              "id": "D",
+              "texto": "IV"
+            },
+            {
+              "id": "E",
+              "texto": "V"
             }
           ],
           "respuestaCorrecta": "D",
           "puntaje": 25,
-          "explicacion": "Explicación de prueba para una pregunta de comprensión lectora."
+          "explicacion": "La oración IV trata sobre un cuaderno y se aleja completamente del tema de los árboles y bosques."
+        },
+        {
+          "id": "AV-013",
+          "tema": "Oraciones eliminadas",
+          "dificultad": "facil",
+          "pregunta": "¿Qué oración resulta redundante? I. Carlos llegó temprano al colegio. II. Carlos llegó antes de la hora habitual. III. Entró al aula y ordenó sus materiales. IV. Luego conversó con sus compañeros. V. La clase empezó a las ocho.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "I"
+            },
+            {
+              "id": "B",
+              "texto": "II"
+            },
+            {
+              "id": "C",
+              "texto": "III"
+            },
+            {
+              "id": "D",
+              "texto": "IV"
+            },
+            {
+              "id": "E",
+              "texto": "V"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La oración II repite esencialmente la idea de que Carlos llegó temprano."
+        },
+        {
+          "id": "AV-014",
+          "tema": "Precisión léxica",
+          "dificultad": "facil",
+          "pregunta": "En la oración «El médico emitió un diagnóstico preciso», la palabra «preciso» significa:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "rápido"
+            },
+            {
+              "id": "B",
+              "texto": "exacto"
+            },
+            {
+              "id": "C",
+              "texto": "extenso"
+            },
+            {
+              "id": "D",
+              "texto": "dudoso"
+            },
+            {
+              "id": "E",
+              "texto": "antiguo"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "En ese contexto, «preciso» equivale a exacto o bien determinado."
+        },
+        {
+          "id": "AV-015",
+          "tema": "Precisión léxica",
+          "dificultad": "facil",
+          "pregunta": "¿Qué palabra reemplaza mejor a «feliz» en «El estudiante estaba feliz por su logro» sin cambiar el sentido esencial?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "contento"
+            },
+            {
+              "id": "B",
+              "texto": "molesto"
+            },
+            {
+              "id": "C",
+              "texto": "agotado"
+            },
+            {
+              "id": "D",
+              "texto": "confuso"
+            },
+            {
+              "id": "E",
+              "texto": "temeroso"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "«Contento» mantiene el sentido positivo de «feliz» en ese contexto."
+        },
+        {
+          "id": "AV-016",
+          "tema": "Analogías",
+          "dificultad": "facil",
+          "pregunta": "LIBRO es a LEER como MÚSICA es a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "dibujar"
+            },
+            {
+              "id": "B",
+              "texto": "escuchar"
+            },
+            {
+              "id": "C",
+              "texto": "correr"
+            },
+            {
+              "id": "D",
+              "texto": "medir"
+            },
+            {
+              "id": "E",
+              "texto": "cocinar"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La relación es objeto o contenido y acción habitual: el libro se lee y la música se escucha."
+        },
+        {
+          "id": "AV-017",
+          "tema": "Analogías",
+          "dificultad": "facil",
+          "pregunta": "PÁJARO es a BANDADA como PEZ es a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "rebaño"
+            },
+            {
+              "id": "B",
+              "texto": "jauría"
+            },
+            {
+              "id": "C",
+              "texto": "cardumen"
+            },
+            {
+              "id": "D",
+              "texto": "enjambre"
+            },
+            {
+              "id": "E",
+              "texto": "manada"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Una bandada es un conjunto de aves y un cardumen es un conjunto de peces."
+        },
+        {
+          "id": "AV-018",
+          "tema": "Plan de redacción",
+          "dificultad": "facil",
+          "pregunta": "Ordena lógicamente un procedimiento para lavarse las manos: I. Enjuagar con agua. II. Aplicar jabón. III. Mojar las manos. IV. Secar las manos. V. Frotar bien.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "III - II - V - I - IV"
+            },
+            {
+              "id": "B",
+              "texto": "II - III - V - IV - I"
+            },
+            {
+              "id": "C",
+              "texto": "III - V - II - I - IV"
+            },
+            {
+              "id": "D",
+              "texto": "IV - III - II - V - I"
+            },
+            {
+              "id": "E",
+              "texto": "I - II - III - V - IV"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Primero se mojan las manos, luego se aplica jabón, se frotan, se enjuagan y finalmente se secan."
+        },
+        {
+          "id": "AV-019",
+          "tema": "Comprensión de lectura II",
+          "dificultad": "facil",
+          "pregunta": "Lee: «Luis salió de casa con abrigo y bufanda. Al llegar a la calle, su respiración formaba una ligera nube». ¿Qué se puede inferir?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Hacía bastante frío"
+            },
+            {
+              "id": "B",
+              "texto": "Era mediodía"
+            },
+            {
+              "id": "C",
+              "texto": "Estaba lloviendo"
+            },
+            {
+              "id": "D",
+              "texto": "Luis iba a nadar"
+            },
+            {
+              "id": "E",
+              "texto": "Había mucho viento necesariamente"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "El abrigo, la bufanda y el vapor visible de la respiración permiten inferir una temperatura baja."
+        },
+        {
+          "id": "AV-020",
+          "tema": "Lectura crítica",
+          "dificultad": "facil",
+          "pregunta": "En la afirmación «Todos deberían usar bicicleta porque así disminuiría parte del tráfico», ¿cuál es la razón que apoya la propuesta?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Las bicicletas tienen dos ruedas"
+            },
+            {
+              "id": "B",
+              "texto": "Disminuiría parte del tráfico"
+            },
+            {
+              "id": "C",
+              "texto": "Todas las personas saben montar bicicleta"
+            },
+            {
+              "id": "D",
+              "texto": "Los autos son más rápidos"
+            },
+            {
+              "id": "E",
+              "texto": "Las calles son siempre planas"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La disminución del tráfico funciona como argumento a favor del uso de la bicicleta."
         }
       ]
     }
