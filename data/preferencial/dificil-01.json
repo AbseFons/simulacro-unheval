@@ -2,142 +2,1268 @@
   "id": "preferencial-dificil-01",
   "tipo": "preferencial",
   "nivel": "dificil",
-  "titulo": "Simulacro Preferencial - Dificil",
-  "descripcion": "Archivo de demostración. Reemplaza estas preguntas por el banco real cuando la funcionalidad esté validada.",
-  "duracionMinutos": 10,
-  "puntajeMaximo": 100,
+  "titulo": "Simulacro Preferencial UNHEVAL 2027 - Difícil",
+  "descripcion": "Simulacro de práctica elaborado a partir del Temario 2027 de Aptitud Verbal y Aptitud Matemática. Las preguntas son originales de práctica y no corresponden a un examen oficial.",
+  "duracionMinutos": 60,
+  "puntajeMaximo": 1000,
+  "configuracion": {
+    "permitirRetroceder": true,
+    "mostrarExplicacionDuranteExamen": false,
+    "confirmarCambioSeccion": true,
+    "confirmarFinalizacion": true
+  },
   "secciones": [
     {
-      "id": "aptitud-matematica",
-      "nombre": "Aptitud Matemática",
+      "id": "aptitud-verbal",
+      "nombre": "Aptitud Verbal",
       "orden": 1,
       "preguntas": [
         {
-          "id": "AM-001",
-          "tema": "Sucesiones",
-          "pregunta": "Pregunta de prueba de Aptitud Matemática 1.",
+          "id": "AV-001",
+          "tema": "Etimología",
+          "dificultad": "dificil",
+          "pregunta": "En la palabra «antropocentrismo», la raíz «antropo-» alude a:",
           "alternativas": [
             {
               "id": "A",
-              "texto": "Alternativa de prueba A"
+              "texto": "naturaleza"
             },
             {
               "id": "B",
-              "texto": "Alternativa de prueba B"
+              "texto": "hombre o ser humano"
             },
             {
               "id": "C",
-              "texto": "Alternativa de prueba C"
+              "texto": "ciudad"
             },
             {
               "id": "D",
-              "texto": "Alternativa de prueba D"
+              "texto": "conocimiento"
             },
             {
               "id": "E",
-              "texto": "Alternativa de prueba E"
-            }
-          ],
-          "respuestaCorrecta": "C",
-          "puntaje": 25,
-          "explicacion": "Explicación de prueba. Aquí debes explicar de forma breve por qué la alternativa correcta es C."
-        },
-        {
-          "id": "AM-002",
-          "tema": "Porcentajes",
-          "pregunta": "Pregunta de prueba de Aptitud Matemática 2.",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "Alternativa de prueba A"
-            },
-            {
-              "id": "B",
-              "texto": "Alternativa de prueba B"
-            },
-            {
-              "id": "C",
-              "texto": "Alternativa de prueba C"
-            },
-            {
-              "id": "D",
-              "texto": "Alternativa de prueba D"
-            },
-            {
-              "id": "E",
-              "texto": "Alternativa de prueba E"
+              "texto": "tiempo"
             }
           ],
           "respuestaCorrecta": "B",
           "puntaje": 25,
-          "explicacion": "Explicación de prueba. Sustituye este texto por la explicación real de la pregunta."
-        }
-      ]
-    },
-    {
-      "id": "aptitud-verbal",
-      "nombre": "Aptitud Verbal",
-      "orden": 2,
-      "preguntas": [
+          "explicacion": "La raíz griega «anthropos» significa hombre o ser humano; por ello, «antropocentrismo» sitúa al ser humano como centro de consideración."
+        },
         {
-          "id": "AV-001",
-          "tema": "Analogías",
-          "pregunta": "Pregunta de prueba de Aptitud Verbal 1.",
+          "id": "AV-002",
+          "tema": "Conectores lógicos",
+          "dificultad": "dificil",
+          "pregunta": "Completa adecuadamente: «La evidencia parecía concluyente; _____, una revisión metodológica reveló un sesgo importante».",
           "alternativas": [
             {
               "id": "A",
-              "texto": "Alternativa de prueba A"
+              "texto": "por consiguiente"
             },
             {
               "id": "B",
-              "texto": "Alternativa de prueba B"
+              "texto": "asimismo"
             },
             {
               "id": "C",
-              "texto": "Alternativa de prueba C"
+              "texto": "sin embargo"
             },
             {
               "id": "D",
-              "texto": "Alternativa de prueba D"
+              "texto": "por ejemplo"
             },
             {
               "id": "E",
-              "texto": "Alternativa de prueba E"
+              "texto": "en efecto"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "La segunda proposición contradice la expectativa generada por la primera, por lo que corresponde un conector de contraste: «sin embargo»."
+        },
+        {
+          "id": "AV-003",
+          "tema": "Conectores lógicos",
+          "dificultad": "dificil",
+          "pregunta": "Completa: «El autor no niega los beneficios de la tecnología; _____, advierte que su uso sin criterios puede generar nuevos problemas».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "por eso"
+            },
+            {
+              "id": "B",
+              "texto": "más bien"
+            },
+            {
+              "id": "C",
+              "texto": "además de"
+            },
+            {
+              "id": "D",
+              "texto": "debido a que"
+            },
+            {
+              "id": "E",
+              "texto": "por ende"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "«Más bien» corrige o matiza una interpretación previa: no se rechaza la tecnología, sino que se advierte sobre su uso."
+        },
+        {
+          "id": "AV-004",
+          "tema": "Comprensión de lectura III",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «Una ciudad puede ampliar sus vías para aliviar la congestión. Sin embargo, si el número de automóviles continúa creciendo, el beneficio puede ser temporal». ¿Cuál es la idea que mejor se extrapola del texto?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Toda ampliación vial elimina definitivamente la congestión"
+            },
+            {
+              "id": "B",
+              "texto": "El aumento de infraestructura siempre reduce el uso del automóvil"
+            },
+            {
+              "id": "C",
+              "texto": "Resolver la congestión requiere considerar también la demanda de transporte"
+            },
+            {
+              "id": "D",
+              "texto": "Las ciudades deberían prohibir las vías nuevas"
+            },
+            {
+              "id": "E",
+              "texto": "La congestión depende únicamente del tamaño de las calles"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "El texto sugiere que aumentar vías puede tener efecto limitado si crece la cantidad de autos; por tanto, la solución debe considerar también la demanda."
+        },
+        {
+          "id": "AV-005",
+          "tema": "Comprensión de lectura III",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «Un estudiante obtiene buenas calificaciones memorizando contenidos, pero tiene dificultades cuando debe aplicar lo aprendido a situaciones nuevas». ¿Qué conclusión es más razonable?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "La memorización garantiza comprensión profunda"
+            },
+            {
+              "id": "B",
+              "texto": "El rendimiento académico siempre refleja aprendizaje transferible"
+            },
+            {
+              "id": "C",
+              "texto": "Recordar información no implica necesariamente saber aplicarla"
+            },
+            {
+              "id": "D",
+              "texto": "Las situaciones nuevas deben evitarse en la evaluación"
+            },
+            {
+              "id": "E",
+              "texto": "El estudiante no posee memoria"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "El contraste entre memorizar y aplicar muestra que recordar información no garantiza transferencia ni comprensión suficiente."
+        },
+        {
+          "id": "AV-006",
+          "tema": "Precisión léxica",
+          "dificultad": "dificil",
+          "pregunta": "En «La conclusión es consistente con los datos obtenidos», «consistente» significa:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "contradictoria"
+            },
+            {
+              "id": "B",
+              "texto": "coherente"
+            },
+            {
+              "id": "C",
+              "texto": "extensa"
+            },
+            {
+              "id": "D",
+              "texto": "provisional"
+            },
+            {
+              "id": "E",
+              "texto": "ambigua"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "En ese contexto, «consistente» equivale a coherente o compatible con la evidencia."
+        },
+        {
+          "id": "AV-007",
+          "tema": "Precisión léxica",
+          "dificultad": "dificil",
+          "pregunta": "En «El investigador fue parco al comentar los resultados», la palabra «parco» significa:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "excesivamente detallado"
+            },
+            {
+              "id": "B",
+              "texto": "breve y moderado en sus palabras"
+            },
+            {
+              "id": "C",
+              "texto": "entusiasta"
+            },
+            {
+              "id": "D",
+              "texto": "contradictorio"
+            },
+            {
+              "id": "E",
+              "texto": "impreciso"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "«Parco» se refiere a alguien moderado o escaso en palabras."
+        },
+        {
+          "id": "AV-008",
+          "tema": "Analogías",
+          "dificultad": "dificil",
+          "pregunta": "PREMISA es a CONCLUSIÓN como EVIDENCIA es a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "hipótesis"
+            },
+            {
+              "id": "B",
+              "texto": "demostración"
+            },
+            {
+              "id": "C",
+              "texto": "argumento"
+            },
+            {
+              "id": "D",
+              "texto": "silencio"
+            },
+            {
+              "id": "E",
+              "texto": "duda"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Una premisa sustenta una conclusión; de modo semejante, la evidencia sustenta un argumento."
+        },
+        {
+          "id": "AV-009",
+          "tema": "Analogías",
+          "dificultad": "dificil",
+          "pregunta": "BORRADOR es a TEXTO FINAL como PROTOTIPO es a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "problema"
+            },
+            {
+              "id": "B",
+              "texto": "producto terminado"
+            },
+            {
+              "id": "C",
+              "texto": "material"
+            },
+            {
+              "id": "D",
+              "texto": "dibujo"
+            },
+            {
+              "id": "E",
+              "texto": "herramienta"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "El borrador es una versión previa del texto final; el prototipo es una versión previa de un producto terminado."
+        },
+        {
+          "id": "AV-010",
+          "tema": "Analogías",
+          "dificultad": "dificil",
+          "pregunta": "ESPECIE es a GÉNERO como ROBLE es a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "bosque"
+            },
+            {
+              "id": "B",
+              "texto": "árbol"
+            },
+            {
+              "id": "C",
+              "texto": "hoja"
+            },
+            {
+              "id": "D",
+              "texto": "madera"
+            },
+            {
+              "id": "E",
+              "texto": "semilla"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "El roble es una especie dentro del género o categoría amplia «árbol»."
+        },
+        {
+          "id": "AV-011",
+          "tema": "Plan de redacción",
+          "dificultad": "dificil",
+          "pregunta": "Ordena lógicamente un texto sobre investigación científica: I. Se interpretan los resultados. II. Se formula una pregunta. III. Se recopilan datos. IV. Se plantea una hipótesis. V. Se comunican las conclusiones.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "II - IV - III - I - V"
+            },
+            {
+              "id": "B",
+              "texto": "IV - II - III - V - I"
+            },
+            {
+              "id": "C",
+              "texto": "II - III - IV - I - V"
+            },
+            {
+              "id": "D",
+              "texto": "III - II - IV - V - I"
+            },
+            {
+              "id": "E",
+              "texto": "V - II - IV - III - I"
             }
           ],
           "respuestaCorrecta": "A",
           "puntaje": 25,
-          "explicacion": "Explicación de prueba para una pregunta de analogías."
+          "explicacion": "La secuencia básica es: pregunta, hipótesis, recolección de datos, interpretación y comunicación de conclusiones."
         },
         {
-          "id": "AV-002",
-          "tema": "Comprensión lectora",
-          "pregunta": "Pregunta de prueba de Aptitud Verbal 2.",
+          "id": "AV-012",
+          "tema": "Plan de redacción",
+          "dificultad": "dificil",
+          "pregunta": "Ordena las ideas para explicar la formación de una decisión pública: I. Se evalúan alternativas. II. Se identifica un problema. III. Se implementa la medida. IV. Se analizan resultados. V. Se elige una alternativa.",
           "alternativas": [
             {
               "id": "A",
-              "texto": "Alternativa de prueba A"
+              "texto": "II - I - V - III - IV"
             },
             {
               "id": "B",
-              "texto": "Alternativa de prueba B"
+              "texto": "I - II - III - V - IV"
             },
             {
               "id": "C",
-              "texto": "Alternativa de prueba C"
+              "texto": "II - V - I - IV - III"
             },
             {
               "id": "D",
-              "texto": "Alternativa de prueba D"
+              "texto": "III - II - I - V - IV"
             },
             {
               "id": "E",
-              "texto": "Alternativa de prueba E"
+              "texto": "II - I - III - V - IV"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Primero se identifica el problema, luego se evalúan opciones, se elige una, se implementa y finalmente se analizan resultados."
+        },
+        {
+          "id": "AV-013",
+          "tema": "Oraciones eliminadas",
+          "dificultad": "dificil",
+          "pregunta": "Señala la oración que debe eliminarse por contradicción temática. I. La ciencia revisa sus explicaciones a la luz de nueva evidencia. II. Una teoría científica puede modificarse. III. Las hipótesis deben contrastarse con datos. IV. Una afirmación científica nunca puede ser cuestionada. V. La revisión crítica forma parte del conocimiento científico.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "I"
+            },
+            {
+              "id": "B",
+              "texto": "II"
+            },
+            {
+              "id": "C",
+              "texto": "III"
+            },
+            {
+              "id": "D",
+              "texto": "IV"
+            },
+            {
+              "id": "E",
+              "texto": "V"
             }
           ],
           "respuestaCorrecta": "D",
           "puntaje": 25,
-          "explicacion": "Explicación de prueba para una pregunta de comprensión lectora."
+          "explicacion": "La oración IV contradice la idea central de que la ciencia revisa y cuestiona sus explicaciones."
+        },
+        {
+          "id": "AV-014",
+          "tema": "Paremiología",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué situación representa mejor el sentido de «No todo lo que brilla es oro»?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Una propuesta atractiva que resulta tener problemas ocultos"
+            },
+            {
+              "id": "B",
+              "texto": "Un objeto de oro que refleja mucha luz"
+            },
+            {
+              "id": "C",
+              "texto": "Una persona que compra una lámpara"
+            },
+            {
+              "id": "D",
+              "texto": "Un estudiante que llega temprano"
+            },
+            {
+              "id": "E",
+              "texto": "Un comerciante que pesa un metal"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "La paremia advierte que la apariencia favorable no garantiza valor o calidad real."
+        },
+        {
+          "id": "AV-015",
+          "tema": "Lectura crítica",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «El candidato afirma que su plan es el mejor porque miles de personas lo apoyan». ¿Qué debilidad presenta el razonamiento?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Confunde popularidad con validez del argumento"
+            },
+            {
+              "id": "B",
+              "texto": "Presenta demasiadas evidencias"
+            },
+            {
+              "id": "C",
+              "texto": "Define con precisión sus criterios"
+            },
+            {
+              "id": "D",
+              "texto": "Demuestra causalidad científica"
+            },
+            {
+              "id": "E",
+              "texto": "Usa una comparación histórica"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "El apoyo de muchas personas no demuestra por sí solo que una propuesta sea la mejor; se apela a la popularidad."
+        },
+        {
+          "id": "AV-016",
+          "tema": "Lectura crítica",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «Si una medida funcionó en una ciudad, necesariamente funcionará igual en cualquier otra». ¿Qué problema lógico presenta?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Generaliza sin considerar diferencias de contexto"
+            },
+            {
+              "id": "B",
+              "texto": "Usa una definición circular"
+            },
+            {
+              "id": "C",
+              "texto": "Introduce una contradicción temporal"
+            },
+            {
+              "id": "D",
+              "texto": "Expresa una tautología"
+            },
+            {
+              "id": "E",
+              "texto": "No formula ninguna afirmación"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Se extrapola un resultado a todos los contextos sin justificar que las condiciones sean equivalentes."
+        },
+        {
+          "id": "AV-017",
+          "tema": "Lectura crítica",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «La empresa redujo sus residuos en 20%; por tanto, ya es completamente sostenible». ¿Cuál es la objeción más sólida?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Reducir residuos es irrelevante"
+            },
+            {
+              "id": "B",
+              "texto": "La sostenibilidad depende de más dimensiones que un solo indicador"
+            },
+            {
+              "id": "C",
+              "texto": "Toda empresa es sostenible por definición"
+            },
+            {
+              "id": "D",
+              "texto": "El 20% siempre es una reducción insignificante"
+            },
+            {
+              "id": "E",
+              "texto": "Los residuos no pueden medirse"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La conclusión es demasiado amplia: sostenibilidad comprende más factores que la sola reducción de residuos."
+        },
+        {
+          "id": "AV-018",
+          "tema": "Comprensión de lectura II",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «El informe reconoce que el programa aumentó la asistencia, pero señala que aún no se ha demostrado una mejora equivalente en el aprendizaje». ¿Cuál es la interpretación correcta?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "El programa fracasó totalmente"
+            },
+            {
+              "id": "B",
+              "texto": "La asistencia y el aprendizaje son exactamente lo mismo"
+            },
+            {
+              "id": "C",
+              "texto": "Existe un resultado positivo, pero no basta para afirmar una mejora integral"
+            },
+            {
+              "id": "D",
+              "texto": "El aprendizaje disminuyó necesariamente"
+            },
+            {
+              "id": "E",
+              "texto": "La asistencia no aumentó"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "El informe distingue entre aumento de asistencia y evidencia de aprendizaje; reconoce un avance limitado."
+        },
+        {
+          "id": "AV-019",
+          "tema": "Comprensión de lectura III",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «Una norma puede ser legal y, aun así, ser discutida desde criterios éticos». ¿Qué se desprende de la afirmación?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Todo lo legal es automáticamente ético"
+            },
+            {
+              "id": "B",
+              "texto": "La evaluación ética y la legal pueden no coincidir"
+            },
+            {
+              "id": "C",
+              "texto": "La ética reemplaza siempre a la ley"
+            },
+            {
+              "id": "D",
+              "texto": "Las normas legales carecen de valor"
+            },
+            {
+              "id": "E",
+              "texto": "La legalidad depende solo de opiniones personales"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La oración diferencia dos planos de evaluación: una norma puede cumplir la ley y, sin embargo, ser cuestionada éticamente."
+        },
+        {
+          "id": "AV-020",
+          "tema": "Lectura crítica",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «El autor describe con entusiasmo los beneficios de la inteligencia artificial, pero dedica el último párrafo a advertir sobre sesgos, privacidad y dependencia tecnológica». ¿Cuál es el tono global más adecuado?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Rechazo absoluto"
+            },
+            {
+              "id": "B",
+              "texto": "Aceptación acrítica"
+            },
+            {
+              "id": "C",
+              "texto": "Valoración favorable con cautela"
+            },
+            {
+              "id": "D",
+              "texto": "Indiferencia"
+            },
+            {
+              "id": "E",
+              "texto": "Burla"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "El texto reconoce beneficios, pero introduce reservas importantes; por eso el tono es favorable pero cauteloso."
+        }
+      ]
+    },
+    {
+      "id": "aptitud-matematica",
+      "nombre": "Aptitud Matemática",
+      "orden": 2,
+      "preguntas": [
+        {
+          "id": "AM-001",
+          "tema": "Razonamiento lógico",
+          "dificultad": "dificil",
+          "pregunta": "Cinco personas A, B, C, D y E se ubican en una fila. A está antes que C; B está después de D; E está entre A y C; y D está antes que A. ¿Cuál de los siguientes órdenes es posible?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "D - A - E - C - B"
+            },
+            {
+              "id": "B",
+              "texto": "A - D - E - C - B"
+            },
+            {
+              "id": "C",
+              "texto": "D - E - A - B - C"
+            },
+            {
+              "id": "D",
+              "texto": "B - D - A - E - C"
+            },
+            {
+              "id": "E",
+              "texto": "D - C - E - A - B"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "D debe ir antes de A; E entre A y C; y B después de D. Solo D-A-E-C-B cumple todas las condiciones."
+        },
+        {
+          "id": "AM-002",
+          "tema": "Razonamiento inductivo y deductivo",
+          "dificultad": "dificil",
+          "pregunta": "Completa la sucesión: 3, 8, 15, 24, 35, __.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "44"
+            },
+            {
+              "id": "B",
+              "texto": "46"
+            },
+            {
+              "id": "C",
+              "texto": "48"
+            },
+            {
+              "id": "D",
+              "texto": "50"
+            },
+            {
+              "id": "E",
+              "texto": "52"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Las diferencias son 5, 7, 9 y 11; sigue 13. Entonces 35 + 13 = 48."
+        },
+        {
+          "id": "AM-003",
+          "tema": "Razonamiento inductivo y deductivo",
+          "dificultad": "dificil",
+          "pregunta": "Completa la sucesión: 2, 6, 12, 20, 30, __.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "36"
+            },
+            {
+              "id": "B",
+              "texto": "40"
+            },
+            {
+              "id": "C",
+              "texto": "42"
+            },
+            {
+              "id": "D",
+              "texto": "44"
+            },
+            {
+              "id": "E",
+              "texto": "48"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Los términos siguen n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6; sigue 6×7 = 42."
+        },
+        {
+          "id": "AM-004",
+          "tema": "Planteo de ecuaciones",
+          "dificultad": "dificil",
+          "pregunta": "La suma de dos números es 42 y el mayor excede al menor en 8. ¿Cuál es el menor?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "15"
+            },
+            {
+              "id": "B",
+              "texto": "16"
+            },
+            {
+              "id": "C",
+              "texto": "17"
+            },
+            {
+              "id": "D",
+              "texto": "18"
+            },
+            {
+              "id": "E",
+              "texto": "19"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Si el menor es x, el mayor es x+8. Entonces 2x+8=42, de donde x=17."
+        },
+        {
+          "id": "AM-005",
+          "tema": "Planteo de ecuaciones",
+          "dificultad": "dificil",
+          "pregunta": "Un número disminuido en su tercera parte es igual a 28. ¿Cuál es el número?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "36"
+            },
+            {
+              "id": "B",
+              "texto": "39"
+            },
+            {
+              "id": "C",
+              "texto": "42"
+            },
+            {
+              "id": "D",
+              "texto": "45"
+            },
+            {
+              "id": "E",
+              "texto": "48"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Si x - x/3 = 28, entonces 2x/3 = 28 y x = 42."
+        },
+        {
+          "id": "AM-006",
+          "tema": "Edades",
+          "dificultad": "dificil",
+          "pregunta": "Dentro de 6 años, la edad de Ana será el doble de la que tenía hace 6 años. ¿Qué edad tiene actualmente?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "16"
+            },
+            {
+              "id": "B",
+              "texto": "18"
+            },
+            {
+              "id": "C",
+              "texto": "20"
+            },
+            {
+              "id": "D",
+              "texto": "22"
+            },
+            {
+              "id": "E",
+              "texto": "24"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "Si x es la edad actual: x+6 = 2(x-6). Entonces x+6 = 2x-12 y x=18."
+        },
+        {
+          "id": "AM-007",
+          "tema": "Móviles",
+          "dificultad": "dificil",
+          "pregunta": "Dos móviles parten simultáneamente del mismo punto en sentidos opuestos a 54 km/h y 72 km/h. ¿Qué distancia los separa después de 2 horas y 30 minutos?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "270 km"
+            },
+            {
+              "id": "B",
+              "texto": "288 km"
+            },
+            {
+              "id": "C",
+              "texto": "300 km"
+            },
+            {
+              "id": "D",
+              "texto": "315 km"
+            },
+            {
+              "id": "E",
+              "texto": "324 km"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 25,
+          "explicacion": "La rapidez de separación es 54+72=126 km/h. En 2,5 h recorren 126×2,5 = 315 km."
+        },
+        {
+          "id": "AM-008",
+          "tema": "Móviles",
+          "dificultad": "dificil",
+          "pregunta": "Un automóvil sale a 60 km/h. Dos horas después, otro parte del mismo lugar a 90 km/h por la misma ruta. ¿Cuánto tiempo después de partir el segundo lo alcanza?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "2 h"
+            },
+            {
+              "id": "B",
+              "texto": "3 h"
+            },
+            {
+              "id": "C",
+              "texto": "4 h"
+            },
+            {
+              "id": "D",
+              "texto": "5 h"
+            },
+            {
+              "id": "E",
+              "texto": "6 h"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "El primero lleva 120 km de ventaja. La rapidez relativa es 90-60=30 km/h. Tiempo de alcance: 120/30=4 h."
+        },
+        {
+          "id": "AM-009",
+          "tema": "Cronometría",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué ángulo menor forman las manecillas de un reloj a las 3:30?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "60°"
+            },
+            {
+              "id": "B",
+              "texto": "75°"
+            },
+            {
+              "id": "C",
+              "texto": "90°"
+            },
+            {
+              "id": "D",
+              "texto": "105°"
+            },
+            {
+              "id": "E",
+              "texto": "120°"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "A las 3:30, el minutero está en 180°. El horario está en 3,5×30° = 105°. La diferencia es 75°."
+        },
+        {
+          "id": "AM-010",
+          "tema": "Operador matemático",
+          "dificultad": "dificil",
+          "pregunta": "Se define a ⊙ b = a² + 2b. ¿Cuánto vale 3 ⊙ 4?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "13"
+            },
+            {
+              "id": "B",
+              "texto": "15"
+            },
+            {
+              "id": "C",
+              "texto": "17"
+            },
+            {
+              "id": "D",
+              "texto": "19"
+            },
+            {
+              "id": "E",
+              "texto": "21"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "3² + 2(4) = 9 + 8 = 17."
+        },
+        {
+          "id": "AM-011",
+          "tema": "Operador matemático",
+          "dificultad": "dificil",
+          "pregunta": "Se define a ◆ b = (a+b)/(a-b), con a ≠ b. ¿Cuánto vale 5 ◆ 3?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "2"
+            },
+            {
+              "id": "B",
+              "texto": "3"
+            },
+            {
+              "id": "C",
+              "texto": "4"
+            },
+            {
+              "id": "D",
+              "texto": "5"
+            },
+            {
+              "id": "E",
+              "texto": "8"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "(5+3)/(5-3) = 8/2 = 4."
+        },
+        {
+          "id": "AM-012",
+          "tema": "Sucesiones y series",
+          "dificultad": "dificil",
+          "pregunta": "En una progresión aritmética, el primer término es 5 y la diferencia es 4. ¿Cuál es la suma de los primeros 12 términos?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "300"
+            },
+            {
+              "id": "B",
+              "texto": "312"
+            },
+            {
+              "id": "C",
+              "texto": "324"
+            },
+            {
+              "id": "D",
+              "texto": "336"
+            },
+            {
+              "id": "E",
+              "texto": "348"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "El término 12 es 5+11×4=49. La suma es 12(5+49)/2 = 324."
+        },
+        {
+          "id": "AM-013",
+          "tema": "Sucesiones y series",
+          "dificultad": "dificil",
+          "pregunta": "En la progresión geométrica 3, 6, 12, 24, ... ¿cuál es el octavo término?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "192"
+            },
+            {
+              "id": "B",
+              "texto": "256"
+            },
+            {
+              "id": "C",
+              "texto": "384"
+            },
+            {
+              "id": "D",
+              "texto": "512"
+            },
+            {
+              "id": "E",
+              "texto": "768"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "La razón es 2. El término 8 es 3×2^7 = 384."
+        },
+        {
+          "id": "AM-014",
+          "tema": "Perímetros y áreas",
+          "dificultad": "dificil",
+          "pregunta": "Un círculo tiene radio 6 cm. Usando π = 3,14, ¿cuál es aproximadamente su área?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "75,36 cm²"
+            },
+            {
+              "id": "B",
+              "texto": "94,20 cm²"
+            },
+            {
+              "id": "C",
+              "texto": "113,04 cm²"
+            },
+            {
+              "id": "D",
+              "texto": "125,60 cm²"
+            },
+            {
+              "id": "E",
+              "texto": "226,08 cm²"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Área = πr² = 3,14×36 = 113,04 cm²."
+        },
+        {
+          "id": "AM-015",
+          "tema": "Perímetros y áreas",
+          "dificultad": "dificil",
+          "pregunta": "Un rectángulo de 20 m por 14 m contiene en una esquina un cuadrado de 6 m de lado que no forma parte de la región útil. ¿Cuál es el área útil?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "220 m²"
+            },
+            {
+              "id": "B",
+              "texto": "236 m²"
+            },
+            {
+              "id": "C",
+              "texto": "244 m²"
+            },
+            {
+              "id": "D",
+              "texto": "252 m²"
+            },
+            {
+              "id": "E",
+              "texto": "264 m²"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Área del rectángulo: 20×14=280. Área excluida: 6×6=36. Área útil: 280-36=244 m²."
+        },
+        {
+          "id": "AM-016",
+          "tema": "Conteo de figuras",
+          "dificultad": "dificil",
+          "pregunta": "En una cuadrícula de 3×3 cuadrados unitarios, ¿cuántos cuadrados de todos los tamaños existen?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "9"
+            },
+            {
+              "id": "B",
+              "texto": "10"
+            },
+            {
+              "id": "C",
+              "texto": "12"
+            },
+            {
+              "id": "D",
+              "texto": "14"
+            },
+            {
+              "id": "E",
+              "texto": "16"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 25,
+          "explicacion": "Hay 9 cuadrados de 1×1, 4 de 2×2 y 1 de 3×3. Total: 14."
+        },
+        {
+          "id": "AM-017",
+          "tema": "Análisis combinatorio",
+          "dificultad": "dificil",
+          "pregunta": "¿Cuántas palabras diferentes de 4 letras pueden formarse con A, B, C, D y E sin repetir letras?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "20"
+            },
+            {
+              "id": "B",
+              "texto": "60"
+            },
+            {
+              "id": "C",
+              "texto": "100"
+            },
+            {
+              "id": "D",
+              "texto": "120"
+            },
+            {
+              "id": "E",
+              "texto": "625"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 25,
+          "explicacion": "Se trata de permutaciones de 5 elementos tomados de 4 en 4: 5×4×3×2 = 120."
+        },
+        {
+          "id": "AM-018",
+          "tema": "Análisis combinatorio",
+          "dificultad": "dificil",
+          "pregunta": "De un grupo de 6 estudiantes se deben elegir 2 representantes. ¿De cuántas maneras puede hacerse?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "10"
+            },
+            {
+              "id": "B",
+              "texto": "12"
+            },
+            {
+              "id": "C",
+              "texto": "15"
+            },
+            {
+              "id": "D",
+              "texto": "20"
+            },
+            {
+              "id": "E",
+              "texto": "30"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "El orden no importa, por lo que se usa combinación: C(6,2)=6×5/2=15."
+        },
+        {
+          "id": "AM-019",
+          "tema": "Probabilidad",
+          "dificultad": "dificil",
+          "pregunta": "Se lanzan dos monedas equilibradas. ¿Cuál es la probabilidad de obtener exactamente una cara?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "1/4"
+            },
+            {
+              "id": "B",
+              "texto": "1/3"
+            },
+            {
+              "id": "C",
+              "texto": "1/2"
+            },
+            {
+              "id": "D",
+              "texto": "2/3"
+            },
+            {
+              "id": "E",
+              "texto": "3/4"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Los resultados equiprobables son CC, CS, SC y SS. Exactamente una cara ocurre en CS y SC: 2 de 4, es decir 1/2."
+        },
+        {
+          "id": "AM-020",
+          "tema": "Tablas y gráficos estadísticos",
+          "dificultad": "dificil",
+          "pregunta": "Las notas de cinco estudiantes son 12, 15, 15, 18 y 20. ¿Cuál es la media aritmética?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "15"
+            },
+            {
+              "id": "B",
+              "texto": "16"
+            },
+            {
+              "id": "C",
+              "texto": "16,5"
+            },
+            {
+              "id": "D",
+              "texto": "17"
+            },
+            {
+              "id": "E",
+              "texto": "18"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La suma es 80 y hay 5 datos; por tanto, la media es 80/5 = 16."
         }
       ]
     }
