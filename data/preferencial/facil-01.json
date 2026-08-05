@@ -14,6 +14,633 @@
   },
   "secciones": [
     {
+      "id": "aptitud-verbal",
+      "nombre": "Aptitud Verbal",
+      "orden": 1,
+      "preguntas": [
+        {
+          "id": "AV-001",
+          "tema": "Etimología",
+          "dificultad": "facil",
+          "pregunta": "El prefijo griego «bio-» se relaciona principalmente con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "vida"
+            },
+            {
+              "id": "B",
+              "texto": "tierra"
+            },
+            {
+              "id": "C",
+              "texto": "agua"
+            },
+            {
+              "id": "D",
+              "texto": "tiempo"
+            },
+            {
+              "id": "E",
+              "texto": "sonido"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "«Bio-» procede del griego bíos, que significa vida."
+        },
+        {
+          "id": "AV-002",
+          "tema": "Etimología",
+          "dificultad": "facil",
+          "pregunta": "En la palabra «subterráneo», el prefijo «sub-» expresa la idea de:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "encima de"
+            },
+            {
+              "id": "B",
+              "texto": "debajo de"
+            },
+            {
+              "id": "C",
+              "texto": "junto a"
+            },
+            {
+              "id": "D",
+              "texto": "antes de"
+            },
+            {
+              "id": "E",
+              "texto": "contra"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "El prefijo latino «sub-» indica posición inferior o debajo de algo."
+        },
+        {
+          "id": "AV-003",
+          "tema": "Conectores lógicos",
+          "dificultad": "facil",
+          "pregunta": "Completa correctamente: «Estudió con constancia; _____, obtuvo un buen resultado».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "sin embargo"
+            },
+            {
+              "id": "B",
+              "texto": "por eso"
+            },
+            {
+              "id": "C",
+              "texto": "aunque"
+            },
+            {
+              "id": "D",
+              "texto": "mientras"
+            },
+            {
+              "id": "E",
+              "texto": "en cambio"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "«Por eso» introduce una consecuencia lógica de haber estudiado con constancia."
+        },
+        {
+          "id": "AV-004",
+          "tema": "Conectores lógicos",
+          "dificultad": "facil",
+          "pregunta": "Completa correctamente: «Quería salir a correr, _____ empezó a llover».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "porque"
+            },
+            {
+              "id": "B",
+              "texto": "además"
+            },
+            {
+              "id": "C",
+              "texto": "pero"
+            },
+            {
+              "id": "D",
+              "texto": "por lo tanto"
+            },
+            {
+              "id": "E",
+              "texto": "entonces"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "«Pero» introduce contraste entre la intención de salir y el inicio de la lluvia."
+        },
+        {
+          "id": "AV-005",
+          "tema": "Signos de puntuación",
+          "dificultad": "facil",
+          "pregunta": "¿En cuál oración se emplea correctamente la coma para separar elementos de una enumeración?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Compré pan leche queso y fruta."
+            },
+            {
+              "id": "B",
+              "texto": "Compré, pan leche queso y fruta."
+            },
+            {
+              "id": "C",
+              "texto": "Compré pan, leche, queso y fruta."
+            },
+            {
+              "id": "D",
+              "texto": "Compré pan leche, queso y, fruta."
+            },
+            {
+              "id": "E",
+              "texto": "Compré pan; leche queso y fruta."
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "En una enumeración, la coma separa los elementos salvo el último cuando va unido por «y»."
+        },
+        {
+          "id": "AV-006",
+          "tema": "Signos de puntuación",
+          "dificultad": "facil",
+          "pregunta": "¿Qué signo es más adecuado antes de una enumeración anunciada por una oración completa?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Punto y coma"
+            },
+            {
+              "id": "B",
+              "texto": "Dos puntos"
+            },
+            {
+              "id": "C",
+              "texto": "Coma"
+            },
+            {
+              "id": "D",
+              "texto": "Paréntesis"
+            },
+            {
+              "id": "E",
+              "texto": "Guion"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "Los dos puntos pueden introducir una enumeración anunciada previamente."
+        },
+        {
+          "id": "AV-007",
+          "tema": "Comprensión de lectura I",
+          "dificultad": "facil",
+          "pregunta": "Lee: «La biblioteca municipal ampliará su horario durante los exámenes. Abrirá de 8 a. m. a 10 p. m. de lunes a sábado». ¿Cuál es la idea principal?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "La biblioteca cerrará los sábados."
+            },
+            {
+              "id": "B",
+              "texto": "Los exámenes serán por la noche."
+            },
+            {
+              "id": "C",
+              "texto": "La biblioteca ampliará su horario durante los exámenes."
+            },
+            {
+              "id": "D",
+              "texto": "La biblioteca abrirá solo por las mañanas."
+            },
+            {
+              "id": "E",
+              "texto": "El horario será únicamente para estudiantes universitarios."
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "La primera oración presenta la información central y la segunda la precisa con el nuevo horario."
+        },
+        {
+          "id": "AV-008",
+          "tema": "Comprensión de lectura I",
+          "dificultad": "facil",
+          "pregunta": "Lee: «Ana llevó paraguas porque el cielo estaba muy nublado». ¿Por qué Ana llevó paraguas?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Porque hacía mucho calor"
+            },
+            {
+              "id": "B",
+              "texto": "Porque el cielo estaba nublado"
+            },
+            {
+              "id": "C",
+              "texto": "Porque perdió su casaca"
+            },
+            {
+              "id": "D",
+              "texto": "Porque iba a la playa"
+            },
+            {
+              "id": "E",
+              "texto": "Porque era de noche"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La causa aparece explícitamente en el enunciado: el cielo estaba muy nublado."
+        },
+        {
+          "id": "AV-009",
+          "tema": "Comprensión de lectura I",
+          "dificultad": "facil",
+          "pregunta": "Un afiche que combina imágenes, cifras y pequeños bloques de texto corresponde mejor a un formato:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "continuo"
+            },
+            {
+              "id": "B",
+              "texto": "discontinuo"
+            },
+            {
+              "id": "C",
+              "texto": "poético"
+            },
+            {
+              "id": "D",
+              "texto": "dramático"
+            },
+            {
+              "id": "E",
+              "texto": "narrativo"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "Los formatos discontinuos organizan información mediante elementos como cuadros, imágenes, gráficos o listas."
+        },
+        {
+          "id": "AV-010",
+          "tema": "Paremiología",
+          "dificultad": "facil",
+          "pregunta": "¿Qué idea expresa mejor el refrán «Más vale tarde que nunca»?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Es mejor no hacer nada"
+            },
+            {
+              "id": "B",
+              "texto": "Llegar tarde siempre es correcto"
+            },
+            {
+              "id": "C",
+              "texto": "Es preferible hacer algo tarde que no hacerlo"
+            },
+            {
+              "id": "D",
+              "texto": "El tiempo no tiene importancia"
+            },
+            {
+              "id": "E",
+              "texto": "Nunca se debe esperar"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "El refrán valora realizar una acción aunque sea tarde, antes que omitirla por completo."
+        },
+        {
+          "id": "AV-011",
+          "tema": "Paremiología",
+          "dificultad": "facil",
+          "pregunta": "¿Qué enseñanza transmite «No dejes para mañana lo que puedes hacer hoy»?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Evitar responsabilidades"
+            },
+            {
+              "id": "B",
+              "texto": "Aplazar las tareas difíciles"
+            },
+            {
+              "id": "C",
+              "texto": "Cumplir oportunamente las tareas"
+            },
+            {
+              "id": "D",
+              "texto": "Trabajar solo por la mañana"
+            },
+            {
+              "id": "E",
+              "texto": "Hacer varias cosas a la vez"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "La paremia recomienda no postergar aquello que puede realizarse en el presente."
+        },
+        {
+          "id": "AV-012",
+          "tema": "Oraciones eliminadas",
+          "dificultad": "facil",
+          "pregunta": "¿Qué oración rompe el tema en el siguiente grupo? I. Los árboles producen oxígeno. II. Muchos árboles brindan sombra. III. Los bosques albergan diversas especies. IV. Mi cuaderno tiene cien páginas. V. Los árboles ayudan a proteger el suelo.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "I"
+            },
+            {
+              "id": "B",
+              "texto": "II"
+            },
+            {
+              "id": "C",
+              "texto": "III"
+            },
+            {
+              "id": "D",
+              "texto": "IV"
+            },
+            {
+              "id": "E",
+              "texto": "V"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 25,
+          "explicacion": "La oración IV trata sobre un cuaderno y se aleja completamente del tema de los árboles y bosques."
+        },
+        {
+          "id": "AV-013",
+          "tema": "Oraciones eliminadas",
+          "dificultad": "facil",
+          "pregunta": "¿Qué oración resulta redundante? I. Carlos llegó temprano al colegio. II. Carlos llegó antes de la hora habitual. III. Entró al aula y ordenó sus materiales. IV. Luego conversó con sus compañeros. V. La clase empezó a las ocho.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "I"
+            },
+            {
+              "id": "B",
+              "texto": "II"
+            },
+            {
+              "id": "C",
+              "texto": "III"
+            },
+            {
+              "id": "D",
+              "texto": "IV"
+            },
+            {
+              "id": "E",
+              "texto": "V"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La oración II repite esencialmente la idea de que Carlos llegó temprano."
+        },
+        {
+          "id": "AV-014",
+          "tema": "Precisión léxica",
+          "dificultad": "facil",
+          "pregunta": "En la oración «El médico emitió un diagnóstico preciso», la palabra «preciso» significa:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "rápido"
+            },
+            {
+              "id": "B",
+              "texto": "exacto"
+            },
+            {
+              "id": "C",
+              "texto": "extenso"
+            },
+            {
+              "id": "D",
+              "texto": "dudoso"
+            },
+            {
+              "id": "E",
+              "texto": "antiguo"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "En ese contexto, «preciso» equivale a exacto o bien determinado."
+        },
+        {
+          "id": "AV-015",
+          "tema": "Precisión léxica",
+          "dificultad": "facil",
+          "pregunta": "¿Qué palabra reemplaza mejor a «feliz» en «El estudiante estaba feliz por su logro» sin cambiar el sentido esencial?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "contento"
+            },
+            {
+              "id": "B",
+              "texto": "molesto"
+            },
+            {
+              "id": "C",
+              "texto": "agotado"
+            },
+            {
+              "id": "D",
+              "texto": "confuso"
+            },
+            {
+              "id": "E",
+              "texto": "temeroso"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "«Contento» mantiene el sentido positivo de «feliz» en ese contexto."
+        },
+        {
+          "id": "AV-016",
+          "tema": "Analogías",
+          "dificultad": "facil",
+          "pregunta": "LIBRO es a LEER como MÚSICA es a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "dibujar"
+            },
+            {
+              "id": "B",
+              "texto": "escuchar"
+            },
+            {
+              "id": "C",
+              "texto": "correr"
+            },
+            {
+              "id": "D",
+              "texto": "medir"
+            },
+            {
+              "id": "E",
+              "texto": "cocinar"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La relación es objeto o contenido y acción habitual: el libro se lee y la música se escucha."
+        },
+        {
+          "id": "AV-017",
+          "tema": "Analogías",
+          "dificultad": "facil",
+          "pregunta": "PÁJARO es a BANDADA como PEZ es a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "rebaño"
+            },
+            {
+              "id": "B",
+              "texto": "jauría"
+            },
+            {
+              "id": "C",
+              "texto": "cardumen"
+            },
+            {
+              "id": "D",
+              "texto": "enjambre"
+            },
+            {
+              "id": "E",
+              "texto": "manada"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Una bandada es un conjunto de aves y un cardumen es un conjunto de peces."
+        },
+        {
+          "id": "AV-018",
+          "tema": "Plan de redacción",
+          "dificultad": "facil",
+          "pregunta": "Ordena lógicamente un procedimiento para lavarse las manos: I. Enjuagar con agua. II. Aplicar jabón. III. Mojar las manos. IV. Secar las manos. V. Frotar bien.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "III - II - V - I - IV"
+            },
+            {
+              "id": "B",
+              "texto": "II - III - V - IV - I"
+            },
+            {
+              "id": "C",
+              "texto": "III - V - II - I - IV"
+            },
+            {
+              "id": "D",
+              "texto": "IV - III - II - V - I"
+            },
+            {
+              "id": "E",
+              "texto": "I - II - III - V - IV"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Primero se mojan las manos, luego se aplica jabón, se frotan, se enjuagan y finalmente se secan."
+        },
+        {
+          "id": "AV-019",
+          "tema": "Comprensión de lectura II",
+          "dificultad": "facil",
+          "pregunta": "Lee: «Luis salió de casa con abrigo y bufanda. Al llegar a la calle, su respiración formaba una ligera nube». ¿Qué se puede inferir?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Hacía bastante frío"
+            },
+            {
+              "id": "B",
+              "texto": "Era mediodía"
+            },
+            {
+              "id": "C",
+              "texto": "Estaba lloviendo"
+            },
+            {
+              "id": "D",
+              "texto": "Luis iba a nadar"
+            },
+            {
+              "id": "E",
+              "texto": "Había mucho viento necesariamente"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "El abrigo, la bufanda y el vapor visible de la respiración permiten inferir una temperatura baja."
+        },
+        {
+          "id": "AV-020",
+          "tema": "Lectura crítica",
+          "dificultad": "facil",
+          "pregunta": "En la afirmación «Todos deberían usar bicicleta porque así disminuiría parte del tráfico», ¿cuál es la razón que apoya la propuesta?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Las bicicletas tienen dos ruedas"
+            },
+            {
+              "id": "B",
+              "texto": "Disminuiría parte del tráfico"
+            },
+            {
+              "id": "C",
+              "texto": "Todas las personas saben montar bicicleta"
+            },
+            {
+              "id": "D",
+              "texto": "Los autos son más rápidos"
+            },
+            {
+              "id": "E",
+              "texto": "Las calles son siempre planas"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La disminución del tráfico funciona como argumento a favor del uso de la bicicleta."
+        }
+      ]
+    },
+{
       "id": "aptitud-matematica",
       "nombre": "Aptitud Matemática",
       "orden": 1,
@@ -637,633 +1264,6 @@
           "respuestaCorrecta": "C",
           "puntaje": 25,
           "explicacion": "La mayor frecuencia es 8, correspondiente a fútbol."
-        }
-      ]
-    },
-    {
-      "id": "aptitud-verbal",
-      "nombre": "Aptitud Verbal",
-      "orden": 2,
-      "preguntas": [
-        {
-          "id": "AV-001",
-          "tema": "Etimología",
-          "dificultad": "facil",
-          "pregunta": "El prefijo griego «bio-» se relaciona principalmente con:",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "vida"
-            },
-            {
-              "id": "B",
-              "texto": "tierra"
-            },
-            {
-              "id": "C",
-              "texto": "agua"
-            },
-            {
-              "id": "D",
-              "texto": "tiempo"
-            },
-            {
-              "id": "E",
-              "texto": "sonido"
-            }
-          ],
-          "respuestaCorrecta": "A",
-          "puntaje": 25,
-          "explicacion": "«Bio-» procede del griego bíos, que significa vida."
-        },
-        {
-          "id": "AV-002",
-          "tema": "Etimología",
-          "dificultad": "facil",
-          "pregunta": "En la palabra «subterráneo», el prefijo «sub-» expresa la idea de:",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "encima de"
-            },
-            {
-              "id": "B",
-              "texto": "debajo de"
-            },
-            {
-              "id": "C",
-              "texto": "junto a"
-            },
-            {
-              "id": "D",
-              "texto": "antes de"
-            },
-            {
-              "id": "E",
-              "texto": "contra"
-            }
-          ],
-          "respuestaCorrecta": "B",
-          "puntaje": 25,
-          "explicacion": "El prefijo latino «sub-» indica posición inferior o debajo de algo."
-        },
-        {
-          "id": "AV-003",
-          "tema": "Conectores lógicos",
-          "dificultad": "facil",
-          "pregunta": "Completa correctamente: «Estudió con constancia; _____, obtuvo un buen resultado».",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "sin embargo"
-            },
-            {
-              "id": "B",
-              "texto": "por eso"
-            },
-            {
-              "id": "C",
-              "texto": "aunque"
-            },
-            {
-              "id": "D",
-              "texto": "mientras"
-            },
-            {
-              "id": "E",
-              "texto": "en cambio"
-            }
-          ],
-          "respuestaCorrecta": "B",
-          "puntaje": 25,
-          "explicacion": "«Por eso» introduce una consecuencia lógica de haber estudiado con constancia."
-        },
-        {
-          "id": "AV-004",
-          "tema": "Conectores lógicos",
-          "dificultad": "facil",
-          "pregunta": "Completa correctamente: «Quería salir a correr, _____ empezó a llover».",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "porque"
-            },
-            {
-              "id": "B",
-              "texto": "además"
-            },
-            {
-              "id": "C",
-              "texto": "pero"
-            },
-            {
-              "id": "D",
-              "texto": "por lo tanto"
-            },
-            {
-              "id": "E",
-              "texto": "entonces"
-            }
-          ],
-          "respuestaCorrecta": "C",
-          "puntaje": 25,
-          "explicacion": "«Pero» introduce contraste entre la intención de salir y el inicio de la lluvia."
-        },
-        {
-          "id": "AV-005",
-          "tema": "Signos de puntuación",
-          "dificultad": "facil",
-          "pregunta": "¿En cuál oración se emplea correctamente la coma para separar elementos de una enumeración?",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "Compré pan leche queso y fruta."
-            },
-            {
-              "id": "B",
-              "texto": "Compré, pan leche queso y fruta."
-            },
-            {
-              "id": "C",
-              "texto": "Compré pan, leche, queso y fruta."
-            },
-            {
-              "id": "D",
-              "texto": "Compré pan leche, queso y, fruta."
-            },
-            {
-              "id": "E",
-              "texto": "Compré pan; leche queso y fruta."
-            }
-          ],
-          "respuestaCorrecta": "C",
-          "puntaje": 25,
-          "explicacion": "En una enumeración, la coma separa los elementos salvo el último cuando va unido por «y»."
-        },
-        {
-          "id": "AV-006",
-          "tema": "Signos de puntuación",
-          "dificultad": "facil",
-          "pregunta": "¿Qué signo es más adecuado antes de una enumeración anunciada por una oración completa?",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "Punto y coma"
-            },
-            {
-              "id": "B",
-              "texto": "Dos puntos"
-            },
-            {
-              "id": "C",
-              "texto": "Coma"
-            },
-            {
-              "id": "D",
-              "texto": "Paréntesis"
-            },
-            {
-              "id": "E",
-              "texto": "Guion"
-            }
-          ],
-          "respuestaCorrecta": "B",
-          "puntaje": 25,
-          "explicacion": "Los dos puntos pueden introducir una enumeración anunciada previamente."
-        },
-        {
-          "id": "AV-007",
-          "tema": "Comprensión de lectura I",
-          "dificultad": "facil",
-          "pregunta": "Lee: «La biblioteca municipal ampliará su horario durante los exámenes. Abrirá de 8 a. m. a 10 p. m. de lunes a sábado». ¿Cuál es la idea principal?",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "La biblioteca cerrará los sábados."
-            },
-            {
-              "id": "B",
-              "texto": "Los exámenes serán por la noche."
-            },
-            {
-              "id": "C",
-              "texto": "La biblioteca ampliará su horario durante los exámenes."
-            },
-            {
-              "id": "D",
-              "texto": "La biblioteca abrirá solo por las mañanas."
-            },
-            {
-              "id": "E",
-              "texto": "El horario será únicamente para estudiantes universitarios."
-            }
-          ],
-          "respuestaCorrecta": "C",
-          "puntaje": 25,
-          "explicacion": "La primera oración presenta la información central y la segunda la precisa con el nuevo horario."
-        },
-        {
-          "id": "AV-008",
-          "tema": "Comprensión de lectura I",
-          "dificultad": "facil",
-          "pregunta": "Lee: «Ana llevó paraguas porque el cielo estaba muy nublado». ¿Por qué Ana llevó paraguas?",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "Porque hacía mucho calor"
-            },
-            {
-              "id": "B",
-              "texto": "Porque el cielo estaba nublado"
-            },
-            {
-              "id": "C",
-              "texto": "Porque perdió su casaca"
-            },
-            {
-              "id": "D",
-              "texto": "Porque iba a la playa"
-            },
-            {
-              "id": "E",
-              "texto": "Porque era de noche"
-            }
-          ],
-          "respuestaCorrecta": "B",
-          "puntaje": 25,
-          "explicacion": "La causa aparece explícitamente en el enunciado: el cielo estaba muy nublado."
-        },
-        {
-          "id": "AV-009",
-          "tema": "Comprensión de lectura I",
-          "dificultad": "facil",
-          "pregunta": "Un afiche que combina imágenes, cifras y pequeños bloques de texto corresponde mejor a un formato:",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "continuo"
-            },
-            {
-              "id": "B",
-              "texto": "discontinuo"
-            },
-            {
-              "id": "C",
-              "texto": "poético"
-            },
-            {
-              "id": "D",
-              "texto": "dramático"
-            },
-            {
-              "id": "E",
-              "texto": "narrativo"
-            }
-          ],
-          "respuestaCorrecta": "B",
-          "puntaje": 25,
-          "explicacion": "Los formatos discontinuos organizan información mediante elementos como cuadros, imágenes, gráficos o listas."
-        },
-        {
-          "id": "AV-010",
-          "tema": "Paremiología",
-          "dificultad": "facil",
-          "pregunta": "¿Qué idea expresa mejor el refrán «Más vale tarde que nunca»?",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "Es mejor no hacer nada"
-            },
-            {
-              "id": "B",
-              "texto": "Llegar tarde siempre es correcto"
-            },
-            {
-              "id": "C",
-              "texto": "Es preferible hacer algo tarde que no hacerlo"
-            },
-            {
-              "id": "D",
-              "texto": "El tiempo no tiene importancia"
-            },
-            {
-              "id": "E",
-              "texto": "Nunca se debe esperar"
-            }
-          ],
-          "respuestaCorrecta": "C",
-          "puntaje": 25,
-          "explicacion": "El refrán valora realizar una acción aunque sea tarde, antes que omitirla por completo."
-        },
-        {
-          "id": "AV-011",
-          "tema": "Paremiología",
-          "dificultad": "facil",
-          "pregunta": "¿Qué enseñanza transmite «No dejes para mañana lo que puedes hacer hoy»?",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "Evitar responsabilidades"
-            },
-            {
-              "id": "B",
-              "texto": "Aplazar las tareas difíciles"
-            },
-            {
-              "id": "C",
-              "texto": "Cumplir oportunamente las tareas"
-            },
-            {
-              "id": "D",
-              "texto": "Trabajar solo por la mañana"
-            },
-            {
-              "id": "E",
-              "texto": "Hacer varias cosas a la vez"
-            }
-          ],
-          "respuestaCorrecta": "C",
-          "puntaje": 25,
-          "explicacion": "La paremia recomienda no postergar aquello que puede realizarse en el presente."
-        },
-        {
-          "id": "AV-012",
-          "tema": "Oraciones eliminadas",
-          "dificultad": "facil",
-          "pregunta": "¿Qué oración rompe el tema en el siguiente grupo? I. Los árboles producen oxígeno. II. Muchos árboles brindan sombra. III. Los bosques albergan diversas especies. IV. Mi cuaderno tiene cien páginas. V. Los árboles ayudan a proteger el suelo.",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "I"
-            },
-            {
-              "id": "B",
-              "texto": "II"
-            },
-            {
-              "id": "C",
-              "texto": "III"
-            },
-            {
-              "id": "D",
-              "texto": "IV"
-            },
-            {
-              "id": "E",
-              "texto": "V"
-            }
-          ],
-          "respuestaCorrecta": "D",
-          "puntaje": 25,
-          "explicacion": "La oración IV trata sobre un cuaderno y se aleja completamente del tema de los árboles y bosques."
-        },
-        {
-          "id": "AV-013",
-          "tema": "Oraciones eliminadas",
-          "dificultad": "facil",
-          "pregunta": "¿Qué oración resulta redundante? I. Carlos llegó temprano al colegio. II. Carlos llegó antes de la hora habitual. III. Entró al aula y ordenó sus materiales. IV. Luego conversó con sus compañeros. V. La clase empezó a las ocho.",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "I"
-            },
-            {
-              "id": "B",
-              "texto": "II"
-            },
-            {
-              "id": "C",
-              "texto": "III"
-            },
-            {
-              "id": "D",
-              "texto": "IV"
-            },
-            {
-              "id": "E",
-              "texto": "V"
-            }
-          ],
-          "respuestaCorrecta": "B",
-          "puntaje": 25,
-          "explicacion": "La oración II repite esencialmente la idea de que Carlos llegó temprano."
-        },
-        {
-          "id": "AV-014",
-          "tema": "Precisión léxica",
-          "dificultad": "facil",
-          "pregunta": "En la oración «El médico emitió un diagnóstico preciso», la palabra «preciso» significa:",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "rápido"
-            },
-            {
-              "id": "B",
-              "texto": "exacto"
-            },
-            {
-              "id": "C",
-              "texto": "extenso"
-            },
-            {
-              "id": "D",
-              "texto": "dudoso"
-            },
-            {
-              "id": "E",
-              "texto": "antiguo"
-            }
-          ],
-          "respuestaCorrecta": "B",
-          "puntaje": 25,
-          "explicacion": "En ese contexto, «preciso» equivale a exacto o bien determinado."
-        },
-        {
-          "id": "AV-015",
-          "tema": "Precisión léxica",
-          "dificultad": "facil",
-          "pregunta": "¿Qué palabra reemplaza mejor a «feliz» en «El estudiante estaba feliz por su logro» sin cambiar el sentido esencial?",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "contento"
-            },
-            {
-              "id": "B",
-              "texto": "molesto"
-            },
-            {
-              "id": "C",
-              "texto": "agotado"
-            },
-            {
-              "id": "D",
-              "texto": "confuso"
-            },
-            {
-              "id": "E",
-              "texto": "temeroso"
-            }
-          ],
-          "respuestaCorrecta": "A",
-          "puntaje": 25,
-          "explicacion": "«Contento» mantiene el sentido positivo de «feliz» en ese contexto."
-        },
-        {
-          "id": "AV-016",
-          "tema": "Analogías",
-          "dificultad": "facil",
-          "pregunta": "LIBRO es a LEER como MÚSICA es a:",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "dibujar"
-            },
-            {
-              "id": "B",
-              "texto": "escuchar"
-            },
-            {
-              "id": "C",
-              "texto": "correr"
-            },
-            {
-              "id": "D",
-              "texto": "medir"
-            },
-            {
-              "id": "E",
-              "texto": "cocinar"
-            }
-          ],
-          "respuestaCorrecta": "B",
-          "puntaje": 25,
-          "explicacion": "La relación es objeto o contenido y acción habitual: el libro se lee y la música se escucha."
-        },
-        {
-          "id": "AV-017",
-          "tema": "Analogías",
-          "dificultad": "facil",
-          "pregunta": "PÁJARO es a BANDADA como PEZ es a:",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "rebaño"
-            },
-            {
-              "id": "B",
-              "texto": "jauría"
-            },
-            {
-              "id": "C",
-              "texto": "cardumen"
-            },
-            {
-              "id": "D",
-              "texto": "enjambre"
-            },
-            {
-              "id": "E",
-              "texto": "manada"
-            }
-          ],
-          "respuestaCorrecta": "C",
-          "puntaje": 25,
-          "explicacion": "Una bandada es un conjunto de aves y un cardumen es un conjunto de peces."
-        },
-        {
-          "id": "AV-018",
-          "tema": "Plan de redacción",
-          "dificultad": "facil",
-          "pregunta": "Ordena lógicamente un procedimiento para lavarse las manos: I. Enjuagar con agua. II. Aplicar jabón. III. Mojar las manos. IV. Secar las manos. V. Frotar bien.",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "III - II - V - I - IV"
-            },
-            {
-              "id": "B",
-              "texto": "II - III - V - IV - I"
-            },
-            {
-              "id": "C",
-              "texto": "III - V - II - I - IV"
-            },
-            {
-              "id": "D",
-              "texto": "IV - III - II - V - I"
-            },
-            {
-              "id": "E",
-              "texto": "I - II - III - V - IV"
-            }
-          ],
-          "respuestaCorrecta": "A",
-          "puntaje": 25,
-          "explicacion": "Primero se mojan las manos, luego se aplica jabón, se frotan, se enjuagan y finalmente se secan."
-        },
-        {
-          "id": "AV-019",
-          "tema": "Comprensión de lectura II",
-          "dificultad": "facil",
-          "pregunta": "Lee: «Luis salió de casa con abrigo y bufanda. Al llegar a la calle, su respiración formaba una ligera nube». ¿Qué se puede inferir?",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "Hacía bastante frío"
-            },
-            {
-              "id": "B",
-              "texto": "Era mediodía"
-            },
-            {
-              "id": "C",
-              "texto": "Estaba lloviendo"
-            },
-            {
-              "id": "D",
-              "texto": "Luis iba a nadar"
-            },
-            {
-              "id": "E",
-              "texto": "Había mucho viento necesariamente"
-            }
-          ],
-          "respuestaCorrecta": "A",
-          "puntaje": 25,
-          "explicacion": "El abrigo, la bufanda y el vapor visible de la respiración permiten inferir una temperatura baja."
-        },
-        {
-          "id": "AV-020",
-          "tema": "Lectura crítica",
-          "dificultad": "facil",
-          "pregunta": "En la afirmación «Todos deberían usar bicicleta porque así disminuiría parte del tráfico», ¿cuál es la razón que apoya la propuesta?",
-          "alternativas": [
-            {
-              "id": "A",
-              "texto": "Las bicicletas tienen dos ruedas"
-            },
-            {
-              "id": "B",
-              "texto": "Disminuiría parte del tráfico"
-            },
-            {
-              "id": "C",
-              "texto": "Todas las personas saben montar bicicleta"
-            },
-            {
-              "id": "D",
-              "texto": "Los autos son más rápidos"
-            },
-            {
-              "id": "E",
-              "texto": "Las calles son siempre planas"
-            }
-          ],
-          "respuestaCorrecta": "B",
-          "puntaje": 25,
-          "explicacion": "La disminución del tráfico funciona como argumento a favor del uso de la bicicleta."
         }
       ]
     }

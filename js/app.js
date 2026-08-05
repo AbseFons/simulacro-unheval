@@ -162,6 +162,16 @@
     return response.json();
   }
 
+  function getGlobalQuestionNumber() {
+    let previousQuestions = 0;
+
+    for (let i = 0; i < state.seccionActual; i++) {
+      previousQuestions += state.examen.secciones[i].preguntas.length;
+    }
+
+    return previousQuestions + state.preguntaActual + 1;
+  }
+
   function renderConfigOptions() {
     const tipos = uniqueBy(
       state.catalogo.examenes.map((item) => ({
@@ -326,6 +336,11 @@
   function renderExam() {
     const section = getCurrentSection();
     const question = getCurrentQuestion();
+    const globalQuestionNumber = getGlobalQuestionNumber();
+    const totalQuestions = getAllQuestions().length;
+
+    els.questionNumber.textContent =
+      `Pregunta ${globalQuestionNumber} de ${totalQuestions}`;
 
     if (!section || !question) return;
 
@@ -377,6 +392,13 @@
   }
 
   function renderQuestionNavigator(section) {
+    const offset = state.examen.secciones
+      .slice(0, state.seccionActual)
+      .reduce(
+        (total, currentSection) =>
+          total + currentSection.preguntas.length,
+        0
+      );
     els.questionNavigator.innerHTML = section.preguntas
       .map((question, index) => {
         const isCurrent = index === state.preguntaActual;
@@ -394,9 +416,9 @@
             type="button"
             class="${classes}"
             data-question-index="${index}"
-            aria-label="Ir a pregunta ${index + 1}"
+            aria-label="Ir a pregunta ${offset + index + 1}"
           >
-            ${index + 1}
+            ${offset + index + 1}
           </button>
         `;
       })
@@ -521,11 +543,11 @@
           <p>Tienes preguntas sin responder:</p>
           <ul>
             ${pendingBySection
-              .map(
-                (item) =>
-                  `<li><strong>${escapeHtml(item.nombre)}:</strong> ${item.cantidad}</li>`
-              )
-              .join("")}
+            .map(
+              (item) =>
+                `<li><strong>${escapeHtml(item.nombre)}:</strong> ${item.cantidad}</li>`
+            )
+            .join("")}
           </ul>
           <p>¿Deseas finalizar de todas formas?</p>
         `;
@@ -562,9 +584,12 @@
     let correct = 0;
     let wrong = 0;
     let blank = 0;
+    let globalNumber = 0;
 
     state.examen.secciones.forEach((section) => {
       section.preguntas.forEach((question) => {
+    
+        globalNumber++;
         const userAnswer = state.respuestas[question.id] || null;
         const isBlank = !userAnswer;
         const isCorrect = userAnswer === question.respuestaCorrecta;
@@ -576,12 +601,13 @@
         if (isCorrect) score += Number(question.puntaje || 0);
 
         rows.push({
+          numero: globalNumber,
           sectionId: section.id,
           sectionName: section.nombre,
           question,
           userAnswer,
           isBlank,
-          isCorrect,
+          isCorrect
         });
       });
     });
@@ -685,17 +711,17 @@
 
     els.topicMetrics.innerHTML = topics.length
       ? topics
-          .map((item) => {
-            const status = performanceClass(item.percent);
-            return `
+        .map((item) => {
+          const status = performanceClass(item.percent);
+          return `
               <div class="topic-row">
                 <strong>${escapeHtml(item.topic)}</strong>
                 <span>${item.correct}/${item.total} · ${item.percent.toFixed(0)}%</span>
                 <span class="topic-status ${status}">${performanceLabel(item.percent)}</span>
               </div>
             `;
-          })
-          .join("")
+        })
+        .join("")
       : `<p class="empty-state">No hay temas configurados.</p>`;
   }
 
@@ -735,8 +761,7 @@
           <article class="review-card ${status}">
             <div class="review-title">
               <div>
-                <span class="question-kicker">${escapeHtml(row.sectionName)} · ${escapeHtml(row.question.tema || "Sin tema")}</span>
-                <strong>Pregunta ${escapeHtml(row.question.id)}</strong>
+                <strong>Pregunta ${row.numero}</strong>
               </div>
               <span class="status-pill ${status}">${statusText}</span>
             </div>

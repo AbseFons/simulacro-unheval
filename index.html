@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +8,7 @@
   <title>Simulacro UNHEVAL</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
+
 <body>
   <div class="app-shell">
     <header class="site-header">
@@ -194,91 +196,168 @@
 
       <!-- RESULTADOS -->
       <section id="screenResultados" class="screen hidden">
+
+        <!-- NOTA GENERAL -->
         <div class="results-hero">
           <p class="eyebrow">Resultado del simulacro</p>
-          <h2 id="resultTitle">Resultado</h2>
+
+          <h2 id="resultTitle">
+            Resultado
+          </h2>
+
           <div class="score-display">
             <strong id="resultScore">0</strong>
-            <span id="resultScoreMax">/ 0 puntos</span>
+            <strong id="resultScoreMax">
+              / 0 puntos
+            </strong>
           </div>
-          <p id="resultPercent" class="result-percent">0%</p>
+
+          <p id="resultPercent" class="result-percent">
+            0%
+          </p>
         </div>
 
+
+        <!-- RESUMEN GENERAL -->
         <div class="results-grid">
+
           <article class="metric-card">
             <span>Correctas</span>
-            <strong id="metricCorrect">0</strong>
+            <strong id="metricCorrect">
+              0
+            </strong>
           </article>
+
           <article class="metric-card">
             <span>Incorrectas</span>
-            <strong id="metricWrong">0</strong>
+            <strong id="metricWrong">
+              0
+            </strong>
           </article>
+
           <article class="metric-card">
             <span>Sin responder</span>
-            <strong id="metricBlank">0</strong>
+            <strong id="metricBlank">
+              0
+            </strong>
           </article>
+
           <article class="metric-card">
             <span>Tiempo empleado</span>
-            <strong id="metricTime">00:00</strong>
+            <strong id="metricTime">
+              00:00
+            </strong>
           </article>
+
         </div>
 
+
+        <!-- DIAGNÓSTICO POR ÁREA -->
         <div class="panel results-panel">
+
           <div class="section-title-row">
+
             <div>
-              <p class="eyebrow">Diagnóstico</p>
-              <h3>Rendimiento por área</h3>
+              <p class="eyebrow">
+                Diagnóstico
+              </p>
+
+              <h3>
+                Rendimiento por área
+              </h3>
             </div>
+
           </div>
+
           <div id="sectionMetrics" class="metrics-list"></div>
+
         </div>
 
-        <div class="panel results-panel">
-          <div class="section-title-row">
-            <div>
-              <p class="eyebrow">Detalle</p>
-              <h3>Temas por reforzar</h3>
-            </div>
-          </div>
-          <div id="topicMetrics" class="topic-table"></div>
-        </div>
 
+        <!-- REVISIÓN DE PREGUNTAS -->
         <div class="panel results-panel">
+
           <div class="review-header">
+
             <div>
-              <p class="eyebrow">Revisión</p>
-              <h3>Preguntas y explicaciones</h3>
+              <p class="eyebrow">
+                Revisión
+              </p>
+
+              <h3>
+                Preguntas y explicaciones
+              </h3>
             </div>
+
             <div class="review-filters" role="group" aria-label="Filtros de revisión">
-              <button class="filter-btn active" data-filter="all" type="button">Todas</button>
-              <button class="filter-btn" data-filter="wrong" type="button">Incorrectas</button>
-              <button class="filter-btn" data-filter="blank" type="button">Sin responder</button>
+
+              <button class="filter-btn active" data-filter="all" type="button">
+                Todas
+              </button>
+
+              <button class="filter-btn" data-filter="wrong" type="button">
+                Incorrectas
+              </button>
+
+              <button class="filter-btn" data-filter="blank" type="button">
+                Sin responder
+              </button>
+
             </div>
+
           </div>
+
           <div id="reviewList" class="review-list"></div>
+
         </div>
 
+
+        <!-- DETALLE DE TEMAS -->
+        <div class="panel results-panel">
+
+          <div class="section-title-row">
+
+            <div>
+              <p class="eyebrow">
+                Detalle
+              </p>
+
+              <h3>
+                Temas por reforzar
+              </h3>
+            </div>
+
+          </div>
+
+          <div id="topicMetrics" class="topic-table"></div>
+
+        </div>
+
+
+        <!-- NUEVO SIMULACRO -->
         <div class="actions actions-center">
+
           <button id="btnNuevoSimulacro" class="btn btn-primary" type="button">
             Nuevo simulacro
           </button>
+
         </div>
+
       </section>
-    </main>
-  </div>
 
-  <!-- MODAL -->
-  <div id="modalBackdrop" class="modal-backdrop hidden" role="presentation">
-    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-      <h3 id="modalTitle">Confirmación</h3>
-      <div id="modalMessage" class="modal-message"></div>
-      <div class="modal-actions">
-        <button id="modalCancel" class="btn btn-secondary" type="button">Cancelar</button>
-        <button id="modalConfirm" class="btn btn-primary" type="button">Continuar</button>
+      <!-- MODAL -->
+      <div id="modalBackdrop" class="modal-backdrop hidden" role="presentation">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+          <h3 id="modalTitle">Confirmación</h3>
+          <div id="modalMessage" class="modal-message"></div>
+          <div class="modal-actions">
+            <button id="modalCancel" class="btn btn-secondary" type="button">Cancelar</button>
+            <button id="modalConfirm" class="btn btn-primary" type="button">Continuar</button>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <script src="js/app.js"></script>
+      <script src="js/app.js"></script>
 </body>
+
 </html>
