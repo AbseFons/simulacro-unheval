@@ -1,0 +1,3198 @@
+{
+  "id": "facil-02",
+  "tipo": "general",
+  "area": "II",
+  "areaNombre": "Ciencias de la Educación, Humanidades y Sociales",
+  "carreraReferencia": "Educación Física",
+  "nivel": "facil",
+  "titulo": "Simulacro General UNHEVAL 2027 - Área II - Fácil",
+  "descripcion": "Simulacro de práctica para el Área II. Mantiene la misma estructura temática y de puntajes del modelo Fácil 01 proporcionado. Las preguntas son originales de práctica y no corresponden a un examen oficial.",
+  "duracionMinutos": 180,
+  "duracionEsConfiguracionDePractica": true,
+  "puntajeMaximo": 1000,
+  "configuracion": {
+    "permitirRetroceder": true,
+    "mostrarExplicacionDuranteExamen": false,
+    "confirmarCambioSeccion": true,
+    "confirmarFinalizacion": true
+  },
+  "secciones": [
+    {
+      "id": "aptitud-verbal",
+      "nombre": "Aptitud Verbal",
+      "orden": 1,
+      "preguntas": [
+        {
+          "id": "AV-001",
+          "tema": "Etimología",
+          "dificultad": "facil",
+          "pregunta": "La raíz «bio-» se relaciona principalmente con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "vida"
+            },
+            {
+              "id": "B",
+              "texto": "tierra"
+            },
+            {
+              "id": "C",
+              "texto": "tiempo"
+            },
+            {
+              "id": "D",
+              "texto": "sonido"
+            },
+            {
+              "id": "E",
+              "texto": "agua"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "La raíz «bio-» se relaciona con vida."
+        },
+        {
+          "id": "AV-002",
+          "tema": "Conectores lógicos",
+          "dificultad": "facil",
+          "pregunta": "Completa: «El camino era difícil; _____, el grupo continuó avanzando».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "sin embargo"
+            },
+            {
+              "id": "B",
+              "texto": "porque"
+            },
+            {
+              "id": "C",
+              "texto": "por eso"
+            },
+            {
+              "id": "D",
+              "texto": "además"
+            },
+            {
+              "id": "E",
+              "texto": "entonces"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "«Sin embargo» introduce contraste entre la dificultad y la decisión de continuar."
+        },
+        {
+          "id": "AV-003",
+          "tema": "Conectores lógicos",
+          "dificultad": "facil",
+          "pregunta": "Completa: «Terminó el trabajo a tiempo; _____, pudo entregar el informe».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "aunque"
+            },
+            {
+              "id": "B",
+              "texto": "por ello"
+            },
+            {
+              "id": "C",
+              "texto": "pero"
+            },
+            {
+              "id": "D",
+              "texto": "mientras"
+            },
+            {
+              "id": "E",
+              "texto": "sin embargo"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "«Por ello» expresa consecuencia."
+        },
+        {
+          "id": "AV-004",
+          "tema": "Comprensión de lectura I",
+          "dificultad": "facil",
+          "pregunta": "Lee: «El laboratorio atenderá desde las 7 a. m. durante la semana de exámenes». ¿Cuál es la información principal?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "El laboratorio cerrará"
+            },
+            {
+              "id": "B",
+              "texto": "Atenderá desde las 7 a. m."
+            },
+            {
+              "id": "C",
+              "texto": "Solo abrirá domingos"
+            },
+            {
+              "id": "D",
+              "texto": "Cambiará de edificio"
+            },
+            {
+              "id": "E",
+              "texto": "Los exámenes se suspendieron"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "La idea central es la ampliación o modificación del horario de atención."
+        },
+        {
+          "id": "AV-005",
+          "tema": "Paremiología",
+          "dificultad": "facil",
+          "pregunta": "¿Qué expresa mejor «Más vale prevenir que lamentar»?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Es mejor anticiparse a los problemas"
+            },
+            {
+              "id": "B",
+              "texto": "Siempre ocurrirá lo peor"
+            },
+            {
+              "id": "C",
+              "texto": "No hay que tomar decisiones"
+            },
+            {
+              "id": "D",
+              "texto": "Es mejor lamentarse primero"
+            },
+            {
+              "id": "E",
+              "texto": "Prevenir no sirve"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "La paremia recomienda anticiparse para evitar consecuencias negativas."
+        },
+        {
+          "id": "AV-006",
+          "tema": "Oraciones eliminadas",
+          "dificultad": "facil",
+          "pregunta": "¿Qué oración rompe el tema? I. Dormir bien ayuda a recuperar energía. II. El descanso favorece la concentración. III. Dormir suficientes horas beneficia el rendimiento. IV. Los volcanes expulsan lava. V. El sueño es importante para la salud.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "I"
+            },
+            {
+              "id": "B",
+              "texto": "II"
+            },
+            {
+              "id": "C",
+              "texto": "III"
+            },
+            {
+              "id": "D",
+              "texto": "IV"
+            },
+            {
+              "id": "E",
+              "texto": "V"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "La oración IV trata sobre volcanes y se aleja del tema del descanso."
+        },
+        {
+          "id": "AV-007",
+          "tema": "Precisión léxica",
+          "dificultad": "facil",
+          "pregunta": "En «La explicación fue clara», «clara» significa:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "comprensible"
+            },
+            {
+              "id": "B",
+              "texto": "oscura"
+            },
+            {
+              "id": "C",
+              "texto": "larga"
+            },
+            {
+              "id": "D",
+              "texto": "antigua"
+            },
+            {
+              "id": "E",
+              "texto": "dudosa"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "En este contexto, «clara» equivale a comprensible."
+        },
+        {
+          "id": "AV-008",
+          "tema": "Analogías",
+          "dificultad": "facil",
+          "pregunta": "LÁPIZ es a ESCRIBIR como TIJERA es a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "medir"
+            },
+            {
+              "id": "B",
+              "texto": "cortar"
+            },
+            {
+              "id": "C",
+              "texto": "pintar"
+            },
+            {
+              "id": "D",
+              "texto": "pegar"
+            },
+            {
+              "id": "E",
+              "texto": "leer"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "La relación es instrumento y acción principal."
+        },
+        {
+          "id": "AV-009",
+          "tema": "Plan de redacción",
+          "dificultad": "facil",
+          "pregunta": "Ordena: I. Revisar. II. Redactar. III. Planificar. IV. Entregar.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "III-II-I-IV"
+            },
+            {
+              "id": "B",
+              "texto": "II-III-IV-I"
+            },
+            {
+              "id": "C",
+              "texto": "I-II-III-IV"
+            },
+            {
+              "id": "D",
+              "texto": "IV-III-II-I"
+            },
+            {
+              "id": "E",
+              "texto": "III-I-II-IV"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "Primero se planifica, luego se redacta, se revisa y finalmente se entrega."
+        },
+        {
+          "id": "AV-010",
+          "tema": "Lectura crítica",
+          "dificultad": "facil",
+          "pregunta": "En «Conviene ahorrar porque permite enfrentar gastos inesperados», ¿cuál es la razón?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Conviene ahorrar"
+            },
+            {
+              "id": "B",
+              "texto": "Permite enfrentar gastos inesperados"
+            },
+            {
+              "id": "C",
+              "texto": "Todos ahorran"
+            },
+            {
+              "id": "D",
+              "texto": "El dinero siempre aumenta"
+            },
+            {
+              "id": "E",
+              "texto": "Los gastos no existen"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "La segunda proposición sustenta la recomendación de ahorrar."
+        }
+      ]
+    },
+    {
+      "id": "aptitud-matematica",
+      "nombre": "Aptitud Matemática",
+      "orden": 2,
+      "preguntas": [
+        {
+          "id": "AM-001",
+          "tema": "Razonamiento lógico",
+          "dificultad": "facil",
+          "pregunta": "Pedro está delante de Rosa y Rosa delante de Ana. ¿Quién está más atrás?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Pedro"
+            },
+            {
+              "id": "B",
+              "texto": "Rosa"
+            },
+            {
+              "id": "C",
+              "texto": "Ana"
+            },
+            {
+              "id": "D",
+              "texto": "Pedro y Ana"
+            },
+            {
+              "id": "E",
+              "texto": "No se sabe"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "Ana está detrás de Rosa y Pedro."
+        },
+        {
+          "id": "AM-002",
+          "tema": "Razonamiento inductivo",
+          "dificultad": "facil",
+          "pregunta": "Completa: 3, 6, 9, 12, __.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "13"
+            },
+            {
+              "id": "B",
+              "texto": "14"
+            },
+            {
+              "id": "C",
+              "texto": "15"
+            },
+            {
+              "id": "D",
+              "texto": "16"
+            },
+            {
+              "id": "E",
+              "texto": "18"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "La sucesión aumenta de 3 en 3."
+        },
+        {
+          "id": "AM-003",
+          "tema": "Planteo de ecuaciones",
+          "dificultad": "facil",
+          "pregunta": "Un número aumentado en 8 es 20. ¿Cuál es?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "10"
+            },
+            {
+              "id": "B",
+              "texto": "11"
+            },
+            {
+              "id": "C",
+              "texto": "12"
+            },
+            {
+              "id": "D",
+              "texto": "13"
+            },
+            {
+              "id": "E",
+              "texto": "14"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "x+8=20, entonces x=12."
+        },
+        {
+          "id": "AM-004",
+          "tema": "Edades",
+          "dificultad": "facil",
+          "pregunta": "María tiene 16 años y su hermano tiene 5 menos. ¿Cuántos años tiene él?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "9"
+            },
+            {
+              "id": "B",
+              "texto": "10"
+            },
+            {
+              "id": "C",
+              "texto": "11"
+            },
+            {
+              "id": "D",
+              "texto": "12"
+            },
+            {
+              "id": "E",
+              "texto": "13"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "16-5=11."
+        },
+        {
+          "id": "AM-005",
+          "tema": "Móviles",
+          "dificultad": "facil",
+          "pregunta": "Un ciclista recorre 90 km en 3 horas. ¿Cuál es su rapidez media?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "20 km/h"
+            },
+            {
+              "id": "B",
+              "texto": "25 km/h"
+            },
+            {
+              "id": "C",
+              "texto": "30 km/h"
+            },
+            {
+              "id": "D",
+              "texto": "35 km/h"
+            },
+            {
+              "id": "E",
+              "texto": "45 km/h"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "90/3=30 km/h."
+        },
+        {
+          "id": "AM-006",
+          "tema": "Cronometría",
+          "dificultad": "facil",
+          "pregunta": "¿Cuántos minutos hay en 2 horas y media?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "120"
+            },
+            {
+              "id": "B",
+              "texto": "130"
+            },
+            {
+              "id": "C",
+              "texto": "140"
+            },
+            {
+              "id": "D",
+              "texto": "150"
+            },
+            {
+              "id": "E",
+              "texto": "180"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "2,5×60=150 minutos."
+        },
+        {
+          "id": "AM-007",
+          "tema": "Operador matemático",
+          "dificultad": "facil",
+          "pregunta": "Si a ★ b = a - b, ¿cuánto vale 9 ★ 4?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "3"
+            },
+            {
+              "id": "B",
+              "texto": "4"
+            },
+            {
+              "id": "C",
+              "texto": "5"
+            },
+            {
+              "id": "D",
+              "texto": "9"
+            },
+            {
+              "id": "E",
+              "texto": "13"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "9-4=5."
+        },
+        {
+          "id": "AM-008",
+          "tema": "Sucesiones",
+          "dificultad": "facil",
+          "pregunta": "Completa: 5, 9, 13, 17, __.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "19"
+            },
+            {
+              "id": "B",
+              "texto": "20"
+            },
+            {
+              "id": "C",
+              "texto": "21"
+            },
+            {
+              "id": "D",
+              "texto": "22"
+            },
+            {
+              "id": "E",
+              "texto": "23"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "La diferencia constante es 4."
+        },
+        {
+          "id": "AM-009",
+          "tema": "Áreas",
+          "dificultad": "facil",
+          "pregunta": "Un cuadrado tiene lado de 6 cm. Su área es:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "12 cm²"
+            },
+            {
+              "id": "B",
+              "texto": "24 cm²"
+            },
+            {
+              "id": "C",
+              "texto": "30 cm²"
+            },
+            {
+              "id": "D",
+              "texto": "36 cm²"
+            },
+            {
+              "id": "E",
+              "texto": "42 cm²"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "Área=6×6=36 cm²."
+        },
+        {
+          "id": "AM-010",
+          "tema": "Probabilidad",
+          "dificultad": "facil",
+          "pregunta": "En una bolsa hay 3 bolas rojas y 1 azul. La probabilidad de extraer la azul es:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "1/4"
+            },
+            {
+              "id": "B",
+              "texto": "1/3"
+            },
+            {
+              "id": "C",
+              "texto": "1/2"
+            },
+            {
+              "id": "D",
+              "texto": "3/4"
+            },
+            {
+              "id": "E",
+              "texto": "1"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "Hay 1 caso favorable entre 4 posibles."
+        }
+      ]
+    },
+    {
+      "id": "aritmetica",
+      "nombre": "Aritmética",
+      "orden": 3,
+      "preguntas": [
+        {
+          "id": "AR-001",
+          "tema": "Razones y proporciones",
+          "dificultad": "facil",
+          "pregunta": "La razón 12:3 equivale a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "2"
+            },
+            {
+              "id": "B",
+              "texto": "3"
+            },
+            {
+              "id": "C",
+              "texto": "4"
+            },
+            {
+              "id": "D",
+              "texto": "6"
+            },
+            {
+              "id": "E",
+              "texto": "12"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "12/3=4."
+        },
+        {
+          "id": "AR-002",
+          "tema": "Fracciones",
+          "dificultad": "facil",
+          "pregunta": "¿Cuál fracción es equivalente a 1/2?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "2/4"
+            },
+            {
+              "id": "B",
+              "texto": "2/3"
+            },
+            {
+              "id": "C",
+              "texto": "3/4"
+            },
+            {
+              "id": "D",
+              "texto": "4/5"
+            },
+            {
+              "id": "E",
+              "texto": "1/3"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "2/4 se simplifica a 1/2."
+        },
+        {
+          "id": "AR-003",
+          "tema": "Magnitud proporcional",
+          "dificultad": "facil",
+          "pregunta": "Si 5 lápices cuestan S/ 10, ¿cuánto cuestan 10 lápices al mismo precio?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "S/ 15"
+            },
+            {
+              "id": "B",
+              "texto": "S/ 18"
+            },
+            {
+              "id": "C",
+              "texto": "S/ 20"
+            },
+            {
+              "id": "D",
+              "texto": "S/ 22"
+            },
+            {
+              "id": "E",
+              "texto": "S/ 25"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "El doble de lápices cuesta el doble: S/20."
+        },
+        {
+          "id": "AR-004",
+          "tema": "Regla de tres",
+          "dificultad": "facil",
+          "pregunta": "Si 4 kg de azúcar cuestan S/ 20, ¿cuánto cuestan 6 kg?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "S/ 24"
+            },
+            {
+              "id": "B",
+              "texto": "S/ 28"
+            },
+            {
+              "id": "C",
+              "texto": "S/ 30"
+            },
+            {
+              "id": "D",
+              "texto": "S/ 32"
+            },
+            {
+              "id": "E",
+              "texto": "S/ 36"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "Cada kg cuesta S/5; 6 kg cuestan S/30."
+        },
+        {
+          "id": "AR-005",
+          "tema": "Porcentajes",
+          "dificultad": "facil",
+          "pregunta": "El 25% de 200 es:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "25"
+            },
+            {
+              "id": "B",
+              "texto": "40"
+            },
+            {
+              "id": "C",
+              "texto": "50"
+            },
+            {
+              "id": "D",
+              "texto": "75"
+            },
+            {
+              "id": "E",
+              "texto": "100"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "0,25×200=50."
+        },
+        {
+          "id": "AR-006",
+          "tema": "Interés simple",
+          "dificultad": "facil",
+          "pregunta": "Un capital de S/ 200 genera 5% de interés simple en un periodo. ¿Cuál es el interés?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "S/ 5"
+            },
+            {
+              "id": "B",
+              "texto": "S/ 10"
+            },
+            {
+              "id": "C",
+              "texto": "S/ 15"
+            },
+            {
+              "id": "D",
+              "texto": "S/ 20"
+            },
+            {
+              "id": "E",
+              "texto": "S/ 25"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "5% de 200 es S/10."
+        },
+        {
+          "id": "AR-007",
+          "tema": "MCM y MCD",
+          "dificultad": "facil",
+          "pregunta": "El MCM de 4 y 6 es:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "6"
+            },
+            {
+              "id": "B",
+              "texto": "8"
+            },
+            {
+              "id": "C",
+              "texto": "10"
+            },
+            {
+              "id": "D",
+              "texto": "12"
+            },
+            {
+              "id": "E",
+              "texto": "24"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "12 es el menor múltiplo común de 4 y 6."
+        },
+        {
+          "id": "AR-008",
+          "tema": "Mezcla",
+          "dificultad": "facil",
+          "pregunta": "Se mezclan 4 L de agua con 6 L de jugo. ¿Cuántos litros hay en total?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "8"
+            },
+            {
+              "id": "B",
+              "texto": "9"
+            },
+            {
+              "id": "C",
+              "texto": "10"
+            },
+            {
+              "id": "D",
+              "texto": "11"
+            },
+            {
+              "id": "E",
+              "texto": "12"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "4+6=10 litros."
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "nombre": "Álgebra",
+      "orden": 4,
+      "preguntas": [
+        {
+          "id": "AL-001",
+          "tema": "Ecuación lineal",
+          "dificultad": "facil",
+          "pregunta": "Resuelve: x - 4 = 9.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "11"
+            },
+            {
+              "id": "B",
+              "texto": "12"
+            },
+            {
+              "id": "C",
+              "texto": "13"
+            },
+            {
+              "id": "D",
+              "texto": "14"
+            },
+            {
+              "id": "E",
+              "texto": "15"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "x=9+4=13."
+        },
+        {
+          "id": "AL-002",
+          "tema": "Ecuación cuadrática",
+          "dificultad": "facil",
+          "pregunta": "¿Cuál es una solución de x²=36?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "4"
+            },
+            {
+              "id": "B",
+              "texto": "5"
+            },
+            {
+              "id": "C",
+              "texto": "6"
+            },
+            {
+              "id": "D",
+              "texto": "7"
+            },
+            {
+              "id": "E",
+              "texto": "8"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "6²=36."
+        },
+        {
+          "id": "AL-003",
+          "tema": "Teoría de exponentes",
+          "dificultad": "facil",
+          "pregunta": "3² es igual a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "6"
+            },
+            {
+              "id": "B",
+              "texto": "8"
+            },
+            {
+              "id": "C",
+              "texto": "9"
+            },
+            {
+              "id": "D",
+              "texto": "12"
+            },
+            {
+              "id": "E",
+              "texto": "18"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "3²=3×3=9."
+        },
+        {
+          "id": "AL-004",
+          "tema": "Polinomios",
+          "dificultad": "facil",
+          "pregunta": "¿Cuál expresión es un monomio?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "5x²"
+            },
+            {
+              "id": "B",
+              "texto": "x+1"
+            },
+            {
+              "id": "C",
+              "texto": "x²+2x"
+            },
+            {
+              "id": "D",
+              "texto": "1/x"
+            },
+            {
+              "id": "E",
+              "texto": "√x"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "5x² tiene un solo término con exponente entero no negativo."
+        },
+        {
+          "id": "AL-005",
+          "tema": "Productos notables",
+          "dificultad": "facil",
+          "pregunta": "(a-b)² es igual a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "a²-b²"
+            },
+            {
+              "id": "B",
+              "texto": "a²-2ab+b²"
+            },
+            {
+              "id": "C",
+              "texto": "a²+2ab+b²"
+            },
+            {
+              "id": "D",
+              "texto": "2a-2b"
+            },
+            {
+              "id": "E",
+              "texto": "a²-ab"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Es la identidad del binomio al cuadrado con resta."
+        },
+        {
+          "id": "AL-006",
+          "tema": "Factorización",
+          "dificultad": "facil",
+          "pregunta": "x²-16 se factoriza como:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "(x-4)(x+4)"
+            },
+            {
+              "id": "B",
+              "texto": "(x-8)(x+2)"
+            },
+            {
+              "id": "C",
+              "texto": "(x-4)²"
+            },
+            {
+              "id": "D",
+              "texto": "x(x-16)"
+            },
+            {
+              "id": "E",
+              "texto": "(x+16)(x-1)"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "Es una diferencia de cuadrados."
+        },
+        {
+          "id": "AL-007",
+          "tema": "Matrices",
+          "dificultad": "facil",
+          "pregunta": "Una matriz de 3 filas y 2 columnas es de orden:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "2×3"
+            },
+            {
+              "id": "B",
+              "texto": "3×2"
+            },
+            {
+              "id": "C",
+              "texto": "3×3"
+            },
+            {
+              "id": "D",
+              "texto": "2×2"
+            },
+            {
+              "id": "E",
+              "texto": "5×1"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "El orden se expresa filas × columnas."
+        },
+        {
+          "id": "AL-008",
+          "tema": "Funciones",
+          "dificultad": "facil",
+          "pregunta": "En f(x)=3x-1, f(4) es:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "9"
+            },
+            {
+              "id": "B",
+              "texto": "10"
+            },
+            {
+              "id": "C",
+              "texto": "11"
+            },
+            {
+              "id": "D",
+              "texto": "12"
+            },
+            {
+              "id": "E",
+              "texto": "13"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "3(4)-1=11."
+        }
+      ]
+    },
+    {
+      "id": "lenguaje",
+      "nombre": "Lenguaje",
+      "orden": 5,
+      "preguntas": [
+        {
+          "id": "LE-001",
+          "tema": "Comunicación humana",
+          "dificultad": "facil",
+          "pregunta": "En el proceso comunicativo, quien recibe el mensaje es el:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "emisor"
+            },
+            {
+              "id": "B",
+              "texto": "receptor"
+            },
+            {
+              "id": "C",
+              "texto": "código"
+            },
+            {
+              "id": "D",
+              "texto": "canal"
+            },
+            {
+              "id": "E",
+              "texto": "contexto"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "El receptor recibe e interpreta el mensaje."
+        },
+        {
+          "id": "LE-002",
+          "tema": "Ortografía",
+          "dificultad": "facil",
+          "pregunta": "¿Cuál palabra presenta diptongo?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "país"
+            },
+            {
+              "id": "B",
+              "texto": "río"
+            },
+            {
+              "id": "C",
+              "texto": "cielo"
+            },
+            {
+              "id": "D",
+              "texto": "maíz"
+            },
+            {
+              "id": "E",
+              "texto": "día"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "En «cielo» las vocales forman un diptongo."
+        },
+        {
+          "id": "LE-003",
+          "tema": "Acentuación",
+          "dificultad": "facil",
+          "pregunta": "¿Cuál palabra está correctamente tildada?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "camion"
+            },
+            {
+              "id": "B",
+              "texto": "lapíz"
+            },
+            {
+              "id": "C",
+              "texto": "árbol"
+            },
+            {
+              "id": "D",
+              "texto": "jovén"
+            },
+            {
+              "id": "E",
+              "texto": "examén"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "«Árbol» es palabra grave terminada en consonante distinta de n o s y lleva tilde."
+        },
+        {
+          "id": "LE-004",
+          "tema": "Signos de puntuación",
+          "dificultad": "facil",
+          "pregunta": "¿Qué signo se usa al final de una oración enunciativa?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Coma"
+            },
+            {
+              "id": "B",
+              "texto": "Punto"
+            },
+            {
+              "id": "C",
+              "texto": "Dos puntos"
+            },
+            {
+              "id": "D",
+              "texto": "Punto y coma"
+            },
+            {
+              "id": "E",
+              "texto": "Guion"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "El punto cierra una oración enunciativa completa."
+        },
+        {
+          "id": "LE-005",
+          "tema": "Morfología",
+          "dificultad": "facil",
+          "pregunta": "¿Cuál palabra es un verbo?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "casa"
+            },
+            {
+              "id": "B",
+              "texto": "azul"
+            },
+            {
+              "id": "C",
+              "texto": "caminar"
+            },
+            {
+              "id": "D",
+              "texto": "muy"
+            },
+            {
+              "id": "E",
+              "texto": "sobre"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "«Caminar» expresa una acción."
+        },
+        {
+          "id": "LE-006",
+          "tema": "Categorías variables",
+          "dificultad": "facil",
+          "pregunta": "¿Cuál palabra es un sustantivo?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "rápido"
+            },
+            {
+              "id": "B",
+              "texto": "mesa"
+            },
+            {
+              "id": "C",
+              "texto": "ayer"
+            },
+            {
+              "id": "D",
+              "texto": "aunque"
+            },
+            {
+              "id": "E",
+              "texto": "sobre"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "«Mesa» nombra un objeto."
+        },
+        {
+          "id": "LE-007",
+          "tema": "Verbo",
+          "dificultad": "facil",
+          "pregunta": "En «Los niños juegan en el patio», el verbo es:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "niños"
+            },
+            {
+              "id": "B",
+              "texto": "juegan"
+            },
+            {
+              "id": "C",
+              "texto": "patio"
+            },
+            {
+              "id": "D",
+              "texto": "los"
+            },
+            {
+              "id": "E",
+              "texto": "en"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "«Juegan» expresa la acción."
+        },
+        {
+          "id": "LE-008",
+          "tema": "Oración",
+          "dificultad": "facil",
+          "pregunta": "¿Cuál es una oración simple?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Ana canta."
+            },
+            {
+              "id": "B",
+              "texto": "Ana canta y Luis baila."
+            },
+            {
+              "id": "C",
+              "texto": "Cuando llegó, llamó."
+            },
+            {
+              "id": "D",
+              "texto": "Aunque llueva, saldré."
+            },
+            {
+              "id": "E",
+              "texto": "Pedro dijo que vendría."
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "Tiene un solo núcleo verbal principal."
+        }
+      ]
+    },
+    {
+      "id": "civica",
+      "nombre": "Cívica",
+      "orden": 6,
+      "preguntas": [
+        {
+          "id": "CI-001",
+          "tema": "Derechos Humanos",
+          "dificultad": "facil",
+          "pregunta": "Los derechos humanos se caracterizan por corresponder a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "todas las personas"
+            },
+            {
+              "id": "B",
+              "texto": "solo autoridades"
+            },
+            {
+              "id": "C",
+              "texto": "solo adultos"
+            },
+            {
+              "id": "D",
+              "texto": "solo trabajadores"
+            },
+            {
+              "id": "E",
+              "texto": "solo ciudadanos de una región"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "Los derechos humanos corresponden a todas las personas."
+        },
+        {
+          "id": "CI-002",
+          "tema": "Constitución Política",
+          "dificultad": "facil",
+          "pregunta": "La Constitución Política del Perú es:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "la norma fundamental del Estado"
+            },
+            {
+              "id": "B",
+              "texto": "un reglamento deportivo"
+            },
+            {
+              "id": "C",
+              "texto": "un tratado literario"
+            },
+            {
+              "id": "D",
+              "texto": "un manual de química"
+            },
+            {
+              "id": "E",
+              "texto": "una obra artística"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "La Constitución contiene las normas fundamentales del Estado."
+        },
+        {
+          "id": "CI-003",
+          "tema": "Participación ciudadana",
+          "dificultad": "facil",
+          "pregunta": "¿Cuál es un mecanismo de participación ciudadana?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "El voto"
+            },
+            {
+              "id": "B",
+              "texto": "La fotosíntesis"
+            },
+            {
+              "id": "C",
+              "texto": "La factorización"
+            },
+            {
+              "id": "D",
+              "texto": "La métrica"
+            },
+            {
+              "id": "E",
+              "texto": "La traducción"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "El voto permite a la ciudadanía participar en decisiones públicas."
+        },
+        {
+          "id": "CI-004",
+          "tema": "Diversidad e identidad",
+          "dificultad": "facil",
+          "pregunta": "La diversidad lingüística del Perú significa que:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "se hablan distintas lenguas"
+            },
+            {
+              "id": "B",
+              "texto": "solo existe una lengua"
+            },
+            {
+              "id": "C",
+              "texto": "no hay culturas diferentes"
+            },
+            {
+              "id": "D",
+              "texto": "todos tienen las mismas costumbres"
+            },
+            {
+              "id": "E",
+              "texto": "no existen lenguas originarias"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "La diversidad lingüística implica la coexistencia de varias lenguas."
+        },
+        {
+          "id": "CI-005",
+          "tema": "Estado peruano",
+          "dificultad": "facil",
+          "pregunta": "El Poder Ejecutivo forma parte de:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "la organización del Estado"
+            },
+            {
+              "id": "B",
+              "texto": "la literatura"
+            },
+            {
+              "id": "C",
+              "texto": "la química"
+            },
+            {
+              "id": "D",
+              "texto": "la anatomía"
+            },
+            {
+              "id": "E",
+              "texto": "la geometría"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "Es uno de los poderes del Estado."
+        },
+        {
+          "id": "CI-006",
+          "tema": "Ciudadanía",
+          "dificultad": "facil",
+          "pregunta": "Un deber ciudadano es:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "respetar las leyes"
+            },
+            {
+              "id": "B",
+              "texto": "ignorar las normas"
+            },
+            {
+              "id": "C",
+              "texto": "desconocer derechos ajenos"
+            },
+            {
+              "id": "D",
+              "texto": "evitar toda participación"
+            },
+            {
+              "id": "E",
+              "texto": "incumplir obligaciones"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "La ciudadanía implica derechos y también deberes."
+        },
+        {
+          "id": "CI-007",
+          "tema": "Identidad nacional",
+          "dificultad": "facil",
+          "pregunta": "Los símbolos patrios se relacionan con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "identidad nacional"
+            },
+            {
+              "id": "B",
+              "texto": "álgebra"
+            },
+            {
+              "id": "C",
+              "texto": "química"
+            },
+            {
+              "id": "D",
+              "texto": "biología"
+            },
+            {
+              "id": "E",
+              "texto": "trigonometría"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "Los símbolos patrios expresan identidad nacional."
+        },
+        {
+          "id": "CI-008",
+          "tema": "Realidad social",
+          "dificultad": "facil",
+          "pregunta": "La desigualdad social se refiere a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "diferencias en acceso a oportunidades y recursos"
+            },
+            {
+              "id": "B",
+              "texto": "igualdad absoluta"
+            },
+            {
+              "id": "C",
+              "texto": "solo clima"
+            },
+            {
+              "id": "D",
+              "texto": "solo geografía"
+            },
+            {
+              "id": "E",
+              "texto": "solo deporte"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "La desigualdad implica diferencias en oportunidades, recursos o condiciones."
+        }
+      ]
+    },
+    {
+      "id": "ingles",
+      "nombre": "Inglés",
+      "orden": 7,
+      "preguntas": [
+        {
+          "id": "IN-001",
+          "tema": "Present simple of be",
+          "dificultad": "facil",
+          "pregunta": "Choose: «They ___ students».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "am"
+            },
+            {
+              "id": "B",
+              "texto": "is"
+            },
+            {
+              "id": "C",
+              "texto": "are"
+            },
+            {
+              "id": "D",
+              "texto": "be"
+            },
+            {
+              "id": "E",
+              "texto": "been"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "With «they», the present form of «be» is «are»."
+        },
+        {
+          "id": "IN-002",
+          "tema": "Possessive adjectives",
+          "dificultad": "facil",
+          "pregunta": "Choose: «He has a car. It is ___ car».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "his"
+            },
+            {
+              "id": "B",
+              "texto": "her"
+            },
+            {
+              "id": "C",
+              "texto": "their"
+            },
+            {
+              "id": "D",
+              "texto": "our"
+            },
+            {
+              "id": "E",
+              "texto": "my"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "The possessive adjective for «he» is «his»."
+        },
+        {
+          "id": "IN-003",
+          "tema": "There is / There are",
+          "dificultad": "facil",
+          "pregunta": "Choose: «___ two books on the table».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "There is"
+            },
+            {
+              "id": "B",
+              "texto": "There are"
+            },
+            {
+              "id": "C",
+              "texto": "It is"
+            },
+            {
+              "id": "D",
+              "texto": "They is"
+            },
+            {
+              "id": "E",
+              "texto": "There be"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Plural noun: «There are two books»."
+        },
+        {
+          "id": "IN-004",
+          "tema": "Present simple",
+          "dificultad": "facil",
+          "pregunta": "Choose: «She ___ English every day».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "study"
+            },
+            {
+              "id": "B",
+              "texto": "studies"
+            },
+            {
+              "id": "C",
+              "texto": "studying"
+            },
+            {
+              "id": "D",
+              "texto": "studied"
+            },
+            {
+              "id": "E",
+              "texto": "to study"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Third-person singular takes -s/-es in present simple."
+        },
+        {
+          "id": "IN-005",
+          "tema": "Present continuous",
+          "dificultad": "facil",
+          "pregunta": "Choose: «I am ___ a book now».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "read"
+            },
+            {
+              "id": "B",
+              "texto": "reads"
+            },
+            {
+              "id": "C",
+              "texto": "reading"
+            },
+            {
+              "id": "D",
+              "texto": "readed"
+            },
+            {
+              "id": "E",
+              "texto": "to read"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "Present continuous uses am/is/are + verb-ing."
+        },
+        {
+          "id": "IN-006",
+          "tema": "Past simple of be",
+          "dificultad": "facil",
+          "pregunta": "Choose: «They ___ at school yesterday».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "are"
+            },
+            {
+              "id": "B",
+              "texto": "is"
+            },
+            {
+              "id": "C",
+              "texto": "was"
+            },
+            {
+              "id": "D",
+              "texto": "were"
+            },
+            {
+              "id": "E",
+              "texto": "be"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "Past of «be» with «they» is «were»."
+        },
+        {
+          "id": "IN-007",
+          "tema": "Future tense",
+          "dificultad": "facil",
+          "pregunta": "Choose: «We ___ travel tomorrow».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "will"
+            },
+            {
+              "id": "B",
+              "texto": "was"
+            },
+            {
+              "id": "C",
+              "texto": "did"
+            },
+            {
+              "id": "D",
+              "texto": "has"
+            },
+            {
+              "id": "E",
+              "texto": "are"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "«Will» can express future."
+        },
+        {
+          "id": "IN-008",
+          "tema": "Present perfect",
+          "dificultad": "facil",
+          "pregunta": "Choose: «They have ___ the project».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "finish"
+            },
+            {
+              "id": "B",
+              "texto": "finishes"
+            },
+            {
+              "id": "C",
+              "texto": "finished"
+            },
+            {
+              "id": "D",
+              "texto": "finishing"
+            },
+            {
+              "id": "E",
+              "texto": "to finish"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "Present perfect uses have/has + past participle."
+        }
+      ]
+    },
+    {
+      "id": "literatura",
+      "nombre": "Literatura",
+      "orden": 8,
+      "preguntas": [
+        {
+          "id": "LI-001",
+          "tema": "Preceptiva literaria",
+          "dificultad": "facil",
+          "pregunta": "El género lírico se relaciona principalmente con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "expresión de sentimientos y emociones"
+            },
+            {
+              "id": "B",
+              "texto": "demostraciones matemáticas"
+            },
+            {
+              "id": "C",
+              "texto": "leyes jurídicas"
+            },
+            {
+              "id": "D",
+              "texto": "experimentos químicos"
+            },
+            {
+              "id": "E",
+              "texto": "mapas geográficos"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "El género lírico se caracteriza por la expresión subjetiva de sentimientos."
+        },
+        {
+          "id": "LI-002",
+          "tema": "Literatura universal",
+          "dificultad": "facil",
+          "pregunta": "«La Odisea» es atribuida a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Homero"
+            },
+            {
+              "id": "B",
+              "texto": "Dante"
+            },
+            {
+              "id": "C",
+              "texto": "Sófocles"
+            },
+            {
+              "id": "D",
+              "texto": "Molière"
+            },
+            {
+              "id": "E",
+              "texto": "Kafka"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "La obra se atribuye tradicionalmente a Homero."
+        },
+        {
+          "id": "LI-003",
+          "tema": "Literatura universal",
+          "dificultad": "facil",
+          "pregunta": "«Edipo rey» pertenece al género:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "dramático"
+            },
+            {
+              "id": "B",
+              "texto": "lírico"
+            },
+            {
+              "id": "C",
+              "texto": "ensayístico"
+            },
+            {
+              "id": "D",
+              "texto": "periodístico"
+            },
+            {
+              "id": "E",
+              "texto": "científico"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "Es una tragedia griega, por lo tanto pertenece al género dramático."
+        },
+        {
+          "id": "LI-004",
+          "tema": "Literatura universal",
+          "dificultad": "facil",
+          "pregunta": "Dante Alighieri es autor de:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "La Divina Comedia"
+            },
+            {
+              "id": "B",
+              "texto": "Hamlet"
+            },
+            {
+              "id": "C",
+              "texto": "Madame Bovary"
+            },
+            {
+              "id": "D",
+              "texto": "La metamorfosis"
+            },
+            {
+              "id": "E",
+              "texto": "Ulises"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "«La Divina Comedia» es obra de Dante Alighieri."
+        },
+        {
+          "id": "LI-005",
+          "tema": "Literatura española",
+          "dificultad": "facil",
+          "pregunta": "Miguel de Cervantes es autor de:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Don Quijote de la Mancha"
+            },
+            {
+              "id": "B",
+              "texto": "Fuenteovejuna"
+            },
+            {
+              "id": "C",
+              "texto": "La vida es sueño"
+            },
+            {
+              "id": "D",
+              "texto": "Rimas"
+            },
+            {
+              "id": "E",
+              "texto": "Niebla"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "Cervantes escribió «Don Quijote de la Mancha»."
+        },
+        {
+          "id": "LI-006",
+          "tema": "Literatura española",
+          "dificultad": "facil",
+          "pregunta": "Lope de Vega escribió:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Fuenteovejuna"
+            },
+            {
+              "id": "B",
+              "texto": "Don Quijote"
+            },
+            {
+              "id": "C",
+              "texto": "La Celestina"
+            },
+            {
+              "id": "D",
+              "texto": "Niebla"
+            },
+            {
+              "id": "E",
+              "texto": "Campos de Castilla"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "«Fuenteovejuna» es obra de Lope de Vega."
+        },
+        {
+          "id": "LI-007",
+          "tema": "Literatura hispanoamericana",
+          "dificultad": "facil",
+          "pregunta": "Gabriel García Márquez es autor de:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Cien años de soledad"
+            },
+            {
+              "id": "B",
+              "texto": "Rayuela"
+            },
+            {
+              "id": "C",
+              "texto": "Ficciones"
+            },
+            {
+              "id": "D",
+              "texto": "Veinte poemas de amor"
+            },
+            {
+              "id": "E",
+              "texto": "Doña Bárbara"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "«Cien años de soledad» es obra de Gabriel García Márquez."
+        },
+        {
+          "id": "LI-008",
+          "tema": "Literatura peruana",
+          "dificultad": "facil",
+          "pregunta": "Clorinda Matto de Turner escribió:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Aves sin nido"
+            },
+            {
+              "id": "B",
+              "texto": "Tradiciones peruanas"
+            },
+            {
+              "id": "C",
+              "texto": "Trilce"
+            },
+            {
+              "id": "D",
+              "texto": "Los ríos profundos"
+            },
+            {
+              "id": "E",
+              "texto": "La ciudad y los perros"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "«Aves sin nido» es obra de Clorinda Matto de Turner."
+        },
+        {
+          "id": "LI-009",
+          "tema": "Literatura peruana",
+          "dificultad": "facil",
+          "pregunta": "César Vallejo es autor de:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Trilce"
+            },
+            {
+              "id": "B",
+              "texto": "Aves sin nido"
+            },
+            {
+              "id": "C",
+              "texto": "Tradiciones peruanas"
+            },
+            {
+              "id": "D",
+              "texto": "El mundo es ancho y ajeno"
+            },
+            {
+              "id": "E",
+              "texto": "La palabra del mudo"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "«Trilce» es una obra de César Vallejo."
+        },
+        {
+          "id": "LI-010",
+          "tema": "Literatura regional",
+          "dificultad": "facil",
+          "pregunta": "La literatura regional permite conocer principalmente:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "autores y producciones vinculadas a una región"
+            },
+            {
+              "id": "B",
+              "texto": "solo fórmulas matemáticas"
+            },
+            {
+              "id": "C",
+              "texto": "solo idiomas extranjeros"
+            },
+            {
+              "id": "D",
+              "texto": "solo procesos químicos"
+            },
+            {
+              "id": "E",
+              "texto": "solo leyes físicas"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "La literatura regional estudia autores y obras vinculados a un espacio regional."
+        }
+      ]
+    },
+    {
+      "id": "historia",
+      "nombre": "Historia",
+      "orden": 9,
+      "preguntas": [
+        {
+          "id": "HI-001",
+          "tema": "Historia",
+          "dificultad": "facil",
+          "pregunta": "Una fuente histórica sirve para:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "estudiar hechos del pasado"
+            },
+            {
+              "id": "B",
+              "texto": "resolver ecuaciones"
+            },
+            {
+              "id": "C",
+              "texto": "medir temperatura"
+            },
+            {
+              "id": "D",
+              "texto": "hacer reacciones químicas"
+            },
+            {
+              "id": "E",
+              "texto": "calcular áreas"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "Las fuentes históricas permiten reconstruir y estudiar el pasado."
+        },
+        {
+          "id": "HI-002",
+          "tema": "Hominización",
+          "dificultad": "facil",
+          "pregunta": "Homo sapiens pertenece al proceso de:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "hominización"
+            },
+            {
+              "id": "B",
+              "texto": "industrialización"
+            },
+            {
+              "id": "C",
+              "texto": "colonización"
+            },
+            {
+              "id": "D",
+              "texto": "feudalismo"
+            },
+            {
+              "id": "E",
+              "texto": "globalización"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "Homo sapiens forma parte del proceso evolutivo humano."
+        },
+        {
+          "id": "HI-003",
+          "tema": "Culturas clásicas",
+          "dificultad": "facil",
+          "pregunta": "Roma pertenece a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "las culturas clásicas"
+            },
+            {
+              "id": "B",
+              "texto": "las culturas preincaicas"
+            },
+            {
+              "id": "C",
+              "texto": "la Edad Contemporánea"
+            },
+            {
+              "id": "D",
+              "texto": "la independencia del Perú"
+            },
+            {
+              "id": "E",
+              "texto": "la Guerra Fría"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "Roma es una civilización clásica de la Antigüedad."
+        },
+        {
+          "id": "HI-004",
+          "tema": "Poblamiento de América",
+          "dificultad": "facil",
+          "pregunta": "La teoría asiática sostiene que parte del poblamiento americano provino de:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Asia"
+            },
+            {
+              "id": "B",
+              "texto": "Europa únicamente"
+            },
+            {
+              "id": "C",
+              "texto": "África únicamente"
+            },
+            {
+              "id": "D",
+              "texto": "Oceanía únicamente"
+            },
+            {
+              "id": "E",
+              "texto": "Antártida"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "La teoría asiática plantea migraciones desde Asia hacia América."
+        },
+        {
+          "id": "HI-005",
+          "tema": "Culturas peruanas",
+          "dificultad": "facil",
+          "pregunta": "Chavín pertenece al:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Horizonte Temprano"
+            },
+            {
+              "id": "B",
+              "texto": "Intermedio Tardío"
+            },
+            {
+              "id": "C",
+              "texto": "Virreinato"
+            },
+            {
+              "id": "D",
+              "texto": "Republicanismo"
+            },
+            {
+              "id": "E",
+              "texto": "Siglo XX"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "Chavín se ubica en el Horizonte Temprano."
+        },
+        {
+          "id": "HI-006",
+          "tema": "Tahuantinsuyo",
+          "dificultad": "facil",
+          "pregunta": "La máxima autoridad del Tahuantinsuyo era el:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Inca"
+            },
+            {
+              "id": "B",
+              "texto": "Virrey"
+            },
+            {
+              "id": "C",
+              "texto": "Presidente"
+            },
+            {
+              "id": "D",
+              "texto": "Curaca español"
+            },
+            {
+              "id": "E",
+              "texto": "Congresista"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "El Inca era la máxima autoridad política del Tahuantinsuyo."
+        },
+        {
+          "id": "HI-007",
+          "tema": "Edad Media",
+          "dificultad": "facil",
+          "pregunta": "El feudalismo se desarrolló principalmente durante:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "la Edad Media"
+            },
+            {
+              "id": "B",
+              "texto": "la Prehistoria"
+            },
+            {
+              "id": "C",
+              "texto": "la Edad Antigua peruana"
+            },
+            {
+              "id": "D",
+              "texto": "la Guerra Fría"
+            },
+            {
+              "id": "E",
+              "texto": "el siglo XXI"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "El feudalismo fue característico de la Europa medieval."
+        },
+        {
+          "id": "HI-008",
+          "tema": "Independencia",
+          "dificultad": "facil",
+          "pregunta": "José de San Martín se relaciona con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "la independencia del Perú"
+            },
+            {
+              "id": "B",
+              "texto": "la Guerra Fría"
+            },
+            {
+              "id": "C",
+              "texto": "el Imperio romano"
+            },
+            {
+              "id": "D",
+              "texto": "el feudalismo"
+            },
+            {
+              "id": "E",
+              "texto": "la Revolución Industrial"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "San Martín participó en el proceso de independencia del Perú."
+        },
+        {
+          "id": "HI-009",
+          "tema": "Guerra con Chile",
+          "dificultad": "facil",
+          "pregunta": "El Tratado de Ancón se vincula con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "la Guerra con Chile"
+            },
+            {
+              "id": "B",
+              "texto": "la Conquista"
+            },
+            {
+              "id": "C",
+              "texto": "la independencia de Estados Unidos"
+            },
+            {
+              "id": "D",
+              "texto": "la Revolución Francesa"
+            },
+            {
+              "id": "E",
+              "texto": "el Tahuantinsuyo"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "El Tratado de Ancón se firmó al final de la Guerra con Chile."
+        },
+        {
+          "id": "HI-010",
+          "tema": "Siglo XX",
+          "dificultad": "facil",
+          "pregunta": "La Segunda Guerra Mundial ocurrió en:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "el siglo XX"
+            },
+            {
+              "id": "B",
+              "texto": "el siglo XV"
+            },
+            {
+              "id": "C",
+              "texto": "el siglo XVI"
+            },
+            {
+              "id": "D",
+              "texto": "el siglo XVII"
+            },
+            {
+              "id": "E",
+              "texto": "el siglo XVIII"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "La Segunda Guerra Mundial se desarrolló entre 1939 y 1945."
+        }
+      ]
+    },
+    {
+      "id": "filosofia",
+      "nombre": "Filosofía",
+      "orden": 10,
+      "preguntas": [
+        {
+          "id": "FI-001",
+          "tema": "Aspectos generales",
+          "dificultad": "facil",
+          "pregunta": "La palabra filosofía se relaciona etimológicamente con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "amor a la sabiduría"
+            },
+            {
+              "id": "B",
+              "texto": "miedo al conocimiento"
+            },
+            {
+              "id": "C",
+              "texto": "estudio del cuerpo"
+            },
+            {
+              "id": "D",
+              "texto": "medición del espacio"
+            },
+            {
+              "id": "E",
+              "texto": "análisis químico"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "Filosofía proviene de términos griegos relacionados con amor y sabiduría."
+        },
+        {
+          "id": "FI-002",
+          "tema": "Disciplinas filosóficas",
+          "dificultad": "facil",
+          "pregunta": "La ética estudia principalmente:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "la conducta moral"
+            },
+            {
+              "id": "B",
+              "texto": "los triángulos"
+            },
+            {
+              "id": "C",
+              "texto": "los elementos químicos"
+            },
+            {
+              "id": "D",
+              "texto": "el clima"
+            },
+            {
+              "id": "E",
+              "texto": "los músculos"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "La ética reflexiona sobre la conducta moral."
+        },
+        {
+          "id": "FI-003",
+          "tema": "Filosofía antigua",
+          "dificultad": "facil",
+          "pregunta": "Sócrates pertenece a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "la filosofía antigua"
+            },
+            {
+              "id": "B",
+              "texto": "la filosofía medieval"
+            },
+            {
+              "id": "C",
+              "texto": "el positivismo"
+            },
+            {
+              "id": "D",
+              "texto": "el existencialismo"
+            },
+            {
+              "id": "E",
+              "texto": "el marxismo"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "Sócrates es uno de los principales filósofos de la antigua Grecia."
+        },
+        {
+          "id": "FI-004",
+          "tema": "Grandes sistemas",
+          "dificultad": "facil",
+          "pregunta": "Platón fue discípulo de:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Sócrates"
+            },
+            {
+              "id": "B",
+              "texto": "Descartes"
+            },
+            {
+              "id": "C",
+              "texto": "Comte"
+            },
+            {
+              "id": "D",
+              "texto": "Hume"
+            },
+            {
+              "id": "E",
+              "texto": "Sartre"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "Platón fue discípulo de Sócrates."
+        },
+        {
+          "id": "FI-005",
+          "tema": "Helenismo",
+          "dificultad": "facil",
+          "pregunta": "El estoicismo pertenece al periodo:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "helenístico-romano"
+            },
+            {
+              "id": "B",
+              "texto": "medieval"
+            },
+            {
+              "id": "C",
+              "texto": "moderno"
+            },
+            {
+              "id": "D",
+              "texto": "contemporáneo"
+            },
+            {
+              "id": "E",
+              "texto": "prehistórico"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "El estoicismo se desarrolló en el periodo helenístico y romano."
+        },
+        {
+          "id": "FI-006",
+          "tema": "Edad Media",
+          "dificultad": "facil",
+          "pregunta": "Santo Tomás de Aquino se asocia con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "la escolástica"
+            },
+            {
+              "id": "B",
+              "texto": "el positivismo"
+            },
+            {
+              "id": "C",
+              "texto": "el empirismo moderno"
+            },
+            {
+              "id": "D",
+              "texto": "el existencialismo"
+            },
+            {
+              "id": "E",
+              "texto": "el marxismo"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "Santo Tomás es una figura central de la escolástica medieval."
+        },
+        {
+          "id": "FI-007",
+          "tema": "Filosofía moderna",
+          "dificultad": "facil",
+          "pregunta": "Descartes se relaciona con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "racionalismo"
+            },
+            {
+              "id": "B",
+              "texto": "empirismo"
+            },
+            {
+              "id": "C",
+              "texto": "positivismo"
+            },
+            {
+              "id": "D",
+              "texto": "existencialismo"
+            },
+            {
+              "id": "E",
+              "texto": "pragmatismo"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "Descartes es uno de los principales representantes del racionalismo."
+        },
+        {
+          "id": "FI-008",
+          "tema": "Filosofía moderna",
+          "dificultad": "facil",
+          "pregunta": "Hume se relaciona con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "empirismo"
+            },
+            {
+              "id": "B",
+              "texto": "racionalismo"
+            },
+            {
+              "id": "C",
+              "texto": "estoicismo"
+            },
+            {
+              "id": "D",
+              "texto": "escolástica"
+            },
+            {
+              "id": "E",
+              "texto": "neoplatonismo"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "Hume es uno de los principales empiristas."
+        },
+        {
+          "id": "FI-009",
+          "tema": "Filosofía contemporánea",
+          "dificultad": "facil",
+          "pregunta": "Comte se relaciona con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "positivismo"
+            },
+            {
+              "id": "B",
+              "texto": "cinismo"
+            },
+            {
+              "id": "C",
+              "texto": "epicureísmo"
+            },
+            {
+              "id": "D",
+              "texto": "racionalismo"
+            },
+            {
+              "id": "E",
+              "texto": "escolástica"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "Auguste Comte es representante del positivismo."
+        },
+        {
+          "id": "FI-010",
+          "tema": "Filosofía en el Perú",
+          "dificultad": "facil",
+          "pregunta": "Mariátegui es un pensador vinculado a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "la reflexión social y política peruana"
+            },
+            {
+              "id": "B",
+              "texto": "la tragedia griega"
+            },
+            {
+              "id": "C",
+              "texto": "el estoicismo romano"
+            },
+            {
+              "id": "D",
+              "texto": "la escolástica medieval"
+            },
+            {
+              "id": "E",
+              "texto": "la geometría clásica"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "Mariátegui es una figura central del pensamiento social y político peruano."
+        }
+      ]
+    },
+    {
+      "id": "psicologia",
+      "nombre": "Psicología",
+      "orden": 11,
+      "preguntas": [
+        {
+          "id": "PS-001",
+          "tema": "Psicología como ciencia",
+          "dificultad": "facil",
+          "pregunta": "La psicología estudia principalmente:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "el comportamiento y los procesos mentales"
+            },
+            {
+              "id": "B",
+              "texto": "solo números"
+            },
+            {
+              "id": "C",
+              "texto": "solo reacciones químicas"
+            },
+            {
+              "id": "D",
+              "texto": "solo mapas"
+            },
+            {
+              "id": "E",
+              "texto": "solo poemas"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "La psicología estudia el comportamiento y los procesos mentales."
+        },
+        {
+          "id": "PS-002",
+          "tema": "Bases biológicas",
+          "dificultad": "facil",
+          "pregunta": "La neurona es una célula del:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "sistema nervioso"
+            },
+            {
+              "id": "B",
+              "texto": "sistema digestivo"
+            },
+            {
+              "id": "C",
+              "texto": "sistema óseo"
+            },
+            {
+              "id": "D",
+              "texto": "sistema urinario"
+            },
+            {
+              "id": "E",
+              "texto": "sistema muscular exclusivamente"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "La neurona es la unidad básica del sistema nervioso."
+        },
+        {
+          "id": "PS-003",
+          "tema": "Bases biológicas",
+          "dificultad": "facil",
+          "pregunta": "La médula espinal forma parte del:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Sistema Nervioso Central"
+            },
+            {
+              "id": "B",
+              "texto": "aparato digestivo"
+            },
+            {
+              "id": "C",
+              "texto": "sistema respiratorio"
+            },
+            {
+              "id": "D",
+              "texto": "sistema endocrino únicamente"
+            },
+            {
+              "id": "E",
+              "texto": "sistema óseo"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "El Sistema Nervioso Central comprende encéfalo y médula espinal."
+        },
+        {
+          "id": "PS-004",
+          "tema": "Socialización",
+          "dificultad": "facil",
+          "pregunta": "La familia es un ejemplo de:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "agente socializador"
+            },
+            {
+              "id": "B",
+              "texto": "órgano sensorial"
+            },
+            {
+              "id": "C",
+              "texto": "tipo de memoria"
+            },
+            {
+              "id": "D",
+              "texto": "etapa biológica"
+            },
+            {
+              "id": "E",
+              "texto": "músculo"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "La familia cumple un papel importante en la socialización."
+        },
+        {
+          "id": "PS-005",
+          "tema": "Desarrollo humano",
+          "dificultad": "facil",
+          "pregunta": "La adolescencia es una etapa del:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "desarrollo humano"
+            },
+            {
+              "id": "B",
+              "texto": "sistema nervioso"
+            },
+            {
+              "id": "C",
+              "texto": "lenguaje"
+            },
+            {
+              "id": "D",
+              "texto": "álgebra"
+            },
+            {
+              "id": "E",
+              "texto": "clima"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "La adolescencia forma parte del desarrollo humano."
+        },
+        {
+          "id": "PS-006",
+          "tema": "Sensación",
+          "dificultad": "facil",
+          "pregunta": "La visión es una modalidad de:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "sensación"
+            },
+            {
+              "id": "B",
+              "texto": "memoria"
+            },
+            {
+              "id": "C",
+              "texto": "motivación"
+            },
+            {
+              "id": "D",
+              "texto": "inteligencia"
+            },
+            {
+              "id": "E",
+              "texto": "lenguaje"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "La visión es una modalidad sensorial."
+        },
+        {
+          "id": "PS-007",
+          "tema": "Percepción",
+          "dificultad": "facil",
+          "pregunta": "La percepción permite:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "organizar e interpretar información sensorial"
+            },
+            {
+              "id": "B",
+              "texto": "hacer cálculos algebraicos"
+            },
+            {
+              "id": "C",
+              "texto": "producir hormonas"
+            },
+            {
+              "id": "D",
+              "texto": "crear células"
+            },
+            {
+              "id": "E",
+              "texto": "medir distancias"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "La percepción organiza e interpreta la información recibida por los sentidos."
+        },
+        {
+          "id": "PS-008",
+          "tema": "Atención y memoria",
+          "dificultad": "facil",
+          "pregunta": "La memoria permite principalmente:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "almacenar y recuperar información"
+            },
+            {
+              "id": "B",
+              "texto": "medir temperatura"
+            },
+            {
+              "id": "C",
+              "texto": "producir sonidos"
+            },
+            {
+              "id": "D",
+              "texto": "realizar digestión"
+            },
+            {
+              "id": "E",
+              "texto": "mover músculos automáticamente"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "La memoria permite conservar y recuperar información."
+        },
+        {
+          "id": "PS-009",
+          "tema": "Inteligencia",
+          "dificultad": "facil",
+          "pregunta": "La inteligencia emocional se relaciona con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "reconocer y manejar emociones"
+            },
+            {
+              "id": "B",
+              "texto": "medir fuerza"
+            },
+            {
+              "id": "C",
+              "texto": "resolver solo ecuaciones"
+            },
+            {
+              "id": "D",
+              "texto": "describir mapas"
+            },
+            {
+              "id": "E",
+              "texto": "producir hormonas"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "La inteligencia emocional comprende reconocimiento y regulación de emociones."
+        },
+        {
+          "id": "PS-010",
+          "tema": "Afectividad",
+          "dificultad": "facil",
+          "pregunta": "Maslow se relaciona con una teoría de:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "motivación"
+            },
+            {
+              "id": "B",
+              "texto": "percepción visual"
+            },
+            {
+              "id": "C",
+              "texto": "reflejos"
+            },
+            {
+              "id": "D",
+              "texto": "memoria sensorial"
+            },
+            {
+              "id": "E",
+              "texto": "lenguaje"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 11.2,
+          "explicacion": "Maslow es conocido por su teoría de la motivación y jerarquía de necesidades."
+        }
+      ]
+    }
+  ]
+}
