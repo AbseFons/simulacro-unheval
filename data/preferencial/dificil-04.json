@@ -1,0 +1,1271 @@
+{
+  "id": "preferencial-dificil-04",
+  "tipo": "preferencial",
+  "nivel": "dificil",
+  "titulo": "Simulacro Preferencial UNHEVAL 2027 - Difícil",
+  "descripcion": "Simulacro de práctica elaborado a partir del Temario 2027 de Aptitud Verbal y Aptitud Matemática. Las preguntas son originales de práctica y no corresponden a un examen oficial.",
+  "duracionMinutos": 60,
+  "puntajeMaximo": 1000,
+  "configuracion": {
+    "permitirRetroceder": true,
+    "mostrarExplicacionDuranteExamen": false,
+    "confirmarCambioSeccion": true,
+    "confirmarFinalizacion": true
+  },
+  "secciones": [
+    {
+      "id": "aptitud-verbal",
+      "nombre": "Aptitud Verbal",
+      "orden": 1,
+      "preguntas": [
+        {
+          "id": "AV-001",
+          "tema": "Etimología",
+          "dificultad": "dificil",
+          "pregunta": "En «psicología», la raíz «psico-» se relaciona con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "mente"
+            },
+            {
+              "id": "B",
+              "texto": "cuerpo"
+            },
+            {
+              "id": "C",
+              "texto": "tierra"
+            },
+            {
+              "id": "D",
+              "texto": "tiempo"
+            },
+            {
+              "id": "E",
+              "texto": "sociedad"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "La raíz «psico-» alude a mente o alma."
+        },
+        {
+          "id": "AV-002",
+          "tema": "Conectores lógicos",
+          "dificultad": "dificil",
+          "pregunta": "Completa: «La medida redujo los tiempos de espera; _____, aumentó los costos operativos».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "por ello"
+            },
+            {
+              "id": "B",
+              "texto": "sin embargo"
+            },
+            {
+              "id": "C",
+              "texto": "en efecto"
+            },
+            {
+              "id": "D",
+              "texto": "además de"
+            },
+            {
+              "id": "E",
+              "texto": "por tanto"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "El incremento de costos contrasta con la mejora en tiempos."
+        },
+        {
+          "id": "AV-003",
+          "tema": "Conectores lógicos",
+          "dificultad": "dificil",
+          "pregunta": "Completa: «El estudio no demuestra causalidad; _____, aporta evidencia útil sobre una posible relación».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "a pesar de ello"
+            },
+            {
+              "id": "B",
+              "texto": "porque"
+            },
+            {
+              "id": "C",
+              "texto": "por consiguiente"
+            },
+            {
+              "id": "D",
+              "texto": "de modo que"
+            },
+            {
+              "id": "E",
+              "texto": "además de"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "La segunda afirmación se mantiene pese a la limitación señalada."
+        },
+        {
+          "id": "AV-004",
+          "tema": "Comprensión de lectura III",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «Una aplicación incrementó la productividad de un equipo, pero también elevó el número de horas de conexión». ¿Qué conclusión es más equilibrada?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "La aplicación fue totalmente positiva"
+            },
+            {
+              "id": "B",
+              "texto": "La aplicación fue totalmente negativa"
+            },
+            {
+              "id": "C",
+              "texto": "El resultado debe evaluarse considerando beneficios y costos"
+            },
+            {
+              "id": "D",
+              "texto": "La productividad carece de importancia"
+            },
+            {
+              "id": "E",
+              "texto": "Las horas de conexión siempre son perjudiciales"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "El texto presenta simultáneamente un beneficio y un costo."
+        },
+        {
+          "id": "AV-005",
+          "tema": "Comprensión de lectura III",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «Un colegio mejoró sus resultados después de cambiar el currículo y capacitar a los docentes». ¿Qué puede afirmarse con mayor rigor?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Solo el currículo causó la mejora"
+            },
+            {
+              "id": "B",
+              "texto": "Solo la capacitación causó la mejora"
+            },
+            {
+              "id": "C",
+              "texto": "No puede aislarse una única causa sin más información"
+            },
+            {
+              "id": "D",
+              "texto": "La mejora no ocurrió"
+            },
+            {
+              "id": "E",
+              "texto": "Ambos factores tienen exactamente el mismo efecto"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Al cambiar dos factores simultáneamente, no puede atribuirse el resultado a uno solo."
+        },
+        {
+          "id": "AV-006",
+          "tema": "Precisión léxica",
+          "dificultad": "dificil",
+          "pregunta": "En «La decisión fue arbitraria», «arbitraria» significa:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "basada en criterios claros"
+            },
+            {
+              "id": "B",
+              "texto": "tomada sin fundamento suficiente o según voluntad personal"
+            },
+            {
+              "id": "C",
+              "texto": "inevitable"
+            },
+            {
+              "id": "D",
+              "texto": "científica"
+            },
+            {
+              "id": "E",
+              "texto": "colectiva"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "«Arbitraria» se refiere a una decisión poco sustentada o dependiente de la voluntad de quien decide."
+        },
+        {
+          "id": "AV-007",
+          "tema": "Precisión léxica",
+          "dificultad": "dificil",
+          "pregunta": "En «La hipótesis es refutable», «refutable» significa:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "que puede ser sometida a crítica y eventualmente demostrarse falsa"
+            },
+            {
+              "id": "B",
+              "texto": "que es verdadera por definición"
+            },
+            {
+              "id": "C",
+              "texto": "que no puede analizarse"
+            },
+            {
+              "id": "D",
+              "texto": "que carece de sentido"
+            },
+            {
+              "id": "E",
+              "texto": "que es siempre ambigua"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Una afirmación refutable puede ser contrastada y eventualmente rechazada por evidencia."
+        },
+        {
+          "id": "AV-008",
+          "tema": "Analogías",
+          "dificultad": "dificil",
+          "pregunta": "DIAGNÓSTICO es a TRATAMIENTO como PROBLEMA es a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "solución"
+            },
+            {
+              "id": "B",
+              "texto": "pregunta"
+            },
+            {
+              "id": "C",
+              "texto": "causa"
+            },
+            {
+              "id": "D",
+              "texto": "error"
+            },
+            {
+              "id": "E",
+              "texto": "duda"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "El diagnóstico orienta un tratamiento; identificar un problema orienta una solución."
+        },
+        {
+          "id": "AV-009",
+          "tema": "Analogías",
+          "dificultad": "dificil",
+          "pregunta": "ARGUMENTO es a TESIS como EVIDENCIA es a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "afirmación"
+            },
+            {
+              "id": "B",
+              "texto": "error"
+            },
+            {
+              "id": "C",
+              "texto": "duda"
+            },
+            {
+              "id": "D",
+              "texto": "texto"
+            },
+            {
+              "id": "E",
+              "texto": "hipótesis"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "El argumento sustenta una tesis y la evidencia sustenta una afirmación."
+        },
+        {
+          "id": "AV-010",
+          "tema": "Analogías",
+          "dificultad": "dificil",
+          "pregunta": "CÉLULA es a TEJIDO como LADRILLO es a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "pared"
+            },
+            {
+              "id": "B",
+              "texto": "cemento"
+            },
+            {
+              "id": "C",
+              "texto": "edificio"
+            },
+            {
+              "id": "D",
+              "texto": "suelo"
+            },
+            {
+              "id": "E",
+              "texto": "techo"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Una célula integra tejidos y un ladrillo integra una pared."
+        },
+        {
+          "id": "AV-011",
+          "tema": "Plan de redacción",
+          "dificultad": "dificil",
+          "pregunta": "Ordena un proceso de análisis crítico: I. Contrastar fuentes. II. Formular una conclusión. III. Identificar la afirmación principal. IV. Revisar evidencias. V. Detectar supuestos.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "III - IV - I - V - II"
+            },
+            {
+              "id": "B",
+              "texto": "IV - III - V - II - I"
+            },
+            {
+              "id": "C",
+              "texto": "III - I - IV - II - V"
+            },
+            {
+              "id": "D",
+              "texto": "V - III - I - IV - II"
+            },
+            {
+              "id": "E",
+              "texto": "II - III - IV - I - V"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Primero se identifica la tesis, luego se revisan evidencias, se contrastan fuentes, se examinan supuestos y se concluye."
+        },
+        {
+          "id": "AV-012",
+          "tema": "Plan de redacción",
+          "dificultad": "dificil",
+          "pregunta": "Ordena un proceso de planificación: I. Asignar recursos. II. Definir objetivos. III. Evaluar resultados. IV. Ejecutar actividades. V. Establecer acciones.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "II - V - I - IV - III"
+            },
+            {
+              "id": "B",
+              "texto": "V - II - I - III - IV"
+            },
+            {
+              "id": "C",
+              "texto": "II - I - V - III - IV"
+            },
+            {
+              "id": "D",
+              "texto": "III - II - V - I - IV"
+            },
+            {
+              "id": "E",
+              "texto": "IV - II - V - I - III"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Se definen objetivos, se determinan acciones, se asignan recursos, se ejecuta y se evalúa."
+        },
+        {
+          "id": "AV-013",
+          "tema": "Oraciones eliminadas",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué oración debe eliminarse por contradicción? I. La argumentación requiere razones. II. Las evidencias pueden fortalecer una tesis. III. Una conclusión debe guardar relación con las premisas. IV. Un argumento sólido no necesita ningún sustento. V. La coherencia mejora la fuerza argumentativa.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "I"
+            },
+            {
+              "id": "B",
+              "texto": "II"
+            },
+            {
+              "id": "C",
+              "texto": "III"
+            },
+            {
+              "id": "D",
+              "texto": "IV"
+            },
+            {
+              "id": "E",
+              "texto": "V"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 25,
+          "explicacion": "La oración IV contradice la idea de que la argumentación requiere sustento."
+        },
+        {
+          "id": "AV-014",
+          "tema": "Paremiología",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué expresa mejor «Cuando el río suena, piedras trae»?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Los rumores pueden surgir a partir de algún indicio, aunque no constituyan prueba"
+            },
+            {
+              "id": "B",
+              "texto": "Todo rumor es verdadero"
+            },
+            {
+              "id": "C",
+              "texto": "Los ríos siempre llevan piedras"
+            },
+            {
+              "id": "D",
+              "texto": "La naturaleza confirma cualquier noticia"
+            },
+            {
+              "id": "E",
+              "texto": "Las personas deben creer cualquier comentario"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "La paremia sugiere que ciertos rumores pueden tener algún origen, pero no implica que sean necesariamente verdaderos."
+        },
+        {
+          "id": "AV-015",
+          "tema": "Lectura crítica",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «Todos mis amigos prefieren esta opción; por tanto, es la correcta». ¿Qué debilidad hay?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Apelación a la mayoría del círculo cercano"
+            },
+            {
+              "id": "B",
+              "texto": "Definición científica"
+            },
+            {
+              "id": "C",
+              "texto": "Deducción necesaria"
+            },
+            {
+              "id": "D",
+              "texto": "Demostración causal"
+            },
+            {
+              "id": "E",
+              "texto": "No hay conclusión"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "La preferencia de un grupo no demuestra que una opción sea objetivamente correcta."
+        },
+        {
+          "id": "AV-016",
+          "tema": "Lectura crítica",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «El equipo perdió después de cambiar de uniforme; por eso, el uniforme causó la derrota». ¿Qué error presenta?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Confunde sucesión temporal con causalidad"
+            },
+            {
+              "id": "B",
+              "texto": "Usa una tautología"
+            },
+            {
+              "id": "C",
+              "texto": "Presenta una analogía válida"
+            },
+            {
+              "id": "D",
+              "texto": "Carece de conclusión"
+            },
+            {
+              "id": "E",
+              "texto": "Define un concepto"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Que un hecho ocurra antes que otro no demuestra que sea su causa."
+        },
+        {
+          "id": "AV-017",
+          "tema": "Lectura crítica",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «O aceptamos esta propuesta o la institución fracasará». ¿Qué debilidad presenta?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Reduce indebidamente las opciones a solo dos"
+            },
+            {
+              "id": "B",
+              "texto": "Usa demasiadas alternativas"
+            },
+            {
+              "id": "C",
+              "texto": "Demuestra una consecuencia necesaria"
+            },
+            {
+              "id": "D",
+              "texto": "Presenta datos suficientes"
+            },
+            {
+              "id": "E",
+              "texto": "No expresa ninguna postura"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Se plantea una falsa dicotomía al excluir otras posibilidades."
+        },
+        {
+          "id": "AV-018",
+          "tema": "Comprensión de lectura II",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «El desempleo disminuyó mientras aumentaba el empleo temporal». ¿Qué precaución interpretativa es adecuada?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "La mejora del empleo puede requerir analizar también la calidad y estabilidad de los puestos"
+            },
+            {
+              "id": "B",
+              "texto": "El desempleo no disminuyó"
+            },
+            {
+              "id": "C",
+              "texto": "Todo empleo temporal es negativo"
+            },
+            {
+              "id": "D",
+              "texto": "El empleo temporal no cuenta como empleo"
+            },
+            {
+              "id": "E",
+              "texto": "La información es necesariamente falsa"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "La cantidad de empleo no describe por sí sola la estabilidad o calidad del trabajo."
+        },
+        {
+          "id": "AV-019",
+          "tema": "Comprensión de lectura III",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «Una política puede ser eficiente en costos, pero generar efectos sociales negativos». ¿Qué se desprende?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "La eficiencia económica es el único criterio"
+            },
+            {
+              "id": "B",
+              "texto": "La evaluación debe considerar más de una dimensión"
+            },
+            {
+              "id": "C",
+              "texto": "Los costos nunca importan"
+            },
+            {
+              "id": "D",
+              "texto": "Todo efecto social es negativo"
+            },
+            {
+              "id": "E",
+              "texto": "Las políticas no pueden evaluarse"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La frase contrapone dos dimensiones y exige una evaluación más amplia."
+        },
+        {
+          "id": "AV-020",
+          "tema": "Lectura crítica",
+          "dificultad": "dificil",
+          "pregunta": "Lee: «El autor cuestiona la rapidez con que se adoptó la medida, aunque reconoce que perseguía un objetivo legítimo». ¿Cuál es su postura?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Rechazo absoluto del objetivo"
+            },
+            {
+              "id": "B",
+              "texto": "Aceptación completa del procedimiento"
+            },
+            {
+              "id": "C",
+              "texto": "Crítica al procedimiento sin negar el objetivo"
+            },
+            {
+              "id": "D",
+              "texto": "Indiferencia"
+            },
+            {
+              "id": "E",
+              "texto": "Apoyo sin reservas"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "La crítica se dirige a la forma de adopción, no necesariamente al objetivo."
+        }
+      ]
+    },
+    {
+      "id": "aptitud-matematica",
+      "nombre": "Aptitud Matemática",
+      "orden": 2,
+      "preguntas": [
+        {
+          "id": "AM-001",
+          "tema": "Razonamiento lógico",
+          "dificultad": "dificil",
+          "pregunta": "Cinco cajas A, B, C, D y E están alineadas. A está a la izquierda de C; D está a la izquierda de A; B está a la derecha de C; E está entre C y B. ¿Cuál es el orden correcto?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "D - A - C - E - B"
+            },
+            {
+              "id": "B",
+              "texto": "A - D - C - E - B"
+            },
+            {
+              "id": "C",
+              "texto": "D - C - A - E - B"
+            },
+            {
+              "id": "D",
+              "texto": "B - E - C - A - D"
+            },
+            {
+              "id": "E",
+              "texto": "D - A - E - C - B"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "D va antes de A; A antes de C; E entre C y B; por tanto D-A-C-E-B."
+        },
+        {
+          "id": "AM-002",
+          "tema": "Razonamiento inductivo y deductivo",
+          "dificultad": "dificil",
+          "pregunta": "Completa: 5, 12, 21, 32, 45, __.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "56"
+            },
+            {
+              "id": "B",
+              "texto": "58"
+            },
+            {
+              "id": "C",
+              "texto": "60"
+            },
+            {
+              "id": "D",
+              "texto": "62"
+            },
+            {
+              "id": "E",
+              "texto": "64"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Las diferencias son 7,9,11,13; la siguiente es 15. 45+15=60."
+        },
+        {
+          "id": "AM-003",
+          "tema": "Razonamiento inductivo y deductivo",
+          "dificultad": "dificil",
+          "pregunta": "Completa: 3, 7, 15, 31, 63, __.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "95"
+            },
+            {
+              "id": "B",
+              "texto": "111"
+            },
+            {
+              "id": "C",
+              "texto": "127"
+            },
+            {
+              "id": "D",
+              "texto": "128"
+            },
+            {
+              "id": "E",
+              "texto": "129"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Cada término es el doble del anterior más 1: 63×2+1=127."
+        },
+        {
+          "id": "AM-004",
+          "tema": "Planteo de ecuaciones",
+          "dificultad": "dificil",
+          "pregunta": "La suma de dos números es 80 y el mayor es 20 más que el menor. ¿Cuál es el menor?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "25"
+            },
+            {
+              "id": "B",
+              "texto": "28"
+            },
+            {
+              "id": "C",
+              "texto": "30"
+            },
+            {
+              "id": "D",
+              "texto": "32"
+            },
+            {
+              "id": "E",
+              "texto": "35"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "x+(x+20)=80; 2x=60; x=30."
+        },
+        {
+          "id": "AM-005",
+          "tema": "Planteo de ecuaciones",
+          "dificultad": "dificil",
+          "pregunta": "Un número menos su cuarta parte es 36. ¿Cuál es el número?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "42"
+            },
+            {
+              "id": "B",
+              "texto": "44"
+            },
+            {
+              "id": "C",
+              "texto": "48"
+            },
+            {
+              "id": "D",
+              "texto": "52"
+            },
+            {
+              "id": "E",
+              "texto": "54"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "x-x/4=36; 3x/4=36; x=48."
+        },
+        {
+          "id": "AM-006",
+          "tema": "Edades",
+          "dificultad": "dificil",
+          "pregunta": "Dentro de 10 años, la edad de Rosa será el doble de la que tenía hace 2 años. ¿Qué edad tiene actualmente?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "12"
+            },
+            {
+              "id": "B",
+              "texto": "13"
+            },
+            {
+              "id": "C",
+              "texto": "14"
+            },
+            {
+              "id": "D",
+              "texto": "15"
+            },
+            {
+              "id": "E",
+              "texto": "16"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "x+10=2(x-2); x+10=2x-4; x=14."
+        },
+        {
+          "id": "AM-007",
+          "tema": "Móviles",
+          "dificultad": "dificil",
+          "pregunta": "Dos móviles parten de puntos separados 360 km y se acercan a 75 km/h y 45 km/h. ¿Cuánto tardan en encontrarse?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "2 h"
+            },
+            {
+              "id": "B",
+              "texto": "2,5 h"
+            },
+            {
+              "id": "C",
+              "texto": "3 h"
+            },
+            {
+              "id": "D",
+              "texto": "3,5 h"
+            },
+            {
+              "id": "E",
+              "texto": "4 h"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Rapidez relativa=120 km/h; 360/120=3 h."
+        },
+        {
+          "id": "AM-008",
+          "tema": "Móviles",
+          "dificultad": "dificil",
+          "pregunta": "Un vehículo viaja a 72 km/h. Dos horas después sale otro a 96 km/h por la misma ruta. ¿Cuánto tarda el segundo en alcanzarlo?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "4 h"
+            },
+            {
+              "id": "B",
+              "texto": "5 h"
+            },
+            {
+              "id": "C",
+              "texto": "6 h"
+            },
+            {
+              "id": "D",
+              "texto": "7 h"
+            },
+            {
+              "id": "E",
+              "texto": "8 h"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Ventaja=144 km; rapidez relativa=24 km/h; tiempo=6 h."
+        },
+        {
+          "id": "AM-009",
+          "tema": "Cronometría",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué ángulo menor forman las manecillas a las 5:20?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "30°"
+            },
+            {
+              "id": "B",
+              "texto": "35°"
+            },
+            {
+              "id": "C",
+              "texto": "40°"
+            },
+            {
+              "id": "D",
+              "texto": "45°"
+            },
+            {
+              "id": "E",
+              "texto": "50°"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Minutero=120°. Horario=5×30+20×0,5=160°. Diferencia=40°."
+        },
+        {
+          "id": "AM-010",
+          "tema": "Operador matemático",
+          "dificultad": "dificil",
+          "pregunta": "Si a ★ b = 3a² - 2b, ¿cuánto vale 2 ★ 5?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "0"
+            },
+            {
+              "id": "B",
+              "texto": "1"
+            },
+            {
+              "id": "C",
+              "texto": "2"
+            },
+            {
+              "id": "D",
+              "texto": "3"
+            },
+            {
+              "id": "E",
+              "texto": "4"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "3(2²)-2(5)=12-10=2."
+        },
+        {
+          "id": "AM-011",
+          "tema": "Operador matemático",
+          "dificultad": "dificil",
+          "pregunta": "Si a △ b = (a²-b²)/(a-b), con a≠b, ¿cuánto vale 9 △ 4?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "5"
+            },
+            {
+              "id": "B",
+              "texto": "9"
+            },
+            {
+              "id": "C",
+              "texto": "13"
+            },
+            {
+              "id": "D",
+              "texto": "17"
+            },
+            {
+              "id": "E",
+              "texto": "21"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "(a²-b²)/(a-b)=a+b. Entonces 9+4=13."
+        },
+        {
+          "id": "AM-012",
+          "tema": "Sucesiones y series",
+          "dificultad": "dificil",
+          "pregunta": "En una progresión aritmética con primer término 4 y diferencia 7, ¿cuál es el término 11?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "67"
+            },
+            {
+              "id": "B",
+              "texto": "70"
+            },
+            {
+              "id": "C",
+              "texto": "74"
+            },
+            {
+              "id": "D",
+              "texto": "77"
+            },
+            {
+              "id": "E",
+              "texto": "81"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "a11=4+10×7=74."
+        },
+        {
+          "id": "AM-013",
+          "tema": "Sucesiones y series",
+          "dificultad": "dificil",
+          "pregunta": "En la progresión geométrica 2, 6, 18, 54, ... ¿cuál es el sexto término?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "162"
+            },
+            {
+              "id": "B",
+              "texto": "324"
+            },
+            {
+              "id": "C",
+              "texto": "486"
+            },
+            {
+              "id": "D",
+              "texto": "648"
+            },
+            {
+              "id": "E",
+              "texto": "729"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "La razón es 3. a6=2×3^5=486."
+        },
+        {
+          "id": "AM-014",
+          "tema": "Perímetros y áreas",
+          "dificultad": "dificil",
+          "pregunta": "Un terreno rectangular de 30 m por 20 m tiene una zona circular de radio 7 m. Usando π=22/7, ¿qué área queda fuera del círculo?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "426 m²"
+            },
+            {
+              "id": "B",
+              "texto": "436 m²"
+            },
+            {
+              "id": "C",
+              "texto": "446 m²"
+            },
+            {
+              "id": "D",
+              "texto": "456 m²"
+            },
+            {
+              "id": "E",
+              "texto": "466 m²"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Área del rectángulo=600. Área del círculo=(22/7)×49=154. Diferencia=446 m²."
+        },
+        {
+          "id": "AM-015",
+          "tema": "Perímetros y áreas",
+          "dificultad": "dificil",
+          "pregunta": "Un trapecio tiene bases 15 cm y 25 cm y altura 8 cm. ¿Cuál es su área?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "120 cm²"
+            },
+            {
+              "id": "B",
+              "texto": "140 cm²"
+            },
+            {
+              "id": "C",
+              "texto": "160 cm²"
+            },
+            {
+              "id": "D",
+              "texto": "180 cm²"
+            },
+            {
+              "id": "E",
+              "texto": "200 cm²"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "A=(15+25)×8/2=160 cm²."
+        },
+        {
+          "id": "AM-016",
+          "tema": "Conteo de figuras",
+          "dificultad": "dificil",
+          "pregunta": "En una cuadrícula de 5×5 cuadrados unitarios, ¿cuántos cuadrados de todos los tamaños hay?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "45"
+            },
+            {
+              "id": "B",
+              "texto": "50"
+            },
+            {
+              "id": "C",
+              "texto": "55"
+            },
+            {
+              "id": "D",
+              "texto": "60"
+            },
+            {
+              "id": "E",
+              "texto": "65"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "25+16+9+4+1=55 cuadrados."
+        },
+        {
+          "id": "AM-017",
+          "tema": "Análisis combinatorio",
+          "dificultad": "dificil",
+          "pregunta": "¿Cuántas formas hay de ordenar 6 personas en una fila si dos personas específicas deben permanecer juntas?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "120"
+            },
+            {
+              "id": "B",
+              "texto": "180"
+            },
+            {
+              "id": "C",
+              "texto": "240"
+            },
+            {
+              "id": "D",
+              "texto": "360"
+            },
+            {
+              "id": "E",
+              "texto": "720"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Se considera a la pareja como un bloque: 5! formas para ordenar el bloque y los otros 4, multiplicado por 2 órdenes internos: 120×2=240."
+        },
+        {
+          "id": "AM-018",
+          "tema": "Análisis combinatorio",
+          "dificultad": "dificil",
+          "pregunta": "De 9 estudiantes se eligen 3 representantes sin cargos. ¿Cuántos grupos distintos pueden formarse?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "36"
+            },
+            {
+              "id": "B",
+              "texto": "56"
+            },
+            {
+              "id": "C",
+              "texto": "84"
+            },
+            {
+              "id": "D",
+              "texto": "96"
+            },
+            {
+              "id": "E",
+              "texto": "126"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "C(9,3)=9×8×7/(3×2×1)=84."
+        },
+        {
+          "id": "AM-019",
+          "tema": "Probabilidad",
+          "dificultad": "dificil",
+          "pregunta": "Se lanzan dos dados equilibrados. ¿Cuál es la probabilidad de obtener una suma mayor que 10?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "1/18"
+            },
+            {
+              "id": "B",
+              "texto": "1/12"
+            },
+            {
+              "id": "C",
+              "texto": "1/9"
+            },
+            {
+              "id": "D",
+              "texto": "1/6"
+            },
+            {
+              "id": "E",
+              "texto": "1/4"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "Las sumas mayores que 10 son 11 y 12: (5,6),(6,5),(6,6), 3 casos de 36. Probabilidad=3/36=1/12."
+        },
+        {
+          "id": "AM-020",
+          "tema": "Tablas y gráficos estadísticos",
+          "dificultad": "dificil",
+          "pregunta": "Los datos son 6, 8, 10, 12, 14, 16 y 18. ¿Cuál es la media aritmética?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "10"
+            },
+            {
+              "id": "B",
+              "texto": "11"
+            },
+            {
+              "id": "C",
+              "texto": "12"
+            },
+            {
+              "id": "D",
+              "texto": "13"
+            },
+            {
+              "id": "E",
+              "texto": "14"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "La suma es 84 y 84/7=12."
+        }
+      ]
+    }
+  ]
+}

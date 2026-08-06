@@ -1,0 +1,1271 @@
+{
+  "id": "preferencial-intermedio-04",
+  "tipo": "preferencial",
+  "nivel": "intermedio",
+  "titulo": "Simulacro Preferencial UNHEVAL 2027 - Intermedio",
+  "descripcion": "Simulacro de práctica elaborado a partir del Temario 2027 de Aptitud Verbal y Aptitud Matemática. Las preguntas son originales de práctica y no corresponden a un examen oficial.",
+  "duracionMinutos": 60,
+  "puntajeMaximo": 1000,
+  "configuracion": {
+    "permitirRetroceder": true,
+    "mostrarExplicacionDuranteExamen": false,
+    "confirmarCambioSeccion": true,
+    "confirmarFinalizacion": true
+  },
+  "secciones": [
+    {
+      "id": "aptitud-verbal",
+      "nombre": "Aptitud Verbal",
+      "orden": 1,
+      "preguntas": [
+        {
+          "id": "AV-001",
+          "tema": "Etimología",
+          "dificultad": "intermedio",
+          "pregunta": "En «biografía», la raíz «bio-» aporta el significado de:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "vida"
+            },
+            {
+              "id": "B",
+              "texto": "escritura"
+            },
+            {
+              "id": "C",
+              "texto": "tiempo"
+            },
+            {
+              "id": "D",
+              "texto": "lugar"
+            },
+            {
+              "id": "E",
+              "texto": "pensamiento"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "«Bio-» procede del griego bíos, vida."
+        },
+        {
+          "id": "AV-002",
+          "tema": "Etimología",
+          "dificultad": "intermedio",
+          "pregunta": "En «contradecir», el prefijo «contra-» expresa:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "oposición"
+            },
+            {
+              "id": "B",
+              "texto": "posterioridad"
+            },
+            {
+              "id": "C",
+              "texto": "cantidad"
+            },
+            {
+              "id": "D",
+              "texto": "semejanza"
+            },
+            {
+              "id": "E",
+              "texto": "inferioridad"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "«Contra-» expresa oposición o sentido contrario."
+        },
+        {
+          "id": "AV-003",
+          "tema": "Conectores lógicos",
+          "dificultad": "intermedio",
+          "pregunta": "Completa: «El presupuesto era limitado; _____, el equipo logró completar el proyecto».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "sin embargo"
+            },
+            {
+              "id": "B",
+              "texto": "por tanto"
+            },
+            {
+              "id": "C",
+              "texto": "porque"
+            },
+            {
+              "id": "D",
+              "texto": "además"
+            },
+            {
+              "id": "E",
+              "texto": "en consecuencia"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Se contrasta una limitación con un resultado favorable."
+        },
+        {
+          "id": "AV-004",
+          "tema": "Conectores lógicos",
+          "dificultad": "intermedio",
+          "pregunta": "Completa: «Se detectó una falla en el sistema; _____, se suspendió temporalmente el servicio».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "aunque"
+            },
+            {
+              "id": "B",
+              "texto": "por esa razón"
+            },
+            {
+              "id": "C",
+              "texto": "sin embargo"
+            },
+            {
+              "id": "D",
+              "texto": "mientras"
+            },
+            {
+              "id": "E",
+              "texto": "a pesar de"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La suspensión es consecuencia de la falla."
+        },
+        {
+          "id": "AV-005",
+          "tema": "Comprensión de lectura II",
+          "dificultad": "intermedio",
+          "pregunta": "Lee: «Tras incorporar tutorías semanales, disminuyó el número de estudiantes que desaprobaban el curso». ¿Qué inferencia es razonable?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Las tutorías pudieron contribuir a la mejora"
+            },
+            {
+              "id": "B",
+              "texto": "Las tutorías causaron más desaprobados"
+            },
+            {
+              "id": "C",
+              "texto": "Se eliminó el curso"
+            },
+            {
+              "id": "D",
+              "texto": "Todos obtuvieron la misma nota"
+            },
+            {
+              "id": "E",
+              "texto": "Nadie asistió a tutorías"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "La mejora posterior permite considerar una posible contribución de las tutorías."
+        },
+        {
+          "id": "AV-006",
+          "tema": "Comprensión de lectura II",
+          "dificultad": "intermedio",
+          "pregunta": "Lee: «El autor admite que la propuesta tiene ventajas, pero insiste en que su costo debe evaluarse antes de aplicarla». ¿Cuál es su postura?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Aceptación incondicional"
+            },
+            {
+              "id": "B",
+              "texto": "Rechazo absoluto"
+            },
+            {
+              "id": "C",
+              "texto": "Valoración favorable con reserva"
+            },
+            {
+              "id": "D",
+              "texto": "Indiferencia"
+            },
+            {
+              "id": "E",
+              "texto": "Desconocimiento"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Reconoce ventajas, pero condiciona su aplicación a una evaluación previa."
+        },
+        {
+          "id": "AV-007",
+          "tema": "Comprensión de lectura II",
+          "dificultad": "intermedio",
+          "pregunta": "Lee: «Las ventas crecieron en enero y febrero; en marzo disminuyeron ligeramente». ¿Qué ocurrió en marzo?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Aumentaron mucho"
+            },
+            {
+              "id": "B",
+              "texto": "Disminuyeron ligeramente"
+            },
+            {
+              "id": "C",
+              "texto": "Se mantuvieron iguales"
+            },
+            {
+              "id": "D",
+              "texto": "Se duplicaron"
+            },
+            {
+              "id": "E",
+              "texto": "No hubo ventas"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "El texto indica de forma explícita una disminución ligera."
+        },
+        {
+          "id": "AV-008",
+          "tema": "Plan de redacción",
+          "dificultad": "intermedio",
+          "pregunta": "Ordena un procedimiento para resolver un problema: I. Verificar la respuesta. II. Comprender el enunciado. III. Elegir una estrategia. IV. Ejecutar los cálculos.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "II - III - IV - I"
+            },
+            {
+              "id": "B",
+              "texto": "III - II - I - IV"
+            },
+            {
+              "id": "C",
+              "texto": "II - IV - III - I"
+            },
+            {
+              "id": "D",
+              "texto": "I - II - III - IV"
+            },
+            {
+              "id": "E",
+              "texto": "IV - III - II - I"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Se comprende, se elige estrategia, se resuelve y finalmente se verifica."
+        },
+        {
+          "id": "AV-009",
+          "tema": "Plan de redacción",
+          "dificultad": "intermedio",
+          "pregunta": "Ordena la elaboración de una presentación: I. Diseñar diapositivas. II. Definir el mensaje central. III. Ensayar. IV. Exponer.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "II - I - III - IV"
+            },
+            {
+              "id": "B",
+              "texto": "I - II - IV - III"
+            },
+            {
+              "id": "C",
+              "texto": "III - II - I - IV"
+            },
+            {
+              "id": "D",
+              "texto": "II - III - IV - I"
+            },
+            {
+              "id": "E",
+              "texto": "IV - II - I - III"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Primero se define el mensaje, luego se prepara el apoyo visual, se ensaya y se expone."
+        },
+        {
+          "id": "AV-010",
+          "tema": "Precisión léxica",
+          "dificultad": "intermedio",
+          "pregunta": "En «La información era pertinente», «pertinente» significa:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "irrelevante"
+            },
+            {
+              "id": "B",
+              "texto": "adecuada al asunto"
+            },
+            {
+              "id": "C",
+              "texto": "falsa"
+            },
+            {
+              "id": "D",
+              "texto": "extensa"
+            },
+            {
+              "id": "E",
+              "texto": "secreta"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "«Pertinente» es aquello que guarda relación adecuada con el tema o propósito."
+        },
+        {
+          "id": "AV-011",
+          "tema": "Precisión léxica",
+          "dificultad": "intermedio",
+          "pregunta": "En «La explicación fue superficial», «superficial» significa:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "profunda"
+            },
+            {
+              "id": "B",
+              "texto": "poco profunda"
+            },
+            {
+              "id": "C",
+              "texto": "exacta"
+            },
+            {
+              "id": "D",
+              "texto": "extensa"
+            },
+            {
+              "id": "E",
+              "texto": "definitiva"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "En ese contexto, «superficial» significa que aborda algo con poca profundidad."
+        },
+        {
+          "id": "AV-012",
+          "tema": "Analogías",
+          "dificultad": "intermedio",
+          "pregunta": "MAPA es a TERRITORIO como PLANO es a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "edificio"
+            },
+            {
+              "id": "B",
+              "texto": "temperatura"
+            },
+            {
+              "id": "C",
+              "texto": "tiempo"
+            },
+            {
+              "id": "D",
+              "texto": "sonido"
+            },
+            {
+              "id": "E",
+              "texto": "edad"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Un mapa representa un territorio y un plano puede representar un edificio."
+        },
+        {
+          "id": "AV-013",
+          "tema": "Analogías",
+          "dificultad": "intermedio",
+          "pregunta": "PÁGINA es a LIBRO como PÉTALO es a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "raíz"
+            },
+            {
+              "id": "B",
+              "texto": "flor"
+            },
+            {
+              "id": "C",
+              "texto": "tallo"
+            },
+            {
+              "id": "D",
+              "texto": "semilla"
+            },
+            {
+              "id": "E",
+              "texto": "bosque"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La relación es parte-todo."
+        },
+        {
+          "id": "AV-014",
+          "tema": "Analogías",
+          "dificultad": "intermedio",
+          "pregunta": "EXPANDIR es a CONTRAER como AUMENTAR es a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "sumar"
+            },
+            {
+              "id": "B",
+              "texto": "disminuir"
+            },
+            {
+              "id": "C",
+              "texto": "crecer"
+            },
+            {
+              "id": "D",
+              "texto": "elevar"
+            },
+            {
+              "id": "E",
+              "texto": "multiplicar"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "Ambos pares son antónimos."
+        },
+        {
+          "id": "AV-015",
+          "tema": "Oraciones eliminadas",
+          "dificultad": "intermedio",
+          "pregunta": "¿Qué oración rompe la unidad temática? I. La alimentación equilibrada aporta nutrientes. II. Consumir frutas y verduras es recomendable. III. El agua es esencial para el organismo. IV. Las placas tectónicas producen movimientos geológicos. V. Una dieta variada favorece la salud.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "I"
+            },
+            {
+              "id": "B",
+              "texto": "II"
+            },
+            {
+              "id": "C",
+              "texto": "III"
+            },
+            {
+              "id": "D",
+              "texto": "IV"
+            },
+            {
+              "id": "E",
+              "texto": "V"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 25,
+          "explicacion": "La oración IV pertenece a geología y no al tema de alimentación y salud."
+        },
+        {
+          "id": "AV-016",
+          "tema": "Oraciones eliminadas",
+          "dificultad": "intermedio",
+          "pregunta": "¿Qué oración es redundante? I. La función inició a las siete. II. El espectáculo comenzó a las siete de la noche. III. El público ocupó sus asientos. IV. Se apagaron las luces. V. Luego empezó la música.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "I"
+            },
+            {
+              "id": "B",
+              "texto": "II"
+            },
+            {
+              "id": "C",
+              "texto": "III"
+            },
+            {
+              "id": "D",
+              "texto": "IV"
+            },
+            {
+              "id": "E",
+              "texto": "V"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La segunda oración repite la hora de inicio."
+        },
+        {
+          "id": "AV-017",
+          "tema": "Paremiología",
+          "dificultad": "intermedio",
+          "pregunta": "¿Qué expresa «El hábito no hace al monje»?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "La apariencia externa no garantiza la verdadera condición o cualidad"
+            },
+            {
+              "id": "B",
+              "texto": "La ropa define siempre a las personas"
+            },
+            {
+              "id": "C",
+              "texto": "Todos deben vestir igual"
+            },
+            {
+              "id": "D",
+              "texto": "La religión depende del vestido"
+            },
+            {
+              "id": "E",
+              "texto": "La apariencia nunca importa en nada"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "La paremia advierte que no debe juzgarse únicamente por la apariencia."
+        },
+        {
+          "id": "AV-018",
+          "tema": "Lectura crítica",
+          "dificultad": "intermedio",
+          "pregunta": "Lee: «Mi vecino usa ese método y le funciona; por tanto, funcionará para todo el mundo». ¿Cuál es la principal debilidad?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Generaliza a partir de un caso particular"
+            },
+            {
+              "id": "B",
+              "texto": "Usa demasiadas estadísticas"
+            },
+            {
+              "id": "C",
+              "texto": "No contiene conclusión"
+            },
+            {
+              "id": "D",
+              "texto": "Presenta una definición"
+            },
+            {
+              "id": "E",
+              "texto": "Compara dos teorías"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "Un caso particular no basta para asegurar el mismo resultado en todas las personas."
+        },
+        {
+          "id": "AV-019",
+          "tema": "Lectura crítica",
+          "dificultad": "intermedio",
+          "pregunta": "En «Excelente idea: cerrar la única salida en plena emergencia», el tono es:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "literal favorable"
+            },
+            {
+              "id": "B",
+              "texto": "irónico"
+            },
+            {
+              "id": "C",
+              "texto": "descriptivo neutro"
+            },
+            {
+              "id": "D",
+              "texto": "científico"
+            },
+            {
+              "id": "E",
+              "texto": "solemne"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La aparente aprobación contrasta con una acción claramente inconveniente."
+        },
+        {
+          "id": "AV-020",
+          "tema": "Lectura crítica",
+          "dificultad": "intermedio",
+          "pregunta": "Lee: «Si un número es múltiplo de 4, entonces es par. 20 es múltiplo de 4. Por lo tanto, 20 es par». ¿Qué representa la última oración?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Una premisa"
+            },
+            {
+              "id": "B",
+              "texto": "La conclusión"
+            },
+            {
+              "id": "C",
+              "texto": "Un ejemplo sin relación"
+            },
+            {
+              "id": "D",
+              "texto": "Una definición etimológica"
+            },
+            {
+              "id": "E",
+              "texto": "Una contradicción"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "La última oración se deriva de las premisas y constituye la conclusión."
+        }
+      ]
+    },
+    {
+      "id": "aptitud-matematica",
+      "nombre": "Aptitud Matemática",
+      "orden": 2,
+      "preguntas": [
+        {
+          "id": "AM-001",
+          "tema": "Razonamiento lógico",
+          "dificultad": "intermedio",
+          "pregunta": "A está antes que B; D está después de C; C está después de B. ¿Cuál orden es compatible?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "A - B - C - D"
+            },
+            {
+              "id": "B",
+              "texto": "B - A - C - D"
+            },
+            {
+              "id": "C",
+              "texto": "A - C - B - D"
+            },
+            {
+              "id": "D",
+              "texto": "D - C - B - A"
+            },
+            {
+              "id": "E",
+              "texto": "C - A - B - D"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 25,
+          "explicacion": "A debe preceder a B, B preceder a C y C preceder a D."
+        },
+        {
+          "id": "AM-002",
+          "tema": "Razonamiento lógico",
+          "dificultad": "intermedio",
+          "pregunta": "Todos los cuadrados son rectángulos. Esta figura es un cuadrado. Entonces:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "No es rectángulo"
+            },
+            {
+              "id": "B",
+              "texto": "Es rectángulo"
+            },
+            {
+              "id": "C",
+              "texto": "Es círculo"
+            },
+            {
+              "id": "D",
+              "texto": "No tiene lados"
+            },
+            {
+              "id": "E",
+              "texto": "No se puede concluir nada"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "Si todo cuadrado es rectángulo y la figura es cuadrado, necesariamente es rectángulo."
+        },
+        {
+          "id": "AM-003",
+          "tema": "Razonamiento inductivo y deductivo",
+          "dificultad": "intermedio",
+          "pregunta": "Completa: 1, 5, 11, 19, 29, __.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "37"
+            },
+            {
+              "id": "B",
+              "texto": "39"
+            },
+            {
+              "id": "C",
+              "texto": "41"
+            },
+            {
+              "id": "D",
+              "texto": "43"
+            },
+            {
+              "id": "E",
+              "texto": "45"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Las diferencias son 4,6,8,10; sigue 12. 29+12=41."
+        },
+        {
+          "id": "AM-004",
+          "tema": "Razonamiento inductivo y deductivo",
+          "dificultad": "intermedio",
+          "pregunta": "Completa: 100, 90, 72, 46, __.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "10"
+            },
+            {
+              "id": "B",
+              "texto": "12"
+            },
+            {
+              "id": "C",
+              "texto": "14"
+            },
+            {
+              "id": "D",
+              "texto": "16"
+            },
+            {
+              "id": "E",
+              "texto": "18"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "Se restan 10,18,26; la siguiente resta es 34. 46-34=12."
+        },
+        {
+          "id": "AM-005",
+          "tema": "Planteo de ecuaciones",
+          "dificultad": "intermedio",
+          "pregunta": "Cinco veces un número más 5 es 45. ¿Cuál es el número?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "6"
+            },
+            {
+              "id": "B",
+              "texto": "7"
+            },
+            {
+              "id": "C",
+              "texto": "8"
+            },
+            {
+              "id": "D",
+              "texto": "9"
+            },
+            {
+              "id": "E",
+              "texto": "10"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "5x+5=45; 5x=40; x=8."
+        },
+        {
+          "id": "AM-006",
+          "tema": "Planteo de ecuaciones",
+          "dificultad": "intermedio",
+          "pregunta": "La tercera parte de un número menos 2 es 8. ¿Cuál es el número?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "24"
+            },
+            {
+              "id": "B",
+              "texto": "27"
+            },
+            {
+              "id": "C",
+              "texto": "30"
+            },
+            {
+              "id": "D",
+              "texto": "33"
+            },
+            {
+              "id": "E",
+              "texto": "36"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "x/3-2=8; x/3=10; x=30."
+        },
+        {
+          "id": "AM-007",
+          "tema": "Edades",
+          "dificultad": "intermedio",
+          "pregunta": "Dentro de 4 años, la edad de Miguel será el doble de la que tenía hace 6 años. ¿Qué edad tiene ahora?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "14"
+            },
+            {
+              "id": "B",
+              "texto": "15"
+            },
+            {
+              "id": "C",
+              "texto": "16"
+            },
+            {
+              "id": "D",
+              "texto": "17"
+            },
+            {
+              "id": "E",
+              "texto": "18"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "x+4=2(x-6); x+4=2x-12; x=16."
+        },
+        {
+          "id": "AM-008",
+          "tema": "Móviles",
+          "dificultad": "intermedio",
+          "pregunta": "Un vehículo viaja a 60 km/h y otro a 80 km/h en la misma dirección. Si el más rápido parte 40 km detrás, ¿en cuánto tiempo lo alcanza?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "1 h"
+            },
+            {
+              "id": "B",
+              "texto": "1,5 h"
+            },
+            {
+              "id": "C",
+              "texto": "2 h"
+            },
+            {
+              "id": "D",
+              "texto": "2,5 h"
+            },
+            {
+              "id": "E",
+              "texto": "3 h"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "La rapidez relativa es 20 km/h; 40/20 = 2 h."
+        },
+        {
+          "id": "AM-009",
+          "tema": "Cronometría",
+          "dificultad": "intermedio",
+          "pregunta": "¿Qué ángulo menor forman las manecillas a las 9:00?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "45°"
+            },
+            {
+              "id": "B",
+              "texto": "60°"
+            },
+            {
+              "id": "C",
+              "texto": "90°"
+            },
+            {
+              "id": "D",
+              "texto": "120°"
+            },
+            {
+              "id": "E",
+              "texto": "180°"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "A las 9:00 el minutero está en 12 y el horario en 9: forman 90°."
+        },
+        {
+          "id": "AM-010",
+          "tema": "Operador matemático",
+          "dificultad": "intermedio",
+          "pregunta": "Si a ★ b = a + 2b, ¿cuánto vale 7 ★ 3?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "10"
+            },
+            {
+              "id": "B",
+              "texto": "11"
+            },
+            {
+              "id": "C",
+              "texto": "12"
+            },
+            {
+              "id": "D",
+              "texto": "13"
+            },
+            {
+              "id": "E",
+              "texto": "14"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 25,
+          "explicacion": "7+2(3)=13."
+        },
+        {
+          "id": "AM-011",
+          "tema": "Operador matemático",
+          "dificultad": "intermedio",
+          "pregunta": "Si a △ b = a² - b², ¿cuánto vale 5 △ 3?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "8"
+            },
+            {
+              "id": "B",
+              "texto": "12"
+            },
+            {
+              "id": "C",
+              "texto": "16"
+            },
+            {
+              "id": "D",
+              "texto": "20"
+            },
+            {
+              "id": "E",
+              "texto": "22"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "25-9=16."
+        },
+        {
+          "id": "AM-012",
+          "tema": "Sucesiones y series",
+          "dificultad": "intermedio",
+          "pregunta": "En la sucesión 8, 13, 18, 23, ... ¿cuál es el término 10?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "48"
+            },
+            {
+              "id": "B",
+              "texto": "50"
+            },
+            {
+              "id": "C",
+              "texto": "53"
+            },
+            {
+              "id": "D",
+              "texto": "55"
+            },
+            {
+              "id": "E",
+              "texto": "58"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "a10=8+9×5=53."
+        },
+        {
+          "id": "AM-013",
+          "tema": "Sucesiones y series",
+          "dificultad": "intermedio",
+          "pregunta": "¿Cuál es la suma de los primeros 6 términos de 1, 4, 7, 10, ...?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "45"
+            },
+            {
+              "id": "B",
+              "texto": "48"
+            },
+            {
+              "id": "C",
+              "texto": "51"
+            },
+            {
+              "id": "D",
+              "texto": "54"
+            },
+            {
+              "id": "E",
+              "texto": "57"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Los seis términos son 1,4,7,10,13,16 y suman 51."
+        },
+        {
+          "id": "AM-014",
+          "tema": "Perímetros y áreas",
+          "dificultad": "intermedio",
+          "pregunta": "Un rectángulo de 16 m por 12 m contiene una zona cuadrada de 8 m de lado. ¿Qué área queda fuera?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "112 m²"
+            },
+            {
+              "id": "B",
+              "texto": "120 m²"
+            },
+            {
+              "id": "C",
+              "texto": "128 m²"
+            },
+            {
+              "id": "D",
+              "texto": "136 m²"
+            },
+            {
+              "id": "E",
+              "texto": "144 m²"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Área total 192; cuadrado 64; diferencia 128 m²."
+        },
+        {
+          "id": "AM-015",
+          "tema": "Perímetros y áreas",
+          "dificultad": "intermedio",
+          "pregunta": "Un círculo tiene diámetro 10 cm. Usando π≈3,14, ¿cuál es su área?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "31,4 cm²"
+            },
+            {
+              "id": "B",
+              "texto": "62,8 cm²"
+            },
+            {
+              "id": "C",
+              "texto": "78,5 cm²"
+            },
+            {
+              "id": "D",
+              "texto": "100 cm²"
+            },
+            {
+              "id": "E",
+              "texto": "314 cm²"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Radio=5 cm; área=3,14×25=78,5 cm²."
+        },
+        {
+          "id": "AM-016",
+          "tema": "Conteo de figuras",
+          "dificultad": "intermedio",
+          "pregunta": "En una cuadrícula de 3×2 cuadrados unitarios, ¿cuántos cuadrados de todos los tamaños existen?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "6"
+            },
+            {
+              "id": "B",
+              "texto": "7"
+            },
+            {
+              "id": "C",
+              "texto": "8"
+            },
+            {
+              "id": "D",
+              "texto": "9"
+            },
+            {
+              "id": "E",
+              "texto": "10"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Hay 6 cuadrados 1×1 y 2 cuadrados 2×2: total 8."
+        },
+        {
+          "id": "AM-017",
+          "tema": "Análisis combinatorio",
+          "dificultad": "intermedio",
+          "pregunta": "¿De cuántas maneras pueden elegirse 2 personas de un grupo de 5?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "5"
+            },
+            {
+              "id": "B",
+              "texto": "8"
+            },
+            {
+              "id": "C",
+              "texto": "10"
+            },
+            {
+              "id": "D",
+              "texto": "15"
+            },
+            {
+              "id": "E",
+              "texto": "20"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "C(5,2)=5×4/2=10."
+        },
+        {
+          "id": "AM-018",
+          "tema": "Probabilidad",
+          "dificultad": "intermedio",
+          "pregunta": "Una caja tiene 6 fichas: 2 blancas y 4 negras. ¿Probabilidad de extraer una blanca?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "1/6"
+            },
+            {
+              "id": "B",
+              "texto": "1/3"
+            },
+            {
+              "id": "C",
+              "texto": "1/2"
+            },
+            {
+              "id": "D",
+              "texto": "2/3"
+            },
+            {
+              "id": "E",
+              "texto": "5/6"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "2/6 simplifica a 1/3."
+        },
+        {
+          "id": "AM-019",
+          "tema": "Probabilidad",
+          "dificultad": "intermedio",
+          "pregunta": "Se lanza un dado. ¿Cuál es la probabilidad de obtener un número menor que 3?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "1/6"
+            },
+            {
+              "id": "B",
+              "texto": "1/3"
+            },
+            {
+              "id": "C",
+              "texto": "1/2"
+            },
+            {
+              "id": "D",
+              "texto": "2/3"
+            },
+            {
+              "id": "E",
+              "texto": "5/6"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 25,
+          "explicacion": "Los favorables son 1 y 2: 2/6=1/3."
+        },
+        {
+          "id": "AM-020",
+          "tema": "Tablas y gráficos estadísticos",
+          "dificultad": "intermedio",
+          "pregunta": "Los tiempos registrados son 12, 14, 14, 16 y 19 minutos. ¿Cuál es la mediana?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "12"
+            },
+            {
+              "id": "B",
+              "texto": "13"
+            },
+            {
+              "id": "C",
+              "texto": "14"
+            },
+            {
+              "id": "D",
+              "texto": "15"
+            },
+            {
+              "id": "E",
+              "texto": "16"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 25,
+          "explicacion": "Ordenados los datos, el valor central es 14."
+        }
+      ]
+    }
+  ]
+}
