@@ -70,13 +70,30 @@
     },
     {
       "tipo": "general",
+      "nivel": "facil",
+      "archivo": "data/general/facil-02.json"
+    },
+
+    {
+      "tipo": "general",
       "nivel": "intermedio",
       "archivo": "data/general/intermedio-01.json"
     },
     {
       "tipo": "general",
+      "nivel": "intermedio",
+      "archivo": "data/general/intermedio-02.json"
+    },
+
+    {
+      "tipo": "general",
       "nivel": "dificil",
       "archivo": "data/general/dificil-01.json"
+    },
+    {
+      "tipo": "general",
+      "nivel": "dificil",
+      "archivo": "data/general/dificil-02.json"
     }
   ]
 }
