@@ -28,8 +28,39 @@
     },
     {
       "tipo": "preferencial",
+      "nivel": "intermedio",
+      "archivo": "data/preferencial/intermedio-02.json"
+    },
+    {
+      "tipo": "preferencial",
+      "nivel": "intermedio",
+      "archivo": "data/preferencial/intermedio-03.json"
+    },
+    {
+      "tipo": "preferencial",
+      "nivel": "intermedio",
+      "archivo": "data/preferencial/intermedio-04.json"
+    },
+    
+    {
+      "tipo": "preferencial",
       "nivel": "dificil",
       "archivo": "data/preferencial/dificil-01.json"
+    },
+    {
+      "tipo": "preferencial",
+      "nivel": "dificil",
+      "archivo": "data/preferencial/dificil-02.json"
+    },
+    {
+      "tipo": "preferencial",
+      "nivel": "dificil",
+      "archivo": "data/preferencial/dificil-03.json"
+    },
+    {
+      "tipo": "preferencial",
+      "nivel": "dificil",
+      "archivo": "data/preferencial/dificil-04.json"
     },
 
     {
