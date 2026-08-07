@@ -1,0 +1,3198 @@
+{
+  "id": "preferencial-area-ii-simulacro-100-01",
+  "tipo": "preferencial",
+  "area": "II",
+  "areaNombre": "Ciencias de la Educación, Humanidades y Sociales",
+  "carreraReferencia": "Educación Física",
+  "nivel": "simulacro",
+  "titulo": "Simulacro Preferencial UNHEVAL - Área II - 100 preguntas",
+  "descripcion": "Simulacro completo de 100 preguntas basado en la estructura del examen de referencia.",
+  "duracionMinutos": 180,
+  "duracionEsConfiguracionDePractica": true,
+  "puntajeMaximo": 1000,
+  "configuracion": {
+    "permitirRetroceder": true,
+    "mostrarExplicacionDuranteExamen": false,
+    "confirmarCambioSeccion": true,
+    "confirmarFinalizacion": true
+  },
+  "secciones": [
+    {
+      "id": "aptitud-verbal",
+      "nombre": "Aptitud Verbal",
+      "orden": 1,
+      "preguntas": [
+        {
+          "id": "AV-001",
+          "tema": "Etimología",
+          "dificultad": "dificil",
+          "pregunta": "En la palabra «piromanía», el elemento «piro-» se relaciona con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "enfermedad"
+            },
+            {
+              "id": "B",
+              "texto": "fuego"
+            },
+            {
+              "id": "C",
+              "texto": "aire"
+            },
+            {
+              "id": "D",
+              "texto": "miedo"
+            },
+            {
+              "id": "E",
+              "texto": "movimiento"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "El elemento griego «piro-» significa fuego."
+        },
+        {
+          "id": "AV-002",
+          "tema": "Etimología",
+          "dificultad": "dificil",
+          "pregunta": "En «antipirético», el componente «pir-» alude principalmente a:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "dolor"
+            },
+            {
+              "id": "B",
+              "texto": "fiebre"
+            },
+            {
+              "id": "C",
+              "texto": "tos"
+            },
+            {
+              "id": "D",
+              "texto": "infección"
+            },
+            {
+              "id": "E",
+              "texto": "sangre"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "«Pirético» se relaciona con la fiebre; un antipirético ayuda a reducirla."
+        },
+        {
+          "id": "AV-003",
+          "tema": "Conectores lógicos",
+          "dificultad": "dificil",
+          "pregunta": "Completa correctamente: «La evacuación fue oportuna; _____, varias familias pudieron salir antes de que el incendio se propagara».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "sin embargo"
+            },
+            {
+              "id": "B",
+              "texto": "por ello"
+            },
+            {
+              "id": "C",
+              "texto": "aunque"
+            },
+            {
+              "id": "D",
+              "texto": "a pesar de"
+            },
+            {
+              "id": "E",
+              "texto": "mientras"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "«Por ello» expresa una consecuencia de la evacuación oportuna."
+        },
+        {
+          "id": "AV-004",
+          "tema": "Conectores lógicos",
+          "dificultad": "dificil",
+          "pregunta": "Completa: «La ciudad dispone de un moderno sistema de alerta; _____, sigue siendo vulnerable frente a eventos extremos».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "por consiguiente"
+            },
+            {
+              "id": "B",
+              "texto": "además"
+            },
+            {
+              "id": "C",
+              "texto": "sin embargo"
+            },
+            {
+              "id": "D",
+              "texto": "por ejemplo"
+            },
+            {
+              "id": "E",
+              "texto": "de modo que"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "La segunda proposición contrasta con la primera, por lo que corresponde un conector adversativo."
+        },
+        {
+          "id": "AV-005",
+          "tema": "Analogías",
+          "dificultad": "dificil",
+          "pregunta": "TERMÓMETRO : TEMPERATURA ::",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "balanza : peso"
+            },
+            {
+              "id": "B",
+              "texto": "reloj : sonido"
+            },
+            {
+              "id": "C",
+              "texto": "regla : color"
+            },
+            {
+              "id": "D",
+              "texto": "mapa : distancia"
+            },
+            {
+              "id": "E",
+              "texto": "lupa : tamaño"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "El termómetro mide la temperatura y la balanza mide el peso."
+        },
+        {
+          "id": "AV-006",
+          "tema": "Analogías",
+          "dificultad": "dificil",
+          "pregunta": "EVACUACIÓN : DESASTRE ::",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "vacunación : epidemia"
+            },
+            {
+              "id": "B",
+              "texto": "lectura : biblioteca"
+            },
+            {
+              "id": "C",
+              "texto": "compra : mercado"
+            },
+            {
+              "id": "D",
+              "texto": "viaje : carretera"
+            },
+            {
+              "id": "E",
+              "texto": "lluvia : nube"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "Ambas relaciones vinculan una acción preventiva o de protección con una situación de riesgo."
+        },
+        {
+          "id": "AV-007",
+          "tema": "Comprensión de textos",
+          "dificultad": "dificil",
+          "pregunta": "Lee el siguiente texto y responde las preguntas AV-007 y AV-008:\n\n«El sistema inmunitario reconoce sustancias extrañas y activa distintos mecanismos de defensa. Cuando una de estas respuestas pierde regulación, puede atacar componentes del propio organismo o reaccionar de forma excesiva frente a elementos que normalmente serían inofensivos. Por ello, una respuesta inmunitaria intensa no siempre significa una protección más eficaz».\n\nSegún el texto, ¿cuál es la idea principal?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Toda respuesta intensa del sistema inmunitario es beneficiosa."
+            },
+            {
+              "id": "B",
+              "texto": "El sistema inmunitario solo actúa frente a bacterias."
+            },
+            {
+              "id": "C",
+              "texto": "La eficacia inmunitaria depende también de una adecuada regulación."
+            },
+            {
+              "id": "D",
+              "texto": "Las sustancias inofensivas nunca activan respuestas inmunitarias."
+            },
+            {
+              "id": "E",
+              "texto": "El sistema inmunitario carece de mecanismos de reconocimiento."
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "El texto destaca que la defensa inmunitaria debe estar regulada y que una respuesta excesiva puede ser perjudicial."
+        },
+        {
+          "id": "AV-008",
+          "tema": "Comprensión de textos",
+          "dificultad": "dificil",
+          "pregunta": "De acuerdo con el texto de la pregunta AV-007, ¿qué afirmación es compatible con su contenido?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Una reacción excesiva puede producir efectos perjudiciales."
+            },
+            {
+              "id": "B",
+              "texto": "La inmunidad siempre distingue perfectamente lo propio de lo extraño."
+            },
+            {
+              "id": "C",
+              "texto": "Una respuesta más intensa garantiza mayor protección."
+            },
+            {
+              "id": "D",
+              "texto": "Solo los microorganismos desencadenan respuestas inmunitarias."
+            },
+            {
+              "id": "E",
+              "texto": "El sistema inmunitario no posee mecanismos de defensa."
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "El texto señala expresamente que una respuesta excesiva puede afectar al propio organismo o reaccionar ante elementos inofensivos."
+        },
+        {
+          "id": "AV-009",
+          "tema": "Paremiología",
+          "dificultad": "dificil",
+          "pregunta": "El refrán «Más vale prevenir que lamentar» aconseja principalmente:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "actuar solo después del problema"
+            },
+            {
+              "id": "B",
+              "texto": "evitar riesgos antes de que ocurran daños"
+            },
+            {
+              "id": "C",
+              "texto": "confiar en la suerte"
+            },
+            {
+              "id": "D",
+              "texto": "aceptar toda dificultad sin actuar"
+            },
+            {
+              "id": "E",
+              "texto": "postergar decisiones importantes"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "El refrán valora la prevención frente a las consecuencias de un problema."
+        },
+        {
+          "id": "AV-010",
+          "tema": "Paremiología",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué refrán expresa mejor la idea de que el esfuerzo constante favorece el logro de una meta?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "A caballo regalado no se le mira el diente."
+            },
+            {
+              "id": "B",
+              "texto": "Camarón que se duerme se lo lleva la corriente."
+            },
+            {
+              "id": "C",
+              "texto": "El que persevera, alcanza."
+            },
+            {
+              "id": "D",
+              "texto": "En boca cerrada no entran moscas."
+            },
+            {
+              "id": "E",
+              "texto": "Más vale pájaro en mano que ciento volando."
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "«El que persevera, alcanza» relaciona la constancia con la consecución de objetivos."
+        }
+      ]
+    },
+    {
+      "id": "aptitud-matematica",
+      "nombre": "Aptitud Matemática",
+      "orden": 2,
+      "preguntas": [
+        {
+          "id": "AM-011",
+          "tema": "Sucesiones numéricas",
+          "dificultad": "dificil",
+          "pregunta": "En la sucesión 4, 7, 13, 22, 34, ..., ¿cuál es el siguiente término?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "46"
+            },
+            {
+              "id": "B",
+              "texto": "47"
+            },
+            {
+              "id": "C",
+              "texto": "48"
+            },
+            {
+              "id": "D",
+              "texto": "49"
+            },
+            {
+              "id": "E",
+              "texto": "50"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "Las diferencias son 3, 6, 9, 12; la siguiente es 15. Entonces 34 + 15 = 49."
+        },
+        {
+          "id": "AM-012",
+          "tema": "Ordenamiento circular",
+          "dificultad": "dificil",
+          "pregunta": "Cinco amigos —Ana, Bruno, Carla, Diego y Elena— se sientan alrededor de una mesa circular. Ana está entre Bruno y Carla. Diego se sienta frente al espacio que queda entre Bruno y Elena, y Carla no está junto a Elena. ¿Quién necesariamente puede quedar junto a Diego?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Ana"
+            },
+            {
+              "id": "B",
+              "texto": "Bruno"
+            },
+            {
+              "id": "C",
+              "texto": "Carla"
+            },
+            {
+              "id": "D",
+              "texto": "Elena"
+            },
+            {
+              "id": "E",
+              "texto": "No puede determinarse"
+            }
+          ],
+          "respuestaCorrecta": "E",
+          "puntaje": 9.2,
+          "explicacion": "Con la información dada existen más de una disposición circular válida; no se determina un único vecino de Diego."
+        },
+        {
+          "id": "AM-013",
+          "tema": "Edades",
+          "dificultad": "dificil",
+          "pregunta": "La edad de un padre es actualmente el triple de la de su hijo. Dentro de 10 años, la edad del padre será el doble de la del hijo. ¿Qué edad tiene hoy el hijo?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "8"
+            },
+            {
+              "id": "B",
+              "texto": "10"
+            },
+            {
+              "id": "C",
+              "texto": "12"
+            },
+            {
+              "id": "D",
+              "texto": "14"
+            },
+            {
+              "id": "E",
+              "texto": "15"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Si el hijo tiene x años, el padre tiene 3x. En 10 años: 3x+10 = 2(x+10), de donde x=10."
+        },
+        {
+          "id": "AM-014",
+          "tema": "Razonamiento numérico",
+          "dificultad": "dificil",
+          "pregunta": "Si 0,\\overline{27} se expresa como fracción irreducible, ¿cuál es la suma de su numerador y denominador?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "12"
+            },
+            {
+              "id": "B",
+              "texto": "14"
+            },
+            {
+              "id": "C",
+              "texto": "16"
+            },
+            {
+              "id": "D",
+              "texto": "18"
+            },
+            {
+              "id": "E",
+              "texto": "20"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "0,\\overline{27}=27/99=3/11. La suma es 3+11=14."
+        },
+        {
+          "id": "AM-015",
+          "tema": "Patrones numéricos",
+          "dificultad": "dificil",
+          "pregunta": "Una sucesión se forma así: 2, 6, 12, 20, 30, ... ¿Cuál es el octavo término?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "56"
+            },
+            {
+              "id": "B",
+              "texto": "64"
+            },
+            {
+              "id": "C",
+              "texto": "70"
+            },
+            {
+              "id": "D",
+              "texto": "72"
+            },
+            {
+              "id": "E",
+              "texto": "90"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "Los términos siguen n(n+1): 1·2, 2·3, 3·4... El octavo es 8·9=72."
+        },
+        {
+          "id": "AM-016",
+          "tema": "Edades",
+          "dificultad": "dificil",
+          "pregunta": "Hace 6 años, la edad de Rosa era la mitad de la edad que tendrá dentro de 12 años. ¿Cuál es su edad actual?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "20"
+            },
+            {
+              "id": "B",
+              "texto": "22"
+            },
+            {
+              "id": "C",
+              "texto": "24"
+            },
+            {
+              "id": "D",
+              "texto": "26"
+            },
+            {
+              "id": "E",
+              "texto": "30"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "Si x es la edad actual: x-6 = (x+12)/2. Entonces 2x-12=x+12 y x=24."
+        },
+        {
+          "id": "AM-017",
+          "tema": "Edades y proporciones",
+          "dificultad": "dificil",
+          "pregunta": "Una madre tiene 36 años y su hija 12. ¿Dentro de cuántos años la edad de la madre será el doble de la de su hija?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "8"
+            },
+            {
+              "id": "B",
+              "texto": "10"
+            },
+            {
+              "id": "C",
+              "texto": "12"
+            },
+            {
+              "id": "D",
+              "texto": "14"
+            },
+            {
+              "id": "E",
+              "texto": "16"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "36+x = 2(12+x). Entonces 36+x=24+2x y x=12."
+        },
+        {
+          "id": "AM-018",
+          "tema": "Movimiento relativo",
+          "dificultad": "dificil",
+          "pregunta": "Dos vehículos están separados 360 m y avanzan uno hacia el otro con velocidades constantes de 5 m/s y 7 m/s. ¿Después de cuántos segundos se encuentran?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "24"
+            },
+            {
+              "id": "B",
+              "texto": "26"
+            },
+            {
+              "id": "C",
+              "texto": "28"
+            },
+            {
+              "id": "D",
+              "texto": "30"
+            },
+            {
+              "id": "E",
+              "texto": "32"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "La velocidad relativa es 5+7=12 m/s. El tiempo es 360/12=30 s."
+        },
+        {
+          "id": "AM-019",
+          "tema": "Relojes y campanadas",
+          "dificultad": "dificil",
+          "pregunta": "Un reloj demora 24 segundos en dar 7 campanadas. ¿Cuánto demorará en dar 11 campanadas, si los intervalos son iguales?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "36 s"
+            },
+            {
+              "id": "B",
+              "texto": "38 s"
+            },
+            {
+              "id": "C",
+              "texto": "40 s"
+            },
+            {
+              "id": "D",
+              "texto": "42 s"
+            },
+            {
+              "id": "E",
+              "texto": "44 s"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "7 campanadas generan 6 intervalos: 24/6=4 s por intervalo. 11 campanadas generan 10 intervalos: 10·4=40 s."
+        },
+        {
+          "id": "AM-020",
+          "tema": "Relojes",
+          "dificultad": "dificil",
+          "pregunta": "A las 3:20, ¿qué ángulo menor forman aproximadamente las agujas de un reloj?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "10°"
+            },
+            {
+              "id": "B",
+              "texto": "20°"
+            },
+            {
+              "id": "C",
+              "texto": "30°"
+            },
+            {
+              "id": "D",
+              "texto": "40°"
+            },
+            {
+              "id": "E",
+              "texto": "50°"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "El minutero está a 120°. La aguja horaria está a 3·30 + 20·0.5 = 100°. La diferencia es 20°."
+        }
+      ]
+    },
+    {
+      "id": "ingles",
+      "nombre": "Inglés",
+      "orden": 3,
+      "preguntas": [
+        {
+          "id": "ING-021",
+          "tema": "Subject pronouns",
+          "dificultad": "dificil",
+          "pregunta": "Complete: «Maria and Luis are classmates. _____ study English every afternoon».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "He"
+            },
+            {
+              "id": "B",
+              "texto": "She"
+            },
+            {
+              "id": "C",
+              "texto": "It"
+            },
+            {
+              "id": "D",
+              "texto": "They"
+            },
+            {
+              "id": "E",
+              "texto": "We"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "Maria and Luis is plural, so the correct subject pronoun is «They»."
+        },
+        {
+          "id": "ING-022",
+          "tema": "Family vocabulary",
+          "dificultad": "dificil",
+          "pregunta": "If Elena is the mother of Rosa, and Rosa is the mother of Julia, Elena is Julia's:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "aunt"
+            },
+            {
+              "id": "B",
+              "texto": "sister"
+            },
+            {
+              "id": "C",
+              "texto": "grandmother"
+            },
+            {
+              "id": "D",
+              "texto": "cousin"
+            },
+            {
+              "id": "E",
+              "texto": "daughter"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "Elena is the mother of Julia's mother, so she is Julia's grandmother."
+        },
+        {
+          "id": "ING-023",
+          "tema": "Plural nouns",
+          "dificultad": "dificil",
+          "pregunta": "Choose the correct plural form of «child».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "childs"
+            },
+            {
+              "id": "B",
+              "texto": "childes"
+            },
+            {
+              "id": "C",
+              "texto": "children"
+            },
+            {
+              "id": "D",
+              "texto": "childrens"
+            },
+            {
+              "id": "E",
+              "texto": "childer"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "«Child» has the irregular plural «children»."
+        },
+        {
+          "id": "ING-024",
+          "tema": "There is / There are",
+          "dificultad": "dificil",
+          "pregunta": "Complete: «_____ two books and a notebook on the desk».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "There is"
+            },
+            {
+              "id": "B",
+              "texto": "There are"
+            },
+            {
+              "id": "C",
+              "texto": "It is"
+            },
+            {
+              "id": "D",
+              "texto": "They are"
+            },
+            {
+              "id": "E",
+              "texto": "There be"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "The noun phrase begins with a plural count noun, so «There are» is correct."
+        },
+        {
+          "id": "ING-025",
+          "tema": "Articles and quantifiers",
+          "dificultad": "dificil",
+          "pregunta": "Complete: «I need _____ umbrella and _____ water before I leave».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "a / an"
+            },
+            {
+              "id": "B",
+              "texto": "an / some"
+            },
+            {
+              "id": "C",
+              "texto": "the / any"
+            },
+            {
+              "id": "D",
+              "texto": "some / a"
+            },
+            {
+              "id": "E",
+              "texto": "an / many"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "«Umbrella» takes «an» and uncountable «water» can take «some» in an affirmative sentence."
+        },
+        {
+          "id": "ING-026",
+          "tema": "Present simple",
+          "dificultad": "dificil",
+          "pregunta": "Complete: «My brother _____ to university by bus, but my sisters _____».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "go / walks"
+            },
+            {
+              "id": "B",
+              "texto": "goes / walk"
+            },
+            {
+              "id": "C",
+              "texto": "goes / walks"
+            },
+            {
+              "id": "D",
+              "texto": "going / walk"
+            },
+            {
+              "id": "E",
+              "texto": "go / walk"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Third-person singular takes «goes»; plural subject «my sisters» takes the base form «walk»."
+        },
+        {
+          "id": "ING-027",
+          "tema": "Adverbs of frequency",
+          "dificultad": "dificil",
+          "pregunta": "Choose the grammatically correct sentence.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "She goes always to the library."
+            },
+            {
+              "id": "B",
+              "texto": "Always she goes to the library."
+            },
+            {
+              "id": "C",
+              "texto": "She always goes to the library."
+            },
+            {
+              "id": "D",
+              "texto": "She goes to always the library."
+            },
+            {
+              "id": "E",
+              "texto": "She to the library always goes."
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "With a simple present verb, the adverb of frequency usually goes before the main verb."
+        },
+        {
+          "id": "ING-028",
+          "tema": "Reading comprehension",
+          "dificultad": "dificil",
+          "pregunta": "Read: «Tom usually studies at night because he works in the morning. On Saturdays, however, he studies in the afternoon and spends the evening with his family». Which statement is correct?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Tom never studies at night."
+            },
+            {
+              "id": "B",
+              "texto": "Tom works every Saturday afternoon."
+            },
+            {
+              "id": "C",
+              "texto": "Tom studies in the afternoon on Saturdays."
+            },
+            {
+              "id": "D",
+              "texto": "Tom spends every morning with his family."
+            },
+            {
+              "id": "E",
+              "texto": "Tom does not work during the week."
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "The text explicitly says that on Saturdays Tom studies in the afternoon."
+        }
+      ]
+    },
+    {
+      "id": "lenguaje",
+      "nombre": "Comunicación - Lenguaje",
+      "orden": 4,
+      "preguntas": [
+        {
+          "id": "LEN-029",
+          "tema": "Comunicación",
+          "dificultad": "dificil",
+          "pregunta": "¿En cuál de las siguientes situaciones predomina una comunicación formal y jerárquica?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Una conversación entre amigos"
+            },
+            {
+              "id": "B",
+              "texto": "Un mensaje entre hermanos"
+            },
+            {
+              "id": "C",
+              "texto": "Una resolución emitida por una autoridad universitaria"
+            },
+            {
+              "id": "D",
+              "texto": "Un comentario en una red social entre compañeros"
+            },
+            {
+              "id": "E",
+              "texto": "Una charla espontánea durante el recreo"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "Una resolución institucional responde a una relación formal y jerárquica."
+        },
+        {
+          "id": "LEN-030",
+          "tema": "Funciones del lenguaje",
+          "dificultad": "dificil",
+          "pregunta": "En el enunciado «Por favor, cierre la puerta», predomina la función:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "referencial"
+            },
+            {
+              "id": "B",
+              "texto": "poética"
+            },
+            {
+              "id": "C",
+              "texto": "apelativa"
+            },
+            {
+              "id": "D",
+              "texto": "metalingüística"
+            },
+            {
+              "id": "E",
+              "texto": "fática"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "La función apelativa busca influir en la conducta del receptor."
+        },
+        {
+          "id": "LEN-031",
+          "tema": "Fonética",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué palabra presenta el fonema consonántico /b/ representado mediante la letra «v»?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "barco"
+            },
+            {
+              "id": "B",
+              "texto": "vaca"
+            },
+            {
+              "id": "C",
+              "texto": "casa"
+            },
+            {
+              "id": "D",
+              "texto": "gato"
+            },
+            {
+              "id": "E",
+              "texto": "jefe"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "En español, la letra «v» representa el mismo fonema bilabial sonoro /b/ que la letra «b»."
+        },
+        {
+          "id": "LEN-032",
+          "tema": "Silabeo",
+          "dificultad": "dificil",
+          "pregunta": "Señala la separación silábica correcta de «extraordinario».",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "ex-tra-or-di-na-rio"
+            },
+            {
+              "id": "B",
+              "texto": "e-xtra-or-di-na-rio"
+            },
+            {
+              "id": "C",
+              "texto": "ex-traor-di-na-rio"
+            },
+            {
+              "id": "D",
+              "texto": "ex-tra-or-din-ar-io"
+            },
+            {
+              "id": "E",
+              "texto": "ex-tra-o-rdi-na-rio"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "La división correcta es ex-tra-or-di-na-rio."
+        },
+        {
+          "id": "LEN-033",
+          "tema": "Uso de mayúsculas",
+          "dificultad": "dificil",
+          "pregunta": "¿En cuál alternativa se emplean correctamente las mayúsculas?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "El Presidente del Perú visitó huánuco."
+            },
+            {
+              "id": "B",
+              "texto": "La Universidad Nacional Hermilio Valdizán inició clases."
+            },
+            {
+              "id": "C",
+              "texto": "Estudiamos Historia del Perú y matemática."
+            },
+            {
+              "id": "D",
+              "texto": "Mi Tía vive en Lima."
+            },
+            {
+              "id": "E",
+              "texto": "El Río Huallaga atraviesa la ciudad."
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Los nombres oficiales de instituciones se escriben con mayúscula inicial en sus elementos significativos."
+        },
+        {
+          "id": "LEN-034",
+          "tema": "Puntuación",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué oración está correctamente puntuada?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "María dijo que, llegaría temprano."
+            },
+            {
+              "id": "B",
+              "texto": "Si estudias con constancia, mejorarás tus resultados."
+            },
+            {
+              "id": "C",
+              "texto": "Pedro compró: pan leche y queso."
+            },
+            {
+              "id": "D",
+              "texto": "Aunque estaba cansado fue, a clases."
+            },
+            {
+              "id": "E",
+              "texto": "La profesora explicó el tema; y luego dejó tarea."
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "La oración subordinada condicional antepuesta se separa con coma de la principal."
+        },
+        {
+          "id": "LEN-035",
+          "tema": "Morfología",
+          "dificultad": "dificil",
+          "pregunta": "En la palabra «deslealtad», ¿qué segmento funciona como prefijo?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "des-"
+            },
+            {
+              "id": "B",
+              "texto": "leal"
+            },
+            {
+              "id": "C",
+              "texto": "-tad"
+            },
+            {
+              "id": "D",
+              "texto": "lealtad"
+            },
+            {
+              "id": "E",
+              "texto": "desleal"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "«des-» es un prefijo derivativo que aporta significado de negación o inversión."
+        },
+        {
+          "id": "LEN-036",
+          "tema": "Formación de palabras",
+          "dificultad": "dificil",
+          "pregunta": "¿Cuál de las siguientes palabras se ha formado por composición?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "panadero"
+            },
+            {
+              "id": "B",
+              "texto": "florero"
+            },
+            {
+              "id": "C",
+              "texto": "sacacorchos"
+            },
+            {
+              "id": "D",
+              "texto": "amabilidad"
+            },
+            {
+              "id": "E",
+              "texto": "releer"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "«Sacacorchos» se forma por la unión de dos elementos léxicos: saca + corchos."
+        }
+      ]
+    },
+    {
+      "id": "aritmetica",
+      "nombre": "Matemática - Aritmética",
+      "orden": 5,
+      "preguntas": [
+        {
+          "id": "ARI-037",
+          "tema": "Progresiones",
+          "dificultad": "dificil",
+          "pregunta": "En una progresión aritmética, el primer término es 12 y la diferencia común es 5. ¿Cuál es el término 20?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "102"
+            },
+            {
+              "id": "B",
+              "texto": "107"
+            },
+            {
+              "id": "C",
+              "texto": "112"
+            },
+            {
+              "id": "D",
+              "texto": "117"
+            },
+            {
+              "id": "E",
+              "texto": "122"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "a20 = 12 + 19·5 = 107."
+        },
+        {
+          "id": "ARI-038",
+          "tema": "Proporcionalidad inversa",
+          "dificultad": "dificil",
+          "pregunta": "Doce trabajadores realizan una obra en 15 días, trabajando al mismo ritmo. ¿Cuántos días necesitarán 20 trabajadores para realizar la misma obra?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "6"
+            },
+            {
+              "id": "B",
+              "texto": "8"
+            },
+            {
+              "id": "C",
+              "texto": "9"
+            },
+            {
+              "id": "D",
+              "texto": "10"
+            },
+            {
+              "id": "E",
+              "texto": "12"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "El trabajo total es constante: 12·15 = 20·d. Entonces d=9 días."
+        },
+        {
+          "id": "ARI-039",
+          "tema": "Porcentajes",
+          "dificultad": "dificil",
+          "pregunta": "Un producto cuesta S/ 240. Si su precio aumenta 15 %, ¿cuál será el nuevo precio?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "S/ 264"
+            },
+            {
+              "id": "B",
+              "texto": "S/ 270"
+            },
+            {
+              "id": "C",
+              "texto": "S/ 276"
+            },
+            {
+              "id": "D",
+              "texto": "S/ 280"
+            },
+            {
+              "id": "E",
+              "texto": "S/ 288"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "El 15 % de 240 es 36. El nuevo precio es 240+36=276."
+        },
+        {
+          "id": "ARI-040",
+          "tema": "Reparto proporcional",
+          "dificultad": "dificil",
+          "pregunta": "Se reparten S/ 1 800 entre tres personas en razón 2 : 3 : 4. ¿Cuánto recibe la persona con la mayor parte?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "S/ 400"
+            },
+            {
+              "id": "B",
+              "texto": "S/ 500"
+            },
+            {
+              "id": "C",
+              "texto": "S/ 600"
+            },
+            {
+              "id": "D",
+              "texto": "S/ 700"
+            },
+            {
+              "id": "E",
+              "texto": "S/ 800"
+            }
+          ],
+          "respuestaCorrecta": "E",
+          "puntaje": 9.2,
+          "explicacion": "La suma de razones es 9. La mayor parte es 4/9 de 1800 = 800."
+        },
+        {
+          "id": "ARI-041",
+          "tema": "Proporcionalidad directa",
+          "dificultad": "dificil",
+          "pregunta": "Si 8 máquinas producen 1 200 piezas en un turno, ¿cuántas piezas producirán 14 máquinas en el mismo tiempo y al mismo rendimiento?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "1 800"
+            },
+            {
+              "id": "B",
+              "texto": "1 950"
+            },
+            {
+              "id": "C",
+              "texto": "2 000"
+            },
+            {
+              "id": "D",
+              "texto": "2 100"
+            },
+            {
+              "id": "E",
+              "texto": "2 400"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "La producción es directamente proporcional: 1200·14/8 = 2100."
+        },
+        {
+          "id": "ARI-042",
+          "tema": "Perímetro y proporciones",
+          "dificultad": "dificil",
+          "pregunta": "Un terreno cuadrado tiene perímetro 240 m. Si el valor por metro cuadrado es S/ 80, ¿cuál es el valor total del terreno?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "S/ 240 000"
+            },
+            {
+              "id": "B",
+              "texto": "S/ 256 000"
+            },
+            {
+              "id": "C",
+              "texto": "S/ 272 000"
+            },
+            {
+              "id": "D",
+              "texto": "S/ 288 000"
+            },
+            {
+              "id": "E",
+              "texto": "S/ 300 000"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "Cada lado mide 240/4=60 m. El área es 3600 m² y su valor es 3600·80=S/ 288 000."
+        },
+        {
+          "id": "ARI-043",
+          "tema": "Porcentajes sucesivos",
+          "dificultad": "dificil",
+          "pregunta": "En un grupo de 1 500 postulantes, el 84 % son menores de edad. De ellos, el 10 % son extranjeros. ¿Cuántos menores de edad extranjeros hay?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "96"
+            },
+            {
+              "id": "B",
+              "texto": "108"
+            },
+            {
+              "id": "C",
+              "texto": "112"
+            },
+            {
+              "id": "D",
+              "texto": "126"
+            },
+            {
+              "id": "E",
+              "texto": "150"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "El 84 % de 1500 es 1260; el 10 % de 1260 es 126."
+        },
+        {
+          "id": "ARI-044",
+          "tema": "Ganancia y precio de venta",
+          "dificultad": "dificil",
+          "pregunta": "Una tienda incrementa en 25 % el costo de un artículo para fijar su precio de venta. Si el artículo cuesta S/ 160, ¿cuál es el precio de venta?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "S/ 180"
+            },
+            {
+              "id": "B",
+              "texto": "S/ 190"
+            },
+            {
+              "id": "C",
+              "texto": "S/ 195"
+            },
+            {
+              "id": "D",
+              "texto": "S/ 200"
+            },
+            {
+              "id": "E",
+              "texto": "S/ 205"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "El 25 % de 160 es 40. El precio de venta es 160+40=200."
+        }
+      ]
+    },
+    {
+      "id": "formacion-ciudadana",
+      "nombre": "Formación Ciudadana y Cívica",
+      "orden": 6,
+      "preguntas": [
+        {
+          "id": "FC-045",
+          "tema": "Derechos humanos",
+          "dificultad": "dificil",
+          "pregunta": "¿Cuál de las siguientes características corresponde a los derechos humanos?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Son renunciables y temporales."
+            },
+            {
+              "id": "B",
+              "texto": "Son universales, indivisibles e interdependientes."
+            },
+            {
+              "id": "C",
+              "texto": "Solo corresponden a los ciudadanos mayores de edad."
+            },
+            {
+              "id": "D",
+              "texto": "Dependen exclusivamente de la nacionalidad."
+            },
+            {
+              "id": "E",
+              "texto": "Pueden ser anulados por decisión administrativa."
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Los derechos humanos se reconocen como universales, indivisibles e interdependientes."
+        },
+        {
+          "id": "FC-046",
+          "tema": "Declaración Universal de los Derechos Humanos",
+          "dificultad": "dificil",
+          "pregunta": "¿En qué año fue aprobada la Declaración Universal de los Derechos Humanos por la Asamblea General de las Naciones Unidas?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "1919"
+            },
+            {
+              "id": "B",
+              "texto": "1939"
+            },
+            {
+              "id": "C",
+              "texto": "1945"
+            },
+            {
+              "id": "D",
+              "texto": "1948"
+            },
+            {
+              "id": "E",
+              "texto": "1969"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "La Declaración Universal de los Derechos Humanos fue adoptada el 10 de diciembre de 1948."
+        },
+        {
+          "id": "FC-047",
+          "tema": "Historia constitucional del Perú",
+          "dificultad": "dificil",
+          "pregunta": "¿En qué año se promulgó la primera Constitución Política del Perú?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "1821"
+            },
+            {
+              "id": "B",
+              "texto": "1822"
+            },
+            {
+              "id": "C",
+              "texto": "1823"
+            },
+            {
+              "id": "D",
+              "texto": "1826"
+            },
+            {
+              "id": "E",
+              "texto": "1839"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "La primera Constitución Política del Perú fue promulgada en 1823."
+        },
+        {
+          "id": "FC-048",
+          "tema": "Garantías constitucionales",
+          "dificultad": "dificil",
+          "pregunta": "Una persona solicita a una entidad pública conocer qué información personal mantiene registrada sobre ella y corregir datos inexactos. ¿Qué garantía constitucional resulta pertinente?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Hábeas corpus"
+            },
+            {
+              "id": "B",
+              "texto": "Acción popular"
+            },
+            {
+              "id": "C",
+              "texto": "Hábeas data"
+            },
+            {
+              "id": "D",
+              "texto": "Acción de cumplimiento"
+            },
+            {
+              "id": "E",
+              "texto": "Acción de amparo"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "El hábeas data protege el acceso, control y rectificación de información personal en bancos de datos."
+        },
+        {
+          "id": "FC-049",
+          "tema": "Ciudadanía",
+          "dificultad": "dificil",
+          "pregunta": "En el Perú, el ejercicio de la ciudadanía se adquiere, en términos generales, al cumplir:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "16 años"
+            },
+            {
+              "id": "B",
+              "texto": "17 años"
+            },
+            {
+              "id": "C",
+              "texto": "18 años"
+            },
+            {
+              "id": "D",
+              "texto": "20 años"
+            },
+            {
+              "id": "E",
+              "texto": "21 años"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "La ciudadanía se ejerce a partir de los 18 años, conforme al marco constitucional peruano."
+        },
+        {
+          "id": "FC-050",
+          "tema": "Derechos políticos",
+          "dificultad": "dificil",
+          "pregunta": "¿Cuál de las siguientes situaciones puede suspender el ejercicio de la ciudadanía según la Constitución peruana?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Cambiar de domicilio dentro del país."
+            },
+            {
+              "id": "B",
+              "texto": "No participar en una elección municipal."
+            },
+            {
+              "id": "C",
+              "texto": "Tener una sentencia con pena privativa de libertad."
+            },
+            {
+              "id": "D",
+              "texto": "Ser estudiante universitario."
+            },
+            {
+              "id": "E",
+              "texto": "Trabajar para una empresa privada."
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "La Constitución contempla la suspensión del ejercicio de la ciudadanía por sentencia con pena privativa de libertad, entre otros supuestos."
+        },
+        {
+          "id": "FC-051",
+          "tema": "Jurado Nacional de Elecciones",
+          "dificultad": "dificil",
+          "pregunta": "Para ser miembro del Pleno del Jurado Nacional de Elecciones se exige, entre otros requisitos, tener una edad mínima de:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "30 años"
+            },
+            {
+              "id": "B",
+              "texto": "35 años"
+            },
+            {
+              "id": "C",
+              "texto": "40 años"
+            },
+            {
+              "id": "D",
+              "texto": "45 años"
+            },
+            {
+              "id": "E",
+              "texto": "50 años"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "La normativa electoral exige tener no menos de 45 años para integrar el Pleno del JNE."
+        },
+        {
+          "id": "FC-052",
+          "tema": "Sistema electoral",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué organismo peruano tiene entre sus funciones mantener actualizado el padrón electoral a partir del registro de identificación de los ciudadanos?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "ONPE"
+            },
+            {
+              "id": "B",
+              "texto": "RENIEC"
+            },
+            {
+              "id": "C",
+              "texto": "JNE"
+            },
+            {
+              "id": "D",
+              "texto": "INDECOPI"
+            },
+            {
+              "id": "E",
+              "texto": "Defensoría del Pueblo"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "El RENIEC administra el registro de identificación y elabora/actualiza la información base del padrón electoral."
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "nombre": "Matemática - Álgebra",
+      "orden": 7,
+      "preguntas": [
+        {
+          "id": "ALG-053",
+          "tema": "Ecuaciones cuadráticas",
+          "dificultad": "dificil",
+          "pregunta": "Si las raíces de la ecuación x² - 11x + 24 = 0 son r₁ y r₂, ¿cuánto vale r₁ + r₂?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "7"
+            },
+            {
+              "id": "B",
+              "texto": "9"
+            },
+            {
+              "id": "C",
+              "texto": "11"
+            },
+            {
+              "id": "D",
+              "texto": "13"
+            },
+            {
+              "id": "E",
+              "texto": "24"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "Por las relaciones de Viète, la suma de raíces es 11."
+        },
+        {
+          "id": "ALG-054",
+          "tema": "Potenciación",
+          "dificultad": "dificil",
+          "pregunta": "Simplifica: (2³·2⁵) / 2⁴.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "2²"
+            },
+            {
+              "id": "B",
+              "texto": "2³"
+            },
+            {
+              "id": "C",
+              "texto": "2⁴"
+            },
+            {
+              "id": "D",
+              "texto": "2⁵"
+            },
+            {
+              "id": "E",
+              "texto": "2⁶"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "Se suman exponentes al multiplicar y se restan al dividir: 3+5-4=4."
+        },
+        {
+          "id": "ALG-055",
+          "tema": "Expresiones algebraicas",
+          "dificultad": "dificil",
+          "pregunta": "Si x + y = 7 y xy = 10, ¿cuánto vale x² + y²?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "19"
+            },
+            {
+              "id": "B",
+              "texto": "24"
+            },
+            {
+              "id": "C",
+              "texto": "29"
+            },
+            {
+              "id": "D",
+              "texto": "39"
+            },
+            {
+              "id": "E",
+              "texto": "49"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "x²+y²=(x+y)²-2xy=49-20=29."
+        },
+        {
+          "id": "ALG-056",
+          "tema": "Polinomios",
+          "dificultad": "dificil",
+          "pregunta": "Si P(x)=x³-4x²+x+6, ¿cuánto vale P(2)?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "-4"
+            },
+            {
+              "id": "B",
+              "texto": "-2"
+            },
+            {
+              "id": "C",
+              "texto": "0"
+            },
+            {
+              "id": "D",
+              "texto": "2"
+            },
+            {
+              "id": "E",
+              "texto": "4"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "P(2)=8-16+2+6=0."
+        },
+        {
+          "id": "ALG-057",
+          "tema": "Teorema del resto",
+          "dificultad": "dificil",
+          "pregunta": "Al dividir P(x)=2x³-3x²+4x-5 entre x-2, ¿cuál es el residuo?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "3"
+            },
+            {
+              "id": "B",
+              "texto": "5"
+            },
+            {
+              "id": "C",
+              "texto": "7"
+            },
+            {
+              "id": "D",
+              "texto": "9"
+            },
+            {
+              "id": "E",
+              "texto": "11"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "Por el teorema del resto, R=P(2)=16-12+8-5=7."
+        },
+        {
+          "id": "ALG-058",
+          "tema": "Factorización",
+          "dificultad": "dificil",
+          "pregunta": "Factoriza x² - 9x + 20.",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "(x-10)(x+2)"
+            },
+            {
+              "id": "B",
+              "texto": "(x-5)(x-4)"
+            },
+            {
+              "id": "C",
+              "texto": "(x+5)(x+4)"
+            },
+            {
+              "id": "D",
+              "texto": "(x-20)(x+1)"
+            },
+            {
+              "id": "E",
+              "texto": "(x-2)(x-10)"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Los números 5 y 4 suman 9 y multiplican 20; por tanto x²-9x+20=(x-5)(x-4)."
+        },
+        {
+          "id": "ALG-059",
+          "tema": "Identidades notables",
+          "dificultad": "dificil",
+          "pregunta": "Si a-b=6 y ab=16, ¿cuánto vale a²+b²?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "32"
+            },
+            {
+              "id": "B",
+              "texto": "48"
+            },
+            {
+              "id": "C",
+              "texto": "56"
+            },
+            {
+              "id": "D",
+              "texto": "68"
+            },
+            {
+              "id": "E",
+              "texto": "72"
+            }
+          ],
+          "respuestaCorrecta": "D",
+          "puntaje": 9.2,
+          "explicacion": "(a-b)²=a²+b²-2ab. Entonces 36=a²+b²-32 y a²+b²=68."
+        },
+        {
+          "id": "ALG-060",
+          "tema": "División de polinomios",
+          "dificultad": "dificil",
+          "pregunta": "Al dividir x³ + 2x² - 5x - 6 entre x+3, el cociente es:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "x²-x-2"
+            },
+            {
+              "id": "B",
+              "texto": "x²-x+2"
+            },
+            {
+              "id": "C",
+              "texto": "x²+5x-2"
+            },
+            {
+              "id": "D",
+              "texto": "x²-2x-1"
+            },
+            {
+              "id": "E",
+              "texto": "x²+x-2"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "La división sintética con -3 da coeficientes 1, -1, -2 y residuo 0; el cociente es x²-x-2."
+        }
+      ]
+    },
+    {
+      "id": "literatura",
+      "nombre": "Literatura",
+      "orden": 8,
+      "preguntas": [
+        {
+          "id": "LIT-061",
+          "tema": "Géneros literarios",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué género literario se caracteriza principalmente por presentar acciones y conflictos a través del diálogo y está destinado a la representación escénica?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Lírico"
+            },
+            {
+              "id": "B",
+              "texto": "Épico"
+            },
+            {
+              "id": "C",
+              "texto": "Dramático"
+            },
+            {
+              "id": "D",
+              "texto": "Didáctico"
+            },
+            {
+              "id": "E",
+              "texto": "Ensayístico"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "El género dramático desarrolla la acción mediante diálogos y está concebido para su representación."
+        },
+        {
+          "id": "LIT-062",
+          "tema": "Figuras literarias",
+          "dificultad": "dificil",
+          "pregunta": "En la expresión «sus cabellos eran oro bajo el sol», la figura literaria predominante es:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "hipérbaton"
+            },
+            {
+              "id": "B",
+              "texto": "metáfora"
+            },
+            {
+              "id": "C",
+              "texto": "anáfora"
+            },
+            {
+              "id": "D",
+              "texto": "elipsis"
+            },
+            {
+              "id": "E",
+              "texto": "onomatopeya"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Se identifica directamente el cabello con el oro sin usar un nexo comparativo."
+        },
+        {
+          "id": "LIT-063",
+          "tema": "Edipo Rey",
+          "dificultad": "dificil",
+          "pregunta": "En la tragedia «Edipo Rey», el conflicto central se relaciona con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "la búsqueda de un reino perdido"
+            },
+            {
+              "id": "B",
+              "texto": "el cumplimiento inevitable de una profecía"
+            },
+            {
+              "id": "C",
+              "texto": "la fundación de una ciudad"
+            },
+            {
+              "id": "D",
+              "texto": "la conquista de Troya"
+            },
+            {
+              "id": "E",
+              "texto": "una rivalidad comercial"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "La tragedia gira en torno al intento fallido de escapar de una profecía que termina cumpliéndose."
+        },
+        {
+          "id": "LIT-064",
+          "tema": "Poema de Mio Cid",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué tema ocupa un lugar central en el «Poema de Mio Cid»?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "La recuperación del honor del héroe"
+            },
+            {
+              "id": "B",
+              "texto": "La crítica a la ciencia moderna"
+            },
+            {
+              "id": "C",
+              "texto": "La vida monástica contemplativa"
+            },
+            {
+              "id": "D",
+              "texto": "La defensa del amor cortés como único ideal"
+            },
+            {
+              "id": "E",
+              "texto": "La mitología grecorromana"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "La pérdida y recuperación de la honra del Cid articula gran parte de la obra."
+        },
+        {
+          "id": "LIT-065",
+          "tema": "Fray Luis de León",
+          "dificultad": "dificil",
+          "pregunta": "La poesía de Fray Luis de León se asocia especialmente con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "la exaltación del ruido urbano"
+            },
+            {
+              "id": "B",
+              "texto": "la búsqueda de serenidad y vida retirada"
+            },
+            {
+              "id": "C",
+              "texto": "la burla de los mitos clásicos"
+            },
+            {
+              "id": "D",
+              "texto": "el naturalismo determinista"
+            },
+            {
+              "id": "E",
+              "texto": "la épica caballeresca"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Su obra valora la armonía, la serenidad espiritual y la vida apartada del bullicio."
+        },
+        {
+          "id": "LIT-066",
+          "tema": "Molière",
+          "dificultad": "dificil",
+          "pregunta": "En «El avaro», de Molière, el rasgo dominante de Harpagón es:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "la generosidad"
+            },
+            {
+              "id": "B",
+              "texto": "la avaricia"
+            },
+            {
+              "id": "C",
+              "texto": "la valentía militar"
+            },
+            {
+              "id": "D",
+              "texto": "la ingenuidad"
+            },
+            {
+              "id": "E",
+              "texto": "la religiosidad"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Harpagón está caracterizado por su obsesión con el dinero y su extrema avaricia."
+        },
+        {
+          "id": "LIT-067",
+          "tema": "Romanticismo",
+          "dificultad": "dificil",
+          "pregunta": "¿Cuál de las siguientes características corresponde al Romanticismo?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Predominio absoluto de la razón sobre la emoción"
+            },
+            {
+              "id": "B",
+              "texto": "Rigidez en el cumplimiento de reglas clásicas"
+            },
+            {
+              "id": "C",
+              "texto": "Valoración de la subjetividad y la libertad creadora"
+            },
+            {
+              "id": "D",
+              "texto": "Rechazo de la naturaleza como tema literario"
+            },
+            {
+              "id": "E",
+              "texto": "Eliminación de lo nacional y lo histórico"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "El Romanticismo destaca la subjetividad, la emoción, la libertad y el interés por lo nacional y la naturaleza."
+        },
+        {
+          "id": "LIT-068",
+          "tema": "Madame Bovary",
+          "dificultad": "dificil",
+          "pregunta": "«Madame Bovary», de Gustave Flaubert, se vincula principalmente con el:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Romanticismo alemán"
+            },
+            {
+              "id": "B",
+              "texto": "Realismo francés"
+            },
+            {
+              "id": "C",
+              "texto": "Barroco español"
+            },
+            {
+              "id": "D",
+              "texto": "Neoclasicismo inglés"
+            },
+            {
+              "id": "E",
+              "texto": "Modernismo hispanoamericano"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "La novela es una obra representativa del Realismo francés del siglo XIX."
+        },
+        {
+          "id": "LIT-069",
+          "tema": "Novela picaresca",
+          "dificultad": "dificil",
+          "pregunta": "¿Cuál es una característica típica de la novela picaresca?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Un héroe noble e idealizado"
+            },
+            {
+              "id": "B",
+              "texto": "Un protagonista de origen humilde que narra sus peripecias para sobrevivir"
+            },
+            {
+              "id": "C",
+              "texto": "Un relato exclusivamente mitológico"
+            },
+            {
+              "id": "D",
+              "texto": "Una estructura basada en profecías divinas"
+            },
+            {
+              "id": "E",
+              "texto": "La ausencia de crítica social"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "La picaresca suele presentar un protagonista de origen humilde, astuto y ligado a una visión crítica de la sociedad."
+        },
+        {
+          "id": "LIT-070",
+          "tema": "Miguel de Cervantes",
+          "dificultad": "dificil",
+          "pregunta": "En «Don Quijote de la Mancha», uno de los rasgos esenciales del protagonista es:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "su rechazo absoluto a los libros"
+            },
+            {
+              "id": "B",
+              "texto": "su deseo de vivir según los ideales de los libros de caballerías"
+            },
+            {
+              "id": "C",
+              "texto": "su condición de rey de Castilla"
+            },
+            {
+              "id": "D",
+              "texto": "su profesión de navegante"
+            },
+            {
+              "id": "E",
+              "texto": "su dedicación exclusiva al comercio"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Don Quijote intenta convertir en realidad los ideales caballerescos aprendidos en sus lecturas."
+        }
+      ]
+    },
+    {
+      "id": "historia",
+      "nombre": "Historia",
+      "orden": 9,
+      "preguntas": [
+        {
+          "id": "HIS-071",
+          "tema": "Culturas prehispánicas",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué arqueólogo sostuvo que Chavín fue una cultura matriz de la civilización andina?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Max Uhle"
+            },
+            {
+              "id": "B",
+              "texto": "Julio C. Tello"
+            },
+            {
+              "id": "C",
+              "texto": "Luis G. Lumbreras"
+            },
+            {
+              "id": "D",
+              "texto": "Federico Kauffmann Doig"
+            },
+            {
+              "id": "E",
+              "texto": "Rafael Larco Hoyle"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Julio C. Tello defendió la importancia de Chavín como cultura matriz de la civilización andina."
+        },
+        {
+          "id": "HIS-072",
+          "tema": "Poblamiento americano",
+          "dificultad": "dificil",
+          "pregunta": "La teoría inmigracionista asiática de Alex Hrdlička plantea que los primeros pobladores de América ingresaron principalmente por:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "el estrecho de Bering"
+            },
+            {
+              "id": "B",
+              "texto": "el océano Atlántico desde África"
+            },
+            {
+              "id": "C",
+              "texto": "la Antártida"
+            },
+            {
+              "id": "D",
+              "texto": "la Polinesia exclusivamente"
+            },
+            {
+              "id": "E",
+              "texto": "la isla de Pascua"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "Hrdlička propuso un origen asiático y el ingreso por la zona del estrecho de Bering."
+        },
+        {
+          "id": "HIS-073",
+          "tema": "Culturas del antiguo Perú",
+          "dificultad": "dificil",
+          "pregunta": "El centro ceremonial de Cahuachi estuvo estrechamente vinculado con la cultura:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Moche"
+            },
+            {
+              "id": "B",
+              "texto": "Chimú"
+            },
+            {
+              "id": "C",
+              "texto": "Nazca"
+            },
+            {
+              "id": "D",
+              "texto": "Chavín"
+            },
+            {
+              "id": "E",
+              "texto": "Wari"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "Cahuachi fue uno de los principales centros ceremoniales de la cultura Nazca."
+        },
+        {
+          "id": "HIS-074",
+          "tema": "Arqueología peruana",
+          "dificultad": "dificil",
+          "pregunta": "Las Líneas de Nazca se localizan en el actual departamento de:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Cusco"
+            },
+            {
+              "id": "B",
+              "texto": "Ica"
+            },
+            {
+              "id": "C",
+              "texto": "Áncash"
+            },
+            {
+              "id": "D",
+              "texto": "La Libertad"
+            },
+            {
+              "id": "E",
+              "texto": "Puno"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Las Líneas de Nazca se encuentran en el departamento de Ica."
+        },
+        {
+          "id": "HIS-075",
+          "tema": "Ciencias auxiliares de la historia",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué disciplina auxiliar permite ordenar acontecimientos según su ubicación temporal?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Heráldica"
+            },
+            {
+              "id": "B",
+              "texto": "Numismática"
+            },
+            {
+              "id": "C",
+              "texto": "Cronología"
+            },
+            {
+              "id": "D",
+              "texto": "Paleografía"
+            },
+            {
+              "id": "E",
+              "texto": "Epigrafía"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "La cronología estudia y organiza los hechos en el tiempo."
+        },
+        {
+          "id": "HIS-076",
+          "tema": "Tahuantinsuyo",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué principio moral inca significa «no seas ladrón»?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Ama quella"
+            },
+            {
+              "id": "B",
+              "texto": "Ama llulla"
+            },
+            {
+              "id": "C",
+              "texto": "Ama sua"
+            },
+            {
+              "id": "D",
+              "texto": "Ayni"
+            },
+            {
+              "id": "E",
+              "texto": "Minka"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "«Ama sua» significa «no seas ladrón»."
+        },
+        {
+          "id": "HIS-077",
+          "tema": "Viajes de Colón",
+          "dificultad": "dificil",
+          "pregunta": "¿Durante cuál de los viajes de Cristóbal Colón se fundó La Isabela en la isla La Española?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Primero"
+            },
+            {
+              "id": "B",
+              "texto": "Segundo"
+            },
+            {
+              "id": "C",
+              "texto": "Tercero"
+            },
+            {
+              "id": "D",
+              "texto": "Cuarto"
+            },
+            {
+              "id": "E",
+              "texto": "No ocurrió durante sus viajes"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "La Isabela fue fundada durante el segundo viaje de Colón."
+        },
+        {
+          "id": "HIS-078",
+          "tema": "Fuentes históricas",
+          "dificultad": "dificil",
+          "pregunta": "¿Cuál de los siguientes es un ejemplo de fuente histórica primaria?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Un manual escolar escrito hoy sobre la Independencia"
+            },
+            {
+              "id": "B",
+              "texto": "Una carta redactada por un soldado durante una guerra"
+            },
+            {
+              "id": "C",
+              "texto": "Un documental contemporáneo basado en varios libros"
+            },
+            {
+              "id": "D",
+              "texto": "Una enciclopedia publicada recientemente"
+            },
+            {
+              "id": "E",
+              "texto": "Un ensayo historiográfico del siglo XXI"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Una fuente primaria procede directamente del periodo o de actores vinculados al hecho estudiado."
+        },
+        {
+          "id": "HIS-079",
+          "tema": "Evolución humana",
+          "dificultad": "dificil",
+          "pregunta": "¿Quién publicó «El origen de las especies» y desarrolló la teoría de la selección natural?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Jean-Baptiste Lamarck"
+            },
+            {
+              "id": "B",
+              "texto": "Charles Darwin"
+            },
+            {
+              "id": "C",
+              "texto": "Gregor Mendel"
+            },
+            {
+              "id": "D",
+              "texto": "Alfred Wegener"
+            },
+            {
+              "id": "E",
+              "texto": "Louis Pasteur"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Charles Darwin publicó «El origen de las especies» en 1859."
+        },
+        {
+          "id": "HIS-080",
+          "tema": "Prehistoria peruana",
+          "dificultad": "dificil",
+          "pregunta": "El periodo Lítico en los Andes centrales se caracteriza principalmente por:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "la consolidación de grandes imperios"
+            },
+            {
+              "id": "B",
+              "texto": "la vida de cazadores y recolectores con herramientas de piedra"
+            },
+            {
+              "id": "C",
+              "texto": "el uso generalizado de escritura"
+            },
+            {
+              "id": "D",
+              "texto": "la construcción de ciudades coloniales"
+            },
+            {
+              "id": "E",
+              "texto": "la aparición de la metalurgia industrial"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "El periodo Lítico corresponde a grupos cazadores-recolectores que empleaban instrumentos de piedra."
+        }
+      ]
+    },
+    {
+      "id": "filosofia",
+      "nombre": "Filosofía",
+      "orden": 10,
+      "preguntas": [
+        {
+          "id": "FIL-081",
+          "tema": "Objeto de la filosofía",
+          "dificultad": "dificil",
+          "pregunta": "La filosofía se caracteriza por estudiar de manera racional y crítica:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "solo fenómenos químicos"
+            },
+            {
+              "id": "B",
+              "texto": "los problemas fundamentales de la realidad, el conocimiento y la acción humana"
+            },
+            {
+              "id": "C",
+              "texto": "exclusivamente hechos estadísticos"
+            },
+            {
+              "id": "D",
+              "texto": "únicamente normas gramaticales"
+            },
+            {
+              "id": "E",
+              "texto": "solo acontecimientos políticos contemporáneos"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "La filosofía aborda problemas fundamentales sobre realidad, conocimiento, valores y acción humana."
+        },
+        {
+          "id": "FIL-082",
+          "tema": "Características de la filosofía",
+          "dificultad": "dificil",
+          "pregunta": "¿Cuál de las siguientes NO es una característica propia del quehacer filosófico?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Crítico"
+            },
+            {
+              "id": "B",
+              "texto": "Racional"
+            },
+            {
+              "id": "C",
+              "texto": "Problemático"
+            },
+            {
+              "id": "D",
+              "texto": "Reflexivo"
+            },
+            {
+              "id": "E",
+              "texto": "Dogmático e incuestionable"
+            }
+          ],
+          "respuestaCorrecta": "E",
+          "puntaje": 9.2,
+          "explicacion": "La filosofía cuestiona fundamentos y evita aceptar afirmaciones como incuestionables."
+        },
+        {
+          "id": "FIL-083",
+          "tema": "Parménides",
+          "dificultad": "dificil",
+          "pregunta": "Para Parménides de Elea, la realidad verdadera se identifica con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "el fuego"
+            },
+            {
+              "id": "B",
+              "texto": "el ser"
+            },
+            {
+              "id": "C",
+              "texto": "el agua"
+            },
+            {
+              "id": "D",
+              "texto": "los átomos"
+            },
+            {
+              "id": "E",
+              "texto": "el aire"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Parménides sostuvo que el ser es y el no-ser no es."
+        },
+        {
+          "id": "FIL-084",
+          "tema": "Filosofía presocrática",
+          "dificultad": "dificil",
+          "pregunta": "¿A quién se suele considerar el primer filósofo de la tradición griega y quién propuso el agua como arjé?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Sócrates"
+            },
+            {
+              "id": "B",
+              "texto": "Platón"
+            },
+            {
+              "id": "C",
+              "texto": "Tales de Mileto"
+            },
+            {
+              "id": "D",
+              "texto": "Heráclito"
+            },
+            {
+              "id": "E",
+              "texto": "Anaxágoras"
+            }
+          ],
+          "respuestaCorrecta": "C",
+          "puntaje": 9.2,
+          "explicacion": "Tales de Mileto es tradicionalmente considerado el primer filósofo griego y propuso el agua como principio fundamental."
+        },
+        {
+          "id": "FIL-085",
+          "tema": "Anaximandro",
+          "dificultad": "dificil",
+          "pregunta": "Anaximandro denominó al principio originario de todas las cosas:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "logos"
+            },
+            {
+              "id": "B",
+              "texto": "ápeiron"
+            },
+            {
+              "id": "C",
+              "texto": "nous"
+            },
+            {
+              "id": "D",
+              "texto": "átomo"
+            },
+            {
+              "id": "E",
+              "texto": "idea"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "El «ápeiron» es lo indefinido o ilimitado y constituye el arjé en Anaximandro."
+        },
+        {
+          "id": "FIL-086",
+          "tema": "Heráclito",
+          "dificultad": "dificil",
+          "pregunta": "Heráclito de Éfeso es conocido por sostener que:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "la realidad permanece completamente inmóvil"
+            },
+            {
+              "id": "B",
+              "texto": "todo está sometido al cambio"
+            },
+            {
+              "id": "C",
+              "texto": "el ser humano no puede conocer nada"
+            },
+            {
+              "id": "D",
+              "texto": "el agua es el único principio de la realidad"
+            },
+            {
+              "id": "E",
+              "texto": "las ideas existen fuera del mundo sensible"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Heráclito subrayó el devenir y el cambio permanente de la realidad."
+        },
+        {
+          "id": "FIL-087",
+          "tema": "Dialéctica presocrática",
+          "dificultad": "dificil",
+          "pregunta": "La concepción heraclítea según la cual los contrarios se relacionan dentro de una unidad se conoce como:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "armonía de opuestos"
+            },
+            {
+              "id": "B",
+              "texto": "inmovilidad del ser"
+            },
+            {
+              "id": "C",
+              "texto": "atomismo"
+            },
+            {
+              "id": "D",
+              "texto": "dualismo cartesiano"
+            },
+            {
+              "id": "E",
+              "texto": "idealismo trascendental"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "Heráclito entiende la realidad como tensión y armonía entre contrarios."
+        },
+        {
+          "id": "FIL-088",
+          "tema": "Platón",
+          "dificultad": "dificil",
+          "pregunta": "Según la tradición, el nombre «Platón» se relacionaría con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "su lugar de nacimiento"
+            },
+            {
+              "id": "B",
+              "texto": "la amplitud de sus hombros"
+            },
+            {
+              "id": "C",
+              "texto": "su profesión militar"
+            },
+            {
+              "id": "D",
+              "texto": "su riqueza familiar"
+            },
+            {
+              "id": "E",
+              "texto": "su afición por la música"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "La tradición vincula el apodo «Platón» con la idea de anchura o amplitud, especialmente de los hombros."
+        },
+        {
+          "id": "FIL-089",
+          "tema": "Teoría de las Ideas",
+          "dificultad": "dificil",
+          "pregunta": "Para Platón, el conocimiento más firme recae sobre:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "las opiniones cambiantes"
+            },
+            {
+              "id": "B",
+              "texto": "las Ideas o Formas inteligibles"
+            },
+            {
+              "id": "C",
+              "texto": "las apariencias sensibles únicamente"
+            },
+            {
+              "id": "D",
+              "texto": "los rumores de la polis"
+            },
+            {
+              "id": "E",
+              "texto": "los sueños individuales"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "En Platón, las Ideas o Formas constituyen el objeto del conocimiento verdadero."
+        },
+        {
+          "id": "FIL-090",
+          "tema": "Escuelas helenísticas",
+          "dificultad": "dificil",
+          "pregunta": "Para el estoicismo, una vida feliz se vincula principalmente con:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "acumular riquezas"
+            },
+            {
+              "id": "B",
+              "texto": "vivir de acuerdo con la razón y la virtud"
+            },
+            {
+              "id": "C",
+              "texto": "evitar toda responsabilidad"
+            },
+            {
+              "id": "D",
+              "texto": "buscar placeres sin límite"
+            },
+            {
+              "id": "E",
+              "texto": "dudar de toda posibilidad de conocimiento"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Los estoicos asociaron la vida buena con la virtud, el dominio racional y la conformidad con la naturaleza."
+        }
+      ]
+    },
+    {
+      "id": "psicologia",
+      "nombre": "Psicología",
+      "orden": 11,
+      "preguntas": [
+        {
+          "id": "PSI-091",
+          "tema": "Escuelas psicológicas",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué autor está directamente relacionado con el conductismo y el estudio de la conducta observable?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Sigmund Freud"
+            },
+            {
+              "id": "B",
+              "texto": "John B. Watson"
+            },
+            {
+              "id": "C",
+              "texto": "Jean Piaget"
+            },
+            {
+              "id": "D",
+              "texto": "Carl Rogers"
+            },
+            {
+              "id": "E",
+              "texto": "Abraham Maslow"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "John B. Watson fue uno de los principales representantes del conductismo."
+        },
+        {
+          "id": "PSI-092",
+          "tema": "Sistema endocrino",
+          "dificultad": "dificil",
+          "pregunta": "¿Qué glándula endocrina produce hormonas que regulan múltiples funciones corporales y suele denominarse «glándula maestra»?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Páncreas"
+            },
+            {
+              "id": "B",
+              "texto": "Hipófisis"
+            },
+            {
+              "id": "C",
+              "texto": "Tiroides"
+            },
+            {
+              "id": "D",
+              "texto": "Suprarrenal"
+            },
+            {
+              "id": "E",
+              "texto": "Timo"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "La hipófisis secreta hormonas que regulan otras glándulas y numerosas funciones del organismo."
+        },
+        {
+          "id": "PSI-093",
+          "tema": "Receptores sensoriales",
+          "dificultad": "dificil",
+          "pregunta": "Después de un ejercicio intenso, una persona percibe fatiga y cambios internos relacionados con el funcionamiento de su cuerpo. ¿Qué tipo de receptores participa principalmente en la percepción de estados internos?",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "Exteroceptores"
+            },
+            {
+              "id": "B",
+              "texto": "Interoceptores"
+            },
+            {
+              "id": "C",
+              "texto": "Fotorreceptores"
+            },
+            {
+              "id": "D",
+              "texto": "Mecanorreceptores externos"
+            },
+            {
+              "id": "E",
+              "texto": "Quimiorreceptores gustativos"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "Los interoceptores informan sobre cambios y estados internos del organismo."
+        },
+        {
+          "id": "PSI-094",
+          "tema": "Modalidades sensoriales",
+          "dificultad": "dificil",
+          "pregunta": "La propiocepción permite percibir principalmente:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "el color de los objetos"
+            },
+            {
+              "id": "B",
+              "texto": "la posición y movimiento del cuerpo"
+            },
+            {
+              "id": "C",
+              "texto": "los sabores básicos"
+            },
+            {
+              "id": "D",
+              "texto": "la intensidad de la luz"
+            },
+            {
+              "id": "E",
+              "texto": "los olores del ambiente"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "La propiocepción informa sobre la posición, tensión y movimiento de músculos y articulaciones."
+        },
+        {
+          "id": "PSI-095",
+          "tema": "Neuropsicología",
+          "dificultad": "dificil",
+          "pregunta": "Una lesión en el área de Broca puede afectar principalmente:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "la producción del lenguaje"
+            },
+            {
+              "id": "B",
+              "texto": "la visión periférica"
+            },
+            {
+              "id": "C",
+              "texto": "el equilibrio"
+            },
+            {
+              "id": "D",
+              "texto": "el reconocimiento de olores"
+            },
+            {
+              "id": "E",
+              "texto": "la audición"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "El área de Broca está relacionada principalmente con la producción del lenguaje."
+        },
+        {
+          "id": "PSI-096",
+          "tema": "Sensación",
+          "dificultad": "dificil",
+          "pregunta": "El valor mínimo de intensidad que debe alcanzar un estímulo para ser detectado se denomina:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "umbral absoluto"
+            },
+            {
+              "id": "B",
+              "texto": "umbral máximo"
+            },
+            {
+              "id": "C",
+              "texto": "adaptación sensorial"
+            },
+            {
+              "id": "D",
+              "texto": "percepción selectiva"
+            },
+            {
+              "id": "E",
+              "texto": "constancia perceptiva"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "El umbral absoluto es la mínima intensidad detectable de un estímulo."
+        },
+        {
+          "id": "PSI-097",
+          "tema": "Desarrollo cognitivo",
+          "dificultad": "dificil",
+          "pregunta": "Según Piaget, un niño que utiliza juego simbólico pero todavía muestra fuerte egocentrismo se encuentra típicamente en el estadio:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "sensoriomotor"
+            },
+            {
+              "id": "B",
+              "texto": "preoperacional"
+            },
+            {
+              "id": "C",
+              "texto": "operaciones concretas"
+            },
+            {
+              "id": "D",
+              "texto": "operaciones formales"
+            },
+            {
+              "id": "E",
+              "texto": "posformal"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "El juego simbólico y el egocentrismo son rasgos característicos del periodo preoperacional."
+        },
+        {
+          "id": "PSI-098",
+          "tema": "Embriología y desarrollo",
+          "dificultad": "dificil",
+          "pregunta": "El corazón y gran parte del sistema circulatorio se originan principalmente a partir del:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "ectodermo"
+            },
+            {
+              "id": "B",
+              "texto": "mesodermo"
+            },
+            {
+              "id": "C",
+              "texto": "endodermo"
+            },
+            {
+              "id": "D",
+              "texto": "trofoblasto"
+            },
+            {
+              "id": "E",
+              "texto": "amnios"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "El sistema cardiovascular deriva principalmente del mesodermo."
+        },
+        {
+          "id": "PSI-099",
+          "tema": "Pensamiento infantil",
+          "dificultad": "dificil",
+          "pregunta": "Un niño usa una caja como si fuera un automóvil durante el juego. Esta conducta evidencia principalmente:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "pensamiento simbólico"
+            },
+            {
+              "id": "B",
+              "texto": "reflejo condicionado"
+            },
+            {
+              "id": "C",
+              "texto": "memoria procedimental"
+            },
+            {
+              "id": "D",
+              "texto": "razonamiento formal"
+            },
+            {
+              "id": "E",
+              "texto": "inhibición motora"
+            }
+          ],
+          "respuestaCorrecta": "A",
+          "puntaje": 9.2,
+          "explicacion": "Usar un objeto para representar otro es una manifestación de pensamiento simbólico."
+        },
+        {
+          "id": "PSI-100",
+          "tema": "Psicología social",
+          "dificultad": "dificil",
+          "pregunta": "Una información no confirmada que circula de persona a persona dentro de un grupo y se modifica durante su transmisión se denomina:",
+          "alternativas": [
+            {
+              "id": "A",
+              "texto": "estereotipo"
+            },
+            {
+              "id": "B",
+              "texto": "rumor"
+            },
+            {
+              "id": "C",
+              "texto": "actitud"
+            },
+            {
+              "id": "D",
+              "texto": "prejuicio"
+            },
+            {
+              "id": "E",
+              "texto": "norma"
+            }
+          ],
+          "respuestaCorrecta": "B",
+          "puntaje": 9.2,
+          "explicacion": "El rumor es información no verificada que se difunde socialmente y puede transformarse durante su circulación."
+        }
+      ]
+    }
+  ]
+}

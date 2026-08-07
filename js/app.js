@@ -213,13 +213,48 @@
       "id"
     );
 
-    const niveles = [
-      { id: "facil", label: "Fácil", description: "Para iniciar práctica." },
-      { id: "intermedio", label: "Intermedio", description: "Nivel de práctica medio." },
-      { id: "dificil", label: "Difícil", description: "Mayor exigencia." },
-    ].filter((nivel) =>
-      state.catalogo.examenes.some((exam) => exam.nivel === nivel.id)
-    );
+    const todosLosNiveles = [
+      {
+        id: "facil",
+        label: "Fácil",
+        description: "Para iniciar práctica."
+      },
+      {
+        id: "intermedio",
+        label: "Intermedio",
+        description: "Nivel de práctica medio."
+      },
+      {
+        id: "dificil",
+        label: "Difícil",
+        description: "Mayor exigencia."
+      },
+      {
+        id: "simulacro",
+        label: "Simulacro",
+        description: "100 preguntas."
+      }
+    ];
+
+    let niveles;
+
+    if (state.seleccion.tipo) {
+      niveles = todosLosNiveles.filter((nivel) =>
+        state.catalogo.examenes.some(
+          (exam) =>
+            exam.tipo === state.seleccion.tipo &&
+            exam.nivel === nivel.id
+        )
+      );
+    } else {
+      niveles = todosLosNiveles.filter(
+        (nivel) =>
+          nivel.id !== "simulacro" &&
+          state.catalogo.examenes.some(
+            (exam) => exam.nivel === nivel.id
+          )
+      );
+    }
 
     els.tipoOptions.innerHTML = tipos
       .map((item) => choiceTemplate("tipo", item))
@@ -233,15 +268,28 @@
   }
 
   function choiceTemplate(group, item) {
+    const selected =
+      state.seleccion[group] === item.id;
+
     return `
-      <label class="choice-card" data-choice-group="${escapeHtml(group)}" data-choice-value="${escapeHtml(item.id)}">
-        <input type="radio" name="${escapeHtml(group)}" value="${escapeHtml(item.id)}" />
-        <span class="choice-content">
-          <strong>${escapeHtml(item.label)}</strong>
-          <span>${escapeHtml(item.description)}</span>
-        </span>
-      </label>
-    `;
+    <label
+      class="choice-card ${selected ? "selected" : ""}"
+      data-choice-group="${escapeHtml(group)}"
+      data-choice-value="${escapeHtml(item.id)}"
+    >
+      <input
+        type="radio"
+        name="${escapeHtml(group)}"
+        value="${escapeHtml(item.id)}"
+        ${selected ? "checked" : ""}
+      />
+
+      <span class="choice-content">
+        <strong>${escapeHtml(item.label)}</strong>
+        <span>${escapeHtml(item.description)}</span>
+      </span>
+    </label>
+  `;
   }
 
   function bindChoiceCards() {
@@ -250,12 +298,39 @@
         const group = card.dataset.choiceGroup;
         const value = card.dataset.choiceValue;
 
-        $$(`[data-choice-group="${group}"]`).forEach((c) => c.classList.remove("selected"));
-        card.classList.add("selected");
-        card.querySelector("input").checked = true;
-
         state.seleccion[group] = value;
+
         hideConfigError();
+
+        if (group === "tipo") {
+
+          const nivelSigueDisponible =
+            state.catalogo.examenes.some(
+              (exam) =>
+                exam.tipo === value &&
+                exam.nivel === state.seleccion.nivel
+            );
+
+          if (!nivelSigueDisponible) {
+            state.seleccion.nivel = null;
+          }
+
+          renderConfigOptions();
+          return;
+        }
+
+        $$(`[data-choice-group="${group}"]`)
+          .forEach((c) =>
+            c.classList.remove("selected")
+          );
+
+        card.classList.add("selected");
+
+        const input = card.querySelector("input");
+
+        if (input) {
+          input.checked = true;
+        }
       });
     });
   }

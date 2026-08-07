@@ -20,7 +20,6 @@
       "nivel": "facil",
       "archivo": "data/preferencial/facil-04.json"
     },
-
     {
       "tipo": "preferencial",
       "nivel": "intermedio",
@@ -41,7 +40,6 @@
       "nivel": "intermedio",
       "archivo": "data/preferencial/intermedio-04.json"
     },
-    
     {
       "tipo": "preferencial",
       "nivel": "dificil",
@@ -62,7 +60,53 @@
       "nivel": "dificil",
       "archivo": "data/preferencial/dificil-04.json"
     },
+    {
+      "tipo": "preferencial",
+      "nivel": "simulacro",
+      "archivo": "data/preferencial/simulacro-100-01.json"
+    },
+    {
+      "tipo": "preferencial",
+      "nivel": "simulacro",
+      "archivo": "data/preferencial/simulacro-100-02.json"
+    },
+    {
+      "tipo": "preferencial",
+      "nivel": "simulacro",
+      "archivo": "data/preferencial/simulacro-100-03.json"
+    },
+    {
+      "tipo": "preferencial",
+      "nivel": "simulacro",
+      "archivo": "data/preferencial/simulacro-100-04.json"
+    },
+    {
+      "tipo": "preferencial",
+      "nivel": "simulacro",
+      "archivo": "data/preferencial/simulacro-100-05.json"
+    },
+    {
+      "tipo": "preferencial",
+      "nivel": "simulacro",
+      "archivo": "data/preferencial/simulacro-100-06.json"
+    },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     {
       "tipo": "general",
       "nivel": "facil",
@@ -73,7 +117,6 @@
       "nivel": "facil",
       "archivo": "data/general/facil-02.json"
     },
-
     {
       "tipo": "general",
       "nivel": "intermedio",
@@ -84,7 +127,6 @@
       "nivel": "intermedio",
       "archivo": "data/general/intermedio-02.json"
     },
-
     {
       "tipo": "general",
       "nivel": "dificil",
